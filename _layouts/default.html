@@ -7,6 +7,20 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    {{ content }}
+    <header class="header">
+      <div class="row header__content">
+        <div class="logo-container col-xs-6">
+          ANNABEL WALSH
+        </div>
+        <div class="links-container col-xs-6">
+          <a href="" class="link button" title="Contact" target="_blank">Contact</a>
+          <a href="" class="link button" title="View CV" target="_blank">CV</a>
+        </div>
+      </div>
+    </header>
+    <div class="main-content">
+      {{ content }}
+    </div>
+
   </body>
 </html>

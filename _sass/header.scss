@@ -1,0 +1,14 @@
+.header {
+  &__content {
+    margin: 1rem;
+    border-bottom: 1px solid $textColor;
+  }
+
+  .links-container {
+    text-align: right;
+
+    .button {
+      display: inline-block;
+    }
+  }
+}
