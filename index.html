@@ -5,7 +5,7 @@ title: "Annabel Walsh"
 
 <div class="project-list row">
     {% for project in site.posts %}
-        <a href="{{ project.url }}" class="project col-xs-12 col-sm-6">
+        <a href="{{ site.baseurl }}{{ project.url }}" class="project col-xs-12 col-sm-6">
           <div class="project__content">
             <div class="project__header">
               <span class="title col-xs-6">{{ project.title }}</span>
