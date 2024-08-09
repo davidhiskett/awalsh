@@ -3,4 +3,21 @@ layout: default
 title: "Annabel Walsh"
 ---
 
-<div>Test</div>
+<div class="project-list row">
+    {% for project in site.posts %}
+        <a href="{{ project.url }}" class="project col-xs-12 col-sm-6">
+          <div class="project__content">
+            <div class="project__header">
+              <span class="title col-xs-6">{{ project.title }}</span>
+              <span class="type col-xs-6">{{ project.type }}</span>
+            </div>
+            <div class="project__image-container">
+              <img src="assets/img/{{ project.image }}">
+            </div>
+            <div class="project__description">
+              {{ project.description }}
+            </div>
+          </div>
+        </a>
+    {% endfor %}
+</div>

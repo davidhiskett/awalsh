@@ -1,0 +1,129 @@
+.project-page {
+  .project {
+    margin-top: 48px;
+    padding: 0 8px;
+
+    &__details {
+      display: flex;
+      justify-content: space-between;
+
+      h1 {
+        font-size: 24px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0;
+      }
+
+      .detail-lists {
+        display: flex;
+        gap: 32px;
+        margin-bottom: 12px;
+
+        .list {
+          min-width: 100px;
+        }
+
+        .list-heading {
+          font-size: 14px;
+          font-weight: 500;
+        }
+
+        ul {
+          list-style: none;
+          padding: 0;
+          margin: 8px 0 0;
+
+          li {
+            margin-bottom: 4px;
+          }
+        }
+      }
+    }
+
+    &__image {
+      img {
+        width: 100%;
+      }
+
+      width: 100%;
+    }
+
+    &__content {
+      border-bottom: 2px solid #0AD68D;
+      margin-bottom: 128px;
+      padding-bottom: 48px;
+
+      h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+        text-transform: uppercase;
+        margin: 48px 0 8px;
+      }
+
+      p {
+        margin-top: 0;
+      }
+
+      hr {
+        border-top: 2px solid #0AD68D;
+      }
+
+      li {
+        position: relative;
+
+        &:before {
+          content: "";
+          display: block;
+          position: absolute;
+          left: -12px;
+          top: 7px;
+          width: 4px;
+          height: 4px;
+          border-radius: 10px;
+          border: 1px solid #9D8D87;
+        }
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        width: auto;
+
+        &[alt="mobile"] {
+          @media only screen and (min-width: 65rem) {
+            display: none;
+          }
+        }
+
+        &[alt="desktop"] {
+          @media only screen and (max-width: 65rem) {
+            display: none;
+          }
+        }
+      }
+
+      .two-image {
+        text-align: center;
+
+        h3 {
+          text-align: left;
+        }
+
+        img {
+          @media only screen and (min-width: 65rem) {
+            padding: 8px;
+          }
+        }
+      }
+    }
+
+    &__button {
+      text-align: center;
+      margin-top: 48px;
+
+      .button {
+        display: inline-block;
+      }
+    }
+  }
+}

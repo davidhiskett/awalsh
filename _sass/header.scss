@@ -1,7 +1,40 @@
 .header {
+  padding: 1rem 1rem 0;
+  background-color: $backgroundColor;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+
   &__content {
-    margin: 1rem;
-    border-bottom: 1px solid $textColor;
+    align-items: center;
+    border-bottom: 2px solid $secondaryColorDark;
+  }
+
+  .logo-container {
+    align-items: center;
+
+    .logo {
+      position: relative;
+      text-decoration: none;
+
+      p {
+        color: $textColor;
+        font-weight: 500;
+        margin: 0;
+        font-size: 38px;
+      }
+
+      span {
+        color: transparent;
+      }
+
+      .logo-green {
+        color: $primaryColor;
+        position: absolute;
+        top: 0;
+      }
+    }
   }
 
   .links-container {
