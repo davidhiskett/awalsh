@@ -18,6 +18,7 @@
         display: flex;
         gap: 32px;
         margin-bottom: 12px;
+        display: none;
 
         .list {
           min-width: 100px;
@@ -111,6 +112,37 @@
           @media only screen and (min-width: 65rem) {
             padding: 8px;
           }
+        }
+      }
+
+      .three-image {
+        text-align: center;
+
+        h3 {
+          text-align: left;
+        }
+
+        img {
+          @media only screen and (min-width: 65rem) {
+            padding: 8px;
+          }
+        }
+      }
+
+      .four-image {
+        text-align: center;
+
+        img {
+          padding: 8px;
+        }
+      }
+
+      .label {
+        text-align: left !important;
+        padding: 8px 0;
+
+        @media only screen and (min-width: 65rem) {
+          padding: 0 8px;
         }
       }
     }

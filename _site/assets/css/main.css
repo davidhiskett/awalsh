@@ -1142,9 +1142,6 @@ ul {
   text-align: right;
   font-size: 14px;
 }
-.project-list .project__image-container {
-  background-color: #9D8D87;
-}
 .project-list .project__image-container img {
   width: 100%;
 }
@@ -1171,6 +1168,7 @@ ul {
   display: flex;
   gap: 32px;
   margin-bottom: 12px;
+  display: none;
 }
 .project-page .project__details .detail-lists .list {
   min-width: 100px;
@@ -1245,6 +1243,32 @@ ul {
 @media only screen and (min-width: 65rem) {
   .project-page .project__content .two-image img {
     padding: 8px;
+  }
+}
+.project-page .project__content .three-image {
+  text-align: center;
+}
+.project-page .project__content .three-image h3 {
+  text-align: left;
+}
+@media only screen and (min-width: 65rem) {
+  .project-page .project__content .three-image img {
+    padding: 8px;
+  }
+}
+.project-page .project__content .four-image {
+  text-align: center;
+}
+.project-page .project__content .four-image img {
+  padding: 8px;
+}
+.project-page .project__content .label {
+  text-align: left !important;
+  padding: 8px 0;
+}
+@media only screen and (min-width: 65rem) {
+  .project-page .project__content .label {
+    padding: 0 8px;
   }
 }
 .project-page .project__button {

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <title>Course projects - Annabel Walsh</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
     <header class="header">
         <div class="row header__content">
             <div class="logo-container col-xs-6">
-                <a href="{{ site.baseurl }}" class="logo">
+                <a href="" class="logo">
                     <p class="logo-plain"><span>A</span>NNABEL <span>W</span>ALSH</p>
                     <p class="logo-green">A<span>NNABEL</span> W<span>ALSH</span></p>
                 </a>
@@ -29,42 +29,33 @@
         <div class="project col-md-6 col-md-offset-3 col-sm-12">
             <div class="project__header">
                 <div class="project__details">
-                    <h1>{{ page.title }}</h1>
+                    <h1>Course projects</h1>
                     <div class="detail-lists">
                         <div class="focus-list list">
-                            {% assign focus_list = page.focus | split: "," %}
+                            
                             <span class="list-heading">Focus</span>
                             <ul>
-                                {% for focus in focus_list %}
-                                    <li>{{ focus }}</li>
-                                {% endfor %}
+                                
                             </ul>
                         </div>
                         <div class="tools-list list">
-                            {% assign tools_list = page.tools | split: "," %}
+                            
                             <span class="list-heading">Tools used</span>
                             <ul>
-                                {% for tool in tools_list %}
-                                    <li>{{ tool }}</li>
-                                {% endfor %}
+                                
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="project__image">
-                    <img src="{{ site.baseurl }}/assets/img/{{ page.image }}">
+                    <img src="/assets/img/course-projects/main-image.png">
                 </div>
             </div>
             <div class="project__content">
-                {{ content }}
+                
 
-                {% if page.external_link %}
-                    <div class="project__button">
-                        <a href="{{ page.external_link }}" title="View {{ page.title }}" target="_blank" class="button">
-                            View {{ page.title }}
-                        </a>
-                    </div>
-                {% endif %}
+
+                
             </div>
         </div>
     </div>
