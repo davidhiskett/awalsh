@@ -1240,6 +1240,9 @@ ul {
 .project-page .project__content .two-image h3 {
   text-align: left;
 }
+.project-page .project__content .two-image img {
+  padding-bottom: 8px;
+}
 @media only screen and (min-width: 65rem) {
   .project-page .project__content .two-image img {
     padding: 8px;
@@ -1250,6 +1253,9 @@ ul {
 }
 .project-page .project__content .three-image h3 {
   text-align: left;
+}
+.project-page .project__content .three-image img {
+  padding-bottom: 8px;
 }
 @media only screen and (min-width: 65rem) {
   .project-page .project__content .three-image img {
