@@ -30,54 +30,28 @@ We wanted to improve the layout of what is one of the most important pages on th
 
 ### LAYOUT EXPLORATION
 <div class="row four-image">
-    <div class="col-md-6 col-xs-12 row">
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-1.png">
-        </div>
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-2.png">
-        </div>
-    </div>
-    <div class="col-md-6 col-xs-12 row">
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-3.png">
-        </div>
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-4.png">
-        </div>
-    </div>
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-1.png">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-2.png">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-3.png">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-4.png">
 </div>
 
 ### FINAL DESIGNS
-<div class="row two-image">
-    <div class="col-md-6 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-1.png">
-    </div>
-    <div class="col-md-6 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-2.png">
-    </div>
-    <p class="label">Selected state and expanded activity information.</p>
+<div class="row two-image mb8">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-1.png">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-2.png">
 </div>
+Selected state and expanded activity information.
 
-<div class="row three-image">
-    <div class="col-md-4 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-3.png">
-    </div>
-    <div class="col-md-4 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-4.png">
-    </div>
-    <div class="col-md-4 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-5.png">
-    </div>
-    <p clas="label">Applying filters to the activities on show.</p>
+<div class="row three-image mb8">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-3.png">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-4.png">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-5.png">
 </div>
+Applying filters to the activities on show.
 
-<div class="row two-image">
-    <div class="col-md-7 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-6.png">
-    </div>
-    <div class="col-md-5 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-7.png">
-    </div>
-    <p class="label">Full screen and minimum width layouts.</p>
+<div class="row two-image nav-two-image mb8">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-6.png">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-7.png">
 </div>
+Full screen and minimum width layouts.

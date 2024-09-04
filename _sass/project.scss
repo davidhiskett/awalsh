@@ -86,6 +86,7 @@
         margin: 0 auto;
         max-width: 100%;
         width: auto;
+        border: 1px solid #EDE6E3;
 
         &[alt="mobile"] {
           @media only screen and (min-width: 65rem) {
@@ -102,113 +103,57 @@
 
       .two-image {
         text-align: center;
+        display: grid;
+        grid-gap: 32px;
+        grid-template-columns: auto auto;
+
+        @media only screen and (max-width: 65rem) {
+          grid-template-columns: auto;
+        }
 
         h3 {
           text-align: left;
-        }
-
-        img {
-          padding-bottom: 8px;
-
-          @media only screen and (min-width: 65rem) {
-            padding: 8px;
-          }
-        }
-
-        div {
-          &:first-of-type {
-            img, .label {
-              padding-left: 0;
-            }
-          }
-
-          &:last-of-type {
-            img, .label {
-              padding-right: 0;
-            }
-          }
-        }
-
-        > .label {
-          padding-left: 0;
         }
       }
 
       .three-image {
         text-align: center;
+        display: grid;
+        grid-gap: 32px;
+        grid-template-columns: auto auto auto;
+
+        @media only screen and (max-width: 65rem) {
+          grid-template-columns: auto;
+        }
 
         h3 {
           text-align: left;
-        }
-
-        img {
-          padding-bottom: 8px;
-
-          @media only screen and (min-width: 65rem) {
-            padding: 8px;
-          }
-        }
-
-        div {
-          &:first-of-type {
-            img, .label {
-              padding-left: 0;
-            }
-          }
-
-          &:last-of-type {
-            img, .label {
-              padding-right: 0;
-            }
-          }
         }
       }
 
       .four-image {
         text-align: center;
+        text-align: center;
+        display: grid;
+        grid-gap: 32px;
+        grid-template-columns: auto auto auto auto;
 
-        img {
-          padding: 8px;
-        }
-
-        div {
-          @media only screen and (min-width: 65rem) {
-            &:first-of-type {
-              img {
-                padding-left: 0;
-              }
-            }
-
-            &:last-of-type {
-              img {
-                padding-right: 0;
-              }
-            }
-          }
-
-          @media only screen and (max-width: 65rem) {
-            div:nth-child(odd) {
-              img {
-                padding-left: 0;
-              }
-            }
-
-            div:nth-child(even) {
-              img {
-                padding-right: 0;
-              }
-            }
-          }
+        @media only screen and (max-width: 65rem) {
+          grid-template-columns: auto auto;
         }
       }
+    }
 
-      .label {
-        text-align: left !important;
-        padding: 8px 0;
+    .label {
+      text-align: left;
+      margin-top: 8px;
+    }
 
-        @media only screen and (min-width: 65rem) {
-          padding: 0 8px;
-        }
+    .nav-two-image {
+      grid-template-columns: 7fr 5fr;
+
+      @media only screen and (max-width: 65rem) {
+        grid-template-columns: auto;
       }
     }
 

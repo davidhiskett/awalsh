@@ -32,113 +32,63 @@ To create unity when signing in and navigating across different products, whilst
 
 ### WIREFRAMES
 <div class="row two-image">
-    <div class="col-md-6 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-wireframes-1.png">
-    </div>
-    <div class="col-md-6 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-wireframes-2.png">
-    </div>
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-wireframes-1.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-wireframes-2.png">
 </div>
 
 ### MENU & ICON EPXLORTAION
 <div class="row three-image">
-    <div class="col-md-4 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-1.png">
-    </div>
-    <div class="col-md-4 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-2.png">
-    </div>
-    <div class="col-md-4 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-3.png">
-    </div>
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-1.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-2.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-3.png">
 </div>
 
 ### FINAL MENU & ICON
 <div class="row two-image">
-    <div class="col-md-6 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-menu-1.png">
-    </div>
-    <div class="col-md-6 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-menu-2.png">
-    </div>
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-menu-1.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-menu-2.png">
 </div>
 
 ### LAYOUT EXPLORATION
 <div class="row four-image">
-    <div class="col-md-6 col-xs-12 row">
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-1.png">
-        </div>
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-2.png">
-        </div>
-    </div>
-    <div class="col-md-6 col-xs-12 row">
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-3.png">
-        </div>
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-4.png">
-        </div>
-    </div>
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-1.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-2.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-3.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-4.png">
 </div>
 
 <div class="row four-image">
-    <div class="col-md-6 col-xs-12 row">
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-5.png">
-        </div>
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-6.png">
-        </div>
-    </div>
-    <div class="col-md-6 col-xs-12 row">
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-7.png">
-        </div>
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-8.png">
-        </div>
-    </div>
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-5.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-6.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-7.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-8.png">
 </div>
 
 <div class="row four-image">
-    <div class="col-md-6 col-xs-12 row">
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-9.png">
-        </div>
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-10.png">
-        </div>
-    </div>
-    <div class="col-md-6 col-xs-12 row">
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-11.png">
-        </div>
-        <div class="col-md-6 col-xs-6">
-            <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-12.png">
-        </div>
-    </div>
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-9.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-10.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-11.png">
+    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-12.png">
 </div>
 
 ### FINAL PRODUCT PAGES
 <div class="row two-image">
-    <div class="col-md-6 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-1.png">
         <p class="label">Products that customers owned appeared in the ‘open’ section, whilst those they didn’t sat in the ‘discover’ section. Information for the discover products rotated in a carousel on the left.</p>
     </div>
-    <div class="col-md-6 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-2.png">
         <p class="label">On hover of any product on the right, the image and description for that one in question would show on the left.</p>
     </div>
 </div>
 
 <div class="row two-image">
-    <div class="col-md-6 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-3.png">
         <p class="label">If a customer clicked on a product they didn’t own on the right, this would pause the carousel on that product and expose a button to receive more info.</p>
     </div>
-    <div class="col-md-6 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-4.png">
         <p class="label"></p>
     </div>

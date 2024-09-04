@@ -34,15 +34,15 @@ The way users were amending table data was a broken out and tedious process, whi
 
 ### FLAT EDIT TABLE
 <div class="row three-image">
-    <div class="col-md-4 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-1.png">
         <p class="label">Default table.</p>
     </div>
-    <div class="col-md-4 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-2.png">
         <p class="label">Hover state for editable and non editable values.</p>
     </div>
-    <div class="col-md-4 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-3.png">
         <p class="label">Selected state for cell during editing.</p>
     </div>
@@ -50,34 +50,30 @@ The way users were amending table data was a broken out and tedious process, whi
 
 <br>
 
-<div class="row two-image">
-    <div class="col-md-6 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-4.png">
-    </div>
-    <div class="col-md-6 col-xs-12">
-        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-5.png">
-    </div>
-    <p class="label">Tracking changes in an audit log.</p>
+<div class="row two-image mb8">
+    <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-4.png">
+    <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-5.png">
 </div>
+Tracking changes in an audit log.
 
 ### NESTED EDIT TABLE
 <div class="row two-image">
-    <div class="col-md-6 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png">
         <p class="label">Resizing main column.</p>
     </div>
-    <div class="col-md-6 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-2.png">
         <p class="label">Minimised main column.</p>
     </div>
 </div>
 
 <div class="row two-image">
-    <div class="col-md-6 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-3.png">
         <p class="label">End fo table scroll.</p>
     </div>
-    <div class="col-md-6 col-xs-12">
+    <div>
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-4.png">
         <p class="label">Searching table.</p>
     </div>
