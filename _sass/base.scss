@@ -38,6 +38,14 @@ body {
   font-family: $bodyFont;
   max-width: 1700px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 75px;
+}
+
+.main-content {
+  flex: 1;
 }
 
 ul {
@@ -59,6 +67,7 @@ ul {
   }
 }
 
+@import "about";
 @import "footer";
 @import "header";
 @import "index";

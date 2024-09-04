@@ -1,9 +1,10 @@
 .header {
   padding: 1rem 1rem 0;
   background-color: $backgroundColor;
-  position: sticky;
+  position: fixed;
   width: 100%;
   top: 0;
+  max-width: 1700px;
   z-index: 1;
 
   &__content {
@@ -33,6 +34,11 @@
         opacity: 1;
         letter-spacing: normal;
         transition: all 1s ease;
+
+        @media only screen and (max-width: 600px) {
+          opacity: 0;
+          letter-spacing: -19px;
+        }
       }
 
       .logo-green {
@@ -44,6 +50,10 @@
           transition: all 1s ease;
           width: 23px;
           display: inline-block;
+
+          @media only screen and (max-width: 600px) {
+            width: 0px;
+          }
         }
       }
     }
@@ -65,9 +75,8 @@
 
   .links-container {
     text-align: right;
-
-    .button {
-      display: inline-block;
-    }
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
   }
 }

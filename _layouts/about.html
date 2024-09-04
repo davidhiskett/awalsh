@@ -12,50 +12,29 @@
 
     <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.png" | relative_url }}">
 </head>
-<body class="project-page">
+<body class="about-page">
 
 {% include header.html %}
 
 <div class="main-content row">
-    <div class="project col-md-6 col-md-offset-3 col-sm-12">
-        <div class="project__header">
-            <div class="project__details">
-                <h1>{{ page.title }}</h1>
-                <div class="detail-lists">
-                    <div class="focus-list list">
-                        {% assign focus_list = page.focus | split: "," %}
-                        <span class="list-heading">Focus</span>
-                        <ul>
-                            {% for focus in focus_list %}
-                            <li>{{ focus }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="tools-list list">
-                        {% assign tools_list = page.tools | split: "," %}
-                        <span class="list-heading">Tools used</span>
-                        <ul>
-                            {% for tool in tools_list %}
-                            <li>{{ tool }}</li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                </div>
+    <div class="about col-md-6 col-md-offset-3 col-sm-12">
+        <div class="about__content">
+            <div class="about__text">
+                <p>Currently working as a London based UI Designer in Fintech, I have a background in Psychology and customer service, both of which have contributed to my interest in user centred design. Before I moved into Design, I worked at various tech companies and my experience in these roles has given me insight into the workings and priorities of different teams, which I utilise when solving user problems in cross functional teams.</p>
+                <p>As an experience UI Designer I am now looking for a new role that allows me explore more UX focused challenges, whilst also expanding my UI skills.</p>
             </div>
-            <div class="project__image">
-                <img src="{{ site.baseurl }}/assets/img/{{ page.image }}">
-            </div>
-        </div>
-        <div class="project__content">
-            {{ content }}
 
-            {% if page.external_link %}
-            <div class="project__button">
-                <a href="{{ page.external_link }}" title="View {{ page.title }}" target="_blank" class="button">
-                    View {{ page.title }}
-                </a>
+            <div class="about__contact">
+                <h3>Email</h3>
+                <p>annabeljwalsh@gmail.com</p>
+
+                <h3>Phone</h3>
+                <p>07972 205 367</p>
             </div>
-            {% endif %}
+
+            <div class="about__buttons">
+                <a class="button" target="__blank" href="">View CV</a>
+            </div>
         </div>
     </div>
 </div>
