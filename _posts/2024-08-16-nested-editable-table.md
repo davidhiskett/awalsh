@@ -5,3 +5,80 @@ type: "UI Design"
 description: "Creation of the ‘Edit Activity’ making up an editable data table, for ARKK Solutions financial automation platform."
 image: "editable-table/main-image.png"
 ---
+
+### OVERVIEW
+Through the emergence of new Pillar 2/requirements to establish a global minimum tax for multinational enterprises, it became apparent users would need a way to amend data after it had been uploaded to the platform. This triggered a project to design and build an editable table in two different formats.
+
+As the UI Designer I was responsible for designing the table in line with these requirements, which mostly centred around working with the development team.  My tasks focused on fitting technical requirements into our existing table design and maintaining consistency.
+
+### PROBLEM
+Users were limited in their ability to edit data within tables after it had been uploaded to the platform, only being able to do this if the system flagged inconsistencies.
+- Incorrect or missing data could only be addressed by updating original files then re-uploading. 
+- This took time and we had feedback confirming it was caused frustration. 
+- These frustrations were amplified if the the process had to be repeated.
+
+### GOALS
+The way users were amending table data was a broken out and tedious process, which we needed to streamline. Our main aim was to reduce frustration by providing users with a solution that conveniently kept them on the platform.
+- Provide a direct way for users to amend incorrect or missing data in tables. 
+- Allow users to: add rows, delete rows and edit row properties. 
+- For this to be possible in both a flat table and hierarchy… 
+- For uses to be able to keep track of these changes in an audit log.
+
+<br>
+
+---
+
+### EXAMPLE DATA
+
+### STYLING CONSIDERATIONS
+
+### FLAT EDIT TABLE
+<div class="row three-image">
+    <div class="col-md-4 col-xs-12">
+        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-1.png">
+        <p clas="label">Default table.</p>
+    </div>
+    <div class="col-md-4 col-xs-12">
+        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-2.png">
+        <p clas="label">Hover state for editable and non editable values.</p>
+    </div>
+    <div class="col-md-4 col-xs-12">
+        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-3.png">
+        <p clas="label">Selected state for cell during editing.</p>
+    </div>
+</div>
+
+<br>
+
+<div class="row two-image">
+    <div class="col-md-6 col-xs-12">
+        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-4.png">
+    </div>
+    <div class="col-md-6 col-xs-12">
+        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-5.png">
+    </div>
+    <p class="label">Tracking changes in an audit log.</p>
+</div>
+
+### NESTED EDIT TABLE
+<div class="row two-image">
+    <div class="col-md-6 col-xs-12">
+        <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png">
+        <p class="label">Resizing main column.</p>
+    </div>
+    <div class="col-md-6 col-xs-12">
+        <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-2.png">
+        <p class="label">Minimised main column.</p>
+    </div>
+</div>
+
+<div class="row two-image">
+    <div class="col-md-6 col-xs-12">
+        <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-3.png">
+        <p class="label">End fo table scroll.</p>
+    </div>
+    <div class="col-md-6 col-xs-12">
+        <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-4.png">
+        <p class="label">Searching table.</p>
+    </div>
+</div>

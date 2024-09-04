@@ -15,6 +15,13 @@ The existing design for a process page was old/outdated, but also present variou
 - Multiple activities could be expanded simultaneously, which often meant important details were pushed out of view and could not be viewed in context. 
 - Users had to engage in significant amounts of scrolling to open then close activities was occurring to access important information.
 
+### GOALS
+We wanted to improve the layout of what is one of the most important pages on the platform, along with update the design to be more in line with updates done elsewhere. We needed to project an organised feel to help users asses and get at what they needed quicker.
+- Introduce navigation within a process view. 
+- List more high level information about activities without needling to open them. 
+- Introduce filtering and sorting of activities 
+- View activities alongside important data. Better use of space.
+
 <br>
 
 ---
