@@ -9,29 +9,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.png" | relative_url }}">
 </head>
-<body class="project-page">
-    <header class="header">
-        <div class="row header__content">
-            <div class="logo-container col-xs-6">
-                <a href="{{ site.url }}{{ site.baseurl }}" class="logo">
-                    <p class="logo-plain"><span>A</span>NNABEL <span>W</span>ALSH</p>
-                    <p class="logo-green">A<span>NNABEL</span> W<span>ALSH</span></p>
-                </a>
-            </div>
-            <div class="links-container col-xs-6">
-                <a href="" class="link button" title="Contact" target="_blank">Contact</a>
-                <a href="" class="link button" title="View CV" target="_blank">CV</a>
-            </div>
-        </div>
-    </header>
+<body class="about-page">
+
+    {% include header.html %}
+
     <div class="main-content row">
-        <div class="project col-md-6 col-md-offset-3 col-sm-12">
-            <div class="project__content">
+        <div class="about col-md-6 col-md-offset-3 col-sm-12">
+            <div class="about__content">
                 {{ content }}
             </div>
         </div>
     </div>
 
+    {% include footer.html %}
+    {% include script.html %}
 </body>
 </html>

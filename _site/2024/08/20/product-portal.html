@@ -9,22 +9,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
 </head>
 <body class="project-page">
+
     <header class="header">
-        <div class="row header__content">
-            <div class="logo-container col-xs-6">
-                <a href="http://localhost:4000" class="logo">
-                    <p class="logo-plain"><span>A</span>NNABEL <span>W</span>ALSH</p>
-                    <p class="logo-green">A<span>NNABEL</span> W<span>ALSH</span></p>
-                </a>
-            </div>
-            <div class="links-container col-xs-6">
-                <a href="" class="link button" title="Contact" target="_blank">Contact</a>
-                <a href="" class="link button" title="View CV" target="_blank">CV</a>
-            </div>
+    <div class="row header__content">
+        <div class="logo-container col-xs-6">
+            <a href="http://localhost:4000" class="logo">
+                <p class="logo-plain"><span>A</span>NNABEL <span>W</span>ALSH</p>
+                <p class="logo-green">A<span>N</span><span>N</span><span>A</span><span>B</span><span>E</span><span>L</span> W<span>ALSH</span></p>
+            </a>
         </div>
-    </header>
+        <div class="links-container col-xs-6">
+            <a href="" class="link button" title="Contact" target="_blank">Contact</a>
+            <a href="" class="link button" title="View CV" target="_blank">CV</a>
+        </div>
+    </div>
+</header>
+
     <div class="main-content row">
         <div class="project col-md-6 col-md-offset-3 col-sm-12">
             <div class="project__header">
@@ -199,16 +203,38 @@
 
 
                 
-
-                <div class="project-nav-buttons">
-                    
-                    
-                        <a class="nav-button next" href="/2024/08/18/navigation-redesign.html">NEXT</a>
-                    
-                </div>
             </div>
         </div>
     </div>
+
+    <footer class="footer">
+
+    <div class="project-nav-buttons">
+        
+        
+            <a class="nav-button next" href="/2024/08/18/navigation-redesign.html">NEXT</a>
+        
+    </div>
+
+    <div class="footer__content">
+        <p class="phone">07972 205 367</p>
+        <p class="email">annabeljwalsh@gmail.com</p>
+    </div>
+</footer>
+    <script>
+    function handleScroll() {
+        const logoContainer = document.querySelector('.logo-container');
+
+        if (window.scrollY > 0) {
+            logoContainer.classList.add('scrolled');
+        } else {
+            logoContainer.classList.remove('scrolled');
+        }
+    }
+
+    // Attach the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+</script>
 
 </body>
 </html>

@@ -36,15 +36,15 @@ The way users were amending table data was a broken out and tedious process, whi
 <div class="row three-image">
     <div class="col-md-4 col-xs-12">
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-1.png">
-        <p clas="label">Default table.</p>
+        <p class="label">Default table.</p>
     </div>
     <div class="col-md-4 col-xs-12">
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-2.png">
-        <p clas="label">Hover state for editable and non editable values.</p>
+        <p class="label">Hover state for editable and non editable values.</p>
     </div>
     <div class="col-md-4 col-xs-12">
         <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-3.png">
-        <p clas="label">Selected state for cell during editing.</p>
+        <p class="label">Selected state for cell during editing.</p>
     </div>
 </div>
 

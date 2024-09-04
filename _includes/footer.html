@@ -1,0 +1,16 @@
+<footer class="footer">
+
+    <div class="project-nav-buttons">
+        {% if page.next.url %}
+            <a class="nav-button back" href="{{page.next.url}}">BACK</a>
+        {% endif %}
+        {% if page.previous.url %}
+            <a class="nav-button next" href="{{page.previous.url}}">NEXT</a>
+        {% endif %}
+    </div>
+
+    <div class="footer__content">
+        <p class="phone">07972 205 367</p>
+        <p class="email">annabeljwalsh@gmail.com</p>
+    </div>
+</footer>

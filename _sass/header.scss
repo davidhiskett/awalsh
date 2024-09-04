@@ -1,7 +1,7 @@
 .header {
   padding: 1rem 1rem 0;
   background-color: $backgroundColor;
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   z-index: 1;
@@ -29,10 +29,36 @@
         color: transparent;
       }
 
+      .logo-plain {
+        opacity: 1;
+        letter-spacing: normal;
+        transition: all 1s ease;
+      }
+
       .logo-green {
         color: $primaryColor;
         position: absolute;
         top: 0;
+
+        span {
+          transition: all 1s ease;
+          width: 23px;
+          display: inline-block;
+        }
+      }
+    }
+
+    &.scrolled {
+      .logo-green {
+        span {
+          width: 0px;
+        }
+      }
+
+      .logo-plain {
+        opacity: 0;
+        letter-spacing: -19px;
+        transition: all 1s ease;
       }
     }
   }
