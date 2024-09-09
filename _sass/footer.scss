@@ -7,8 +7,16 @@
     display: flex;
     justify-content: space-between;
 
-    p {
+    p, a {
       margin: 24px 0;
+      color: $textColor;
+      text-decoration: none;
+    }
+
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
