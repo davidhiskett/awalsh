@@ -6,20 +6,20 @@ description: "The creation of a new multi-product portal page after signing in, 
 image: "product-portal/main-image.png"
 ---
 
-### OVERVIEW
+## OVERVIEW
 
 With several different products on offer, each of which had a separate sign in experience, ARKK wanted to align these to create a more unified product. Our secondary aim was to create a new area where users could learn about the other products on offer.
 
 My role in this was predominantly as UI Designer, with responsibility shifting into UX following changes within the design team. Due to the forward facing nature of this project, multiple teams across the company were involved including Marketing, Development and senior management.
 
-### PROBLEM
+## PROBLEM
 
 There was a disjointed feel across how users sign into and navigate between products, which didn’t lend itself to a smooth overall product feel.
 - Separate sign in pages for 4 products.
 - No easy way to switch between products.
 - Old branding on sign in pages
 
-### GOALS
+## GOALS
 To create unity when signing in and navigating across different products, whilst also taking advantage of a shared space to promote other ARKK products.
 - Create a shared sign-in with access to other products the user owns. 
 - Make use of this new space to advertise all ARKK products

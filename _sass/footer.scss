@@ -17,6 +17,9 @@
     justify-content: space-between;
     padding: 36px 0;
 
+    &.no-previous {
+      justify-content: flex-end;
+    }
 
     .nav-button {
       font-size: 12px;
@@ -24,6 +27,7 @@
       text-decoration: none;
       padding: 4px 8px;
       border: 1px solid transparent;
+      border-radius: 2px;
 
       &:hover {
         border: 1px solid $primaryColor;

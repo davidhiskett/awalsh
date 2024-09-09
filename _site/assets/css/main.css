@@ -1124,12 +1124,12 @@ ul {
 }
 
 .about__content {
-  margin-top: 120px;
+  margin-top: 88px;
   padding: 0 8px;
 }
 .about__contact {
   text-align: center;
-  margin-top: 24px;
+  margin-top: 40px;
 }
 .about__contact h3 {
   margin: 16px 0 0;
@@ -1162,12 +1162,16 @@ ul {
   justify-content: space-between;
   padding: 36px 0;
 }
+.footer .project-nav-buttons.no-previous {
+  justify-content: flex-end;
+}
 .footer .project-nav-buttons .nav-button {
   font-size: 12px;
   color: #342722;
   text-decoration: none;
   padding: 4px 8px;
   border: 1px solid transparent;
+  border-radius: 2px;
 }
 .footer .project-nav-buttons .nav-button:hover {
   border: 1px solid #0AD68D;
@@ -1205,7 +1209,7 @@ ul {
 .header .logo-container .logo .logo-plain {
   opacity: 1;
   letter-spacing: normal;
-  transition: all 1s ease;
+  transition: all 2s ease;
 }
 @media only screen and (max-width: 600px) {
   .header .logo-container .logo .logo-plain {
@@ -1219,7 +1223,7 @@ ul {
   top: 0;
 }
 .header .logo-container .logo .logo-green span {
-  transition: all 1s ease;
+  transition: all 2s ease;
   width: 23px;
   display: inline-block;
 }
@@ -1280,6 +1284,12 @@ ul {
   margin-top: 48px;
   padding: 0 8px;
 }
+@media only screen and (max-width: 65rem) {
+  .project-page .project {
+    max-width: 700px;
+    margin: 48px auto 0;
+  }
+}
 .project-page .project__details {
   display: flex;
   justify-content: space-between;
@@ -1322,12 +1332,24 @@ ul {
   font-weight: normal;
   text-transform: uppercase;
   margin: 48px 0 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+@media only screen and (min-width: 65rem) {
+  .project-page .project__content h3 {
+    margin: 96px 0 8px;
+  }
 }
 .project-page .project__content p {
   margin-top: 0;
 }
 .project-page .project__content hr {
   border-top: 2px solid #0AD68D;
+}
+@media only screen and (min-width: 65rem) {
+  .project-page .project__content hr {
+    margin-bottom: -48px;
+  }
 }
 .project-page .project__content li {
   position: relative;
@@ -1348,7 +1370,6 @@ ul {
   margin: 0 auto;
   max-width: 100%;
   width: auto;
-  border: 1px solid #EDE6E3;
 }
 @media only screen and (min-width: 65rem) {
   .project-page .project__content img[alt=mobile] {
@@ -1436,12 +1457,13 @@ ul {
 }
 .plain-project-page .project__button {
   text-align: right;
-  margin-top: 8px;
+  margin-top: -44px;
   margin-bottom: 32px;
 }
 @media only screen and (max-width: 65rem) {
   .plain-project-page .project__button {
     margin-bottom: 16px;
+    margin-top: 8px;
   }
 }
 

@@ -3,6 +3,11 @@
     margin-top: 48px;
     padding: 0 8px;
 
+    @media only screen and (max-width: 65rem) {
+      max-width: 700px;
+      margin: 48px auto 0;
+    }
+
     &__details {
       display: flex;
       justify-content: space-between;
@@ -55,7 +60,16 @@
         font-weight: normal;
         text-transform: uppercase;
         margin: 48px 0 8px;
+        font-size: 12px;
+        font-weight: 500;
       }
+
+      @media only screen and (min-width: 65rem) {
+        h3 {
+          margin: 96px 0 8px;
+        }
+      }
+
 
       p {
         margin-top: 0;
@@ -63,6 +77,10 @@
 
       hr {
         border-top: 2px solid #0AD68D;
+
+        @media only screen and (min-width: 65rem) {
+          margin-bottom: -48px;
+        }
       }
 
       li {
@@ -86,7 +104,6 @@
         margin: 0 auto;
         max-width: 100%;
         width: auto;
-        border: 1px solid #EDE6E3;
 
         &[alt="mobile"] {
           @media only screen and (min-width: 65rem) {
@@ -190,11 +207,12 @@
 
     &__button {
       text-align: right;
-      margin-top: 8px;
+      margin-top: -44px;
       margin-bottom: 32px;
 
       @media only screen and (max-width: 65rem) {
         margin-bottom: 16px;
+        margin-top: 8px;
       }
     }
   }

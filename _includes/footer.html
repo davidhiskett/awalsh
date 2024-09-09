@@ -1,6 +1,6 @@
 <footer class="footer">
 
-    <div class="project-nav-buttons">
+    <div class="project-nav-buttons {% unless page.next.url %}no-previous{% endunless %}">
         {% if page.next.url %}
             <a class="nav-button back" href="{{ site.baseurl }}{{page.next.url}}">BACK</a>
         {% endif %}
