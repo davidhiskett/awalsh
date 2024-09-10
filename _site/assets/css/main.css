@@ -1390,7 +1390,7 @@ ul {
   text-align: center;
   display: grid;
   grid-gap: 32px;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
 }
 @media only screen and (max-width: 65rem) {
   .project-page .project__content .two-image {
@@ -1404,7 +1404,7 @@ ul {
   text-align: center;
   display: grid;
   grid-gap: 32px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 @media only screen and (max-width: 65rem) {
   .project-page .project__content .three-image {
@@ -1419,11 +1419,11 @@ ul {
   text-align: center;
   display: grid;
   grid-gap: 32px;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 @media only screen and (max-width: 65rem) {
   .project-page .project__content .four-image {
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .project-page .project .label {
