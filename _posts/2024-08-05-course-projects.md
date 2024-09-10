@@ -21,7 +21,7 @@ Case study for a tourism campaign completed as part of UI Design course.
 # BLOOMSBURY BEGINNINGS
 ![]({{ site.baseurl }}/assets/img/course-projects/course-2.png)
 ### OVERVIEW
-Case study for a tourism campaign completed as part of UI Design course.
+Case study for a web browser based mobile app, for startup course provider Bloomsbury Beginnings.
 
 <div class="project__button">
     <a href="https://medium.com/@annabeljwalsh/a-new-beginning-for-bloomsbury-beginnings-32217e768f4e" title="View case study" target="_blank" class="button">
@@ -34,7 +34,7 @@ Case study for a tourism campaign completed as part of UI Design course.
 # GROUNDWORKS
 ![]({{ site.baseurl }}/assets/img/course-projects/course-3.png)
 ### OVERVIEW
-Case study for a tourism campaign completed as part of UI Design course.
+Case study for student recruitment specialists Groundworks.
 
 <div class="project__button">
     <a href="https://medium.com/@annabeljwalsh/a-responsive-website-for-student-recruitment-specialists-groundworks-8289b8cb6134" title="View case study" target="_blank" class="button">

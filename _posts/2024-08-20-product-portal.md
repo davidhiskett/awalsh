@@ -44,20 +44,19 @@ To create unity when signing in and navigating across different products, whilst
 </div>
 
 ### FINAL MENU & ICON
-<div class="row two-image">
-    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-menu-1.png">
-    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-menu-2.png">
-</div>
+![]({{ site.baseurl }}/assets/img/product-portal/portal-final-menu-1.png)
+<br>
+![]({{ site.baseurl }}/assets/img/product-portal/portal-final-menu-1.png)
 
 ### LAYOUT EXPLORATION
-<div class="row four-image">
+<div class="row four-image mb32">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-1.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-2.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-3.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-4.png">
 </div>
 
-<div class="row four-image">
+<div class="row four-image mb32">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-5.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-6.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-7.png">
@@ -90,7 +89,7 @@ To create unity when signing in and navigating across different products, whilst
     </div>
     <div>
         <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-4.png">
-        <p class="label"></p>
+        <p class="label">User menugs</p>
     </div>
 </div>
 
