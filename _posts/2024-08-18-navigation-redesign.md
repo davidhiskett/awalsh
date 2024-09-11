@@ -56,6 +56,8 @@ Applying filters to the activities on show.
 
 ![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-6.png)
 Full screen view.
+<br>
+<br>
 
 ![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-7.png)
 Minimum screen layout.
