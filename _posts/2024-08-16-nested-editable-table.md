@@ -28,10 +28,6 @@ The way users were amending table data was a broken out and tedious process, whi
 
 ---
 
-### EXAMPLE DATA
-
-### STYLING CONSIDERATIONS
-
 ### FLAT EDIT TABLE
 Our existing table design did not feature horizontal lines, however in these new scenarios we were dealing with more details and with the specific need to edit cells, we determined that a more visible cell design was appropriate.
 
