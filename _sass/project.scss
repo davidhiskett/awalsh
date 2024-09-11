@@ -101,7 +101,7 @@
 
       img {
         display: block;
-        margin: 0 auto;
+        margin: 0 auto 8px;
         max-width: 100%;
         width: auto;
 
@@ -123,6 +123,7 @@
         display: grid;
         grid-gap: 32px;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
 
         @media only screen and (max-width: 65rem) {
           grid-template-columns: auto;
@@ -130,6 +131,10 @@
 
         h3 {
           text-align: left;
+        }
+
+        img {
+          margin: 0 auto;
         }
       }
 
@@ -146,6 +151,10 @@
         h3 {
           text-align: left;
         }
+
+        img {
+          margin: 0 auto;
+        }
       }
 
       .four-image {
@@ -157,6 +166,10 @@
 
         @media only screen and (max-width: 65rem) {
           grid-template-columns: 1fr 1fr;
+        }
+
+        img {
+          margin: 0 auto;
         }
       }
     }

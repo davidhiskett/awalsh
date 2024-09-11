@@ -14,7 +14,7 @@ My role in this was predominantly as UI Designer, with responsibility shifting i
 
 ## PROBLEM
 
-There was a disjointed feel across how users sign into and navigate between products, which didn’t lend itself to a smooth overall product feel.
+There was a disjointed feel across how users sign into and navigate between products, which didn't lend itself to a smooth overall product feel.
 - Separate sign in pages for 4 products.
 - No easy way to switch between products.
 - Old branding on sign in pages
@@ -36,7 +36,7 @@ To create unity when signing in and navigating across different products, whilst
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-wireframes-2.png">
 </div>
 
-### MENU & ICON EPXLORTAION
+### MENU & ICON EXPLORATION
 <div class="row three-image">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-1.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-2.png">
@@ -46,7 +46,7 @@ To create unity when signing in and navigating across different products, whilst
 ### FINAL MENU & ICON
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-menu-1.png)
 <br>
-![]({{ site.baseurl }}/assets/img/product-portal/portal-final-menu-1.png)
+![]({{ site.baseurl }}/assets/img/product-portal/portal-final-menu-2.png)
 
 ### LAYOUT EXPLORATION
 <div class="row four-image mb32">
@@ -89,7 +89,7 @@ To create unity when signing in and navigating across different products, whilst
     </div>
     <div>
         <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-4.png">
-        <p class="label">User menugs</p>
+        <p class="label">User menus</p>
     </div>
 </div>
 

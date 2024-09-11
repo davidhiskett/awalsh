@@ -15,7 +15,7 @@ As the UI Designer I was responsible for designing the table in line with these 
 Users were limited in their ability to edit data within tables after it had been uploaded to the platform, only being able to do this if the system flagged inconsistencies.
 - Incorrect or missing data could only be addressed by updating original files then re-uploading. 
 - This took time and we had feedback confirming it was caused frustration. 
-- These frustrations were amplified if the the process had to be repeated.
+- These frustrations were amplified if the process had to be repeated.
 
 ## GOALS
 The way users were amending table data was a broken out and tedious process, which we needed to streamline. Our main aim was to reduce frustration by providing users with a solution that conveniently kept them on the platform.
@@ -57,24 +57,14 @@ The way users were amending table data was a broken out and tedious process, whi
 Tracking changes in an audit log.
 
 ### NESTED EDIT TABLE
-<div class="row two-image">
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png">
-        <p class="label">Resizing main column.</p>
-    </div>
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-2.png">
-        <p class="label">Minimised main column.</p>
-    </div>
-</div>
+![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png)
+Resizing main column.
 
-<div class="row two-image">
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-3.png">
-        <p class="label">End fo table scroll.</p>
-    </div>
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/editable-table/table-nested-table-4.png">
-        <p class="label">Searching table.</p>
-    </div>
-</div>
+![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-2.png)
+Minimised main column.
+
+![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-3.png)
+End fo table scroll.
+
+![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-4.png)
+Searching table.

@@ -50,8 +50,8 @@ Selected state and expanded activity information.
 </div>
 Applying filters to the activities on show.
 
-<div class="row two-image nav-two-image mb8">
-    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-6.png">
-    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-7.png">
-</div>
-Full screen and minimum width layouts.
+![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-6.png)
+Full screen view.
+
+![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-7.png)
+Minimum screen layout.
