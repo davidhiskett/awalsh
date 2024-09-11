@@ -26,10 +26,8 @@ We wanted to improve the layout of what is one of the most important pages on th
 
 ---
 
-### WIREFRAMES
-
 ### LAYOUT EXPLORATION
-<div class="row four-image">
+<div class="row two-column">
     <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-1.png">
     <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-2.png">
     <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-3.png">
@@ -37,18 +35,24 @@ We wanted to improve the layout of what is one of the most important pages on th
 </div>
 
 ### FINAL DESIGNS
-<div class="row two-image mb8">
-    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-1.png">
-    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-2.png">
-</div>
-Selected state and expanded activity information.
+![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-1.png)
+<br>
 
-<div class="row three-image mb8">
-    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-3.png">
-    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-4.png">
-    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-5.png">
-</div>
+![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-2.png)
+Selected state and expanded activity information.
+<br>
+<br>
+
+![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-3.png)
+<br>
+
+![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-4.png)
+<br>
+
+![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-5.png)
 Applying filters to the activities on show.
+<br>
+<br>
 
 ![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-6.png)
 Full screen view.

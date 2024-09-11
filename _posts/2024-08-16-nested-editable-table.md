@@ -33,38 +33,48 @@ The way users were amending table data was a broken out and tedious process, whi
 ### STYLING CONSIDERATIONS
 
 ### FLAT EDIT TABLE
-<div class="row three-image">
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-1.png">
-        <p class="label">Default table.</p>
-    </div>
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-2.png">
-        <p class="label">Hover state for editable and non editable values.</p>
-    </div>
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-3.png">
-        <p class="label">Selected state for cell during editing.</p>
-    </div>
-</div>
+Our existing table design did not feature horizontal lines, however in these new scenarios we were dealing with more details and with the specific need to edit cells, we determined that a more visible cell design was appropriate.
 
+Here showing the default, hover (for either an editable nor non-editable cell) and then the edit states.
+
+![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-1.png)
+Default table.
+<br>
 <br>
 
-<div class="row two-image mb8">
-    <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-4.png">
-    <img src="{{ site.baseurl }}/assets/img/editable-table/table-flat-table-5.png">
-</div>
-Tracking changes in an audit log.
+![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-2.png)
+Hover state for editable and non editable values.
+<br>
+<br>
+
+![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-3.png)
+Selected state for cell during editing.
+<br>
+<br>
+
+![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-4.png)
+Tracking changes in an audit log, with the selected state of a cell when a specific change entry is selected.
+<br>
+<br>
+
+![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-5.png)
+
 
 ### NESTED EDIT TABLE
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png)
 Resizing main column.
+<br>
+<br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-2.png)
 Minimised main column.
+<br>
+<br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-3.png)
 End fo table scroll.
+<br>
+<br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-4.png)
 Searching table.

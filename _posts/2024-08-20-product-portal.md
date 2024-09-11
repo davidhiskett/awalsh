@@ -49,21 +49,15 @@ To create unity when signing in and navigating across different products, whilst
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-menu-2.png)
 
 ### LAYOUT EXPLORATION
-<div class="row four-image mb32">
+<div class="row three-column mb32">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-1.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-2.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-3.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-4.png">
-</div>
-
-<div class="row four-image mb32">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-5.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-6.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-7.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-8.png">
-</div>
-
-<div class="row four-image">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-9.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-10.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-11.png">
@@ -71,27 +65,27 @@ To create unity when signing in and navigating across different products, whilst
 </div>
 
 ### FINAL PRODUCT PAGES
-<div class="row two-image">
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-1.png">
-        <p class="label">Products that customers owned appeared in the ‘open’ section, whilst those they didn’t sat in the ‘discover’ section. Information for the discover products rotated in a carousel on the left.</p>
-    </div>
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-2.png">
-        <p class="label">On hover of any product on the right, the image and description for that one in question would show on the left.</p>
-    </div>
-</div>
+![]({{ site.baseurl }}/assets/img/product-portal/portal-final-1.png)
+Products that customers owned appeared in the ‘open’ section, whilst those they didn’t sat in the ‘discover’ section. Information for the discover products rotated in a carousel on the left.
+<br>
+<br>
 
-<div class="row two-image">
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-3.png">
-        <p class="label">If a customer clicked on a product they didn’t own on the right, this would pause the carousel on that product and expose a button to receive more info.</p>
-    </div>
-    <div>
-        <img src="{{ site.baseurl }}/assets/img/product-portal/portal-final-4.png">
-        <p class="label">User menus</p>
-    </div>
-</div>
+![]({{ site.baseurl }}/assets/img/product-portal/portal-final-2.png)
+On hover of any product on the right, the image and description for that one in question would show on the left.
+<br>
+<br>
+
+![]({{ site.baseurl }}/assets/img/product-portal/portal-final-3.png)
+If a customer clicked on a product they didn’t own on the right, this would pause the carousel on that product and expose a button to receive more info.
+<br>
+<br>
+
+![]({{ site.baseurl }}/assets/img/product-portal/portal-final-4.png)
+User menus
+
 
 ### RESPONSIVE BEHAVIOUR
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-responsive.png)
+
+### PROTOTYPE
+<div style="padding:63.08% 0 0 0;position:relative;border: 1px solid #dadada;border-top: 0;"><iframe src="https://player.vimeo.com/video/1008412221?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Product portal"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

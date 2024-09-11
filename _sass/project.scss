@@ -123,7 +123,10 @@
         display: grid;
         grid-gap: 32px;
         grid-template-columns: 1fr 1fr;
-        align-items: center;
+
+        &.align {
+          align-items: center;
+        }
 
         @media only screen and (max-width: 65rem) {
           grid-template-columns: auto;
@@ -170,6 +173,30 @@
 
         img {
           margin: 0 auto;
+        }
+      }
+
+      .two-column {
+        text-align: center;
+        text-align: center;
+        display: grid;
+        grid-gap: 32px;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .three-column {
+        text-align: center;
+        text-align: center;
+        display: grid;
+        grid-gap: 32px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        @media only screen and (max-width: 65rem) {
+          grid-template-columns: 1fr 1fr;
+        }
+
+        img {
+          border: 1px solid #EDE6E3;
         }
       }
     }
