@@ -52,6 +52,12 @@
       }
     }
 
+    &.Ollee {
+      img  {
+        border: none !important;
+      }
+    }
+
     &__content {
       position: relative;
       padding-bottom: 32px;
@@ -104,6 +110,7 @@
         margin: 0 auto 8px;
         max-width: 100%;
         width: auto;
+        border: 0.5px solid #EDE6E3;
 
         &[alt="mobile"] {
           @media only screen and (min-width: 65rem) {

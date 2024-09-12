@@ -1333,6 +1333,9 @@ ul {
 .project-page .project__image img {
   width: 100%;
 }
+.project-page .project.Ollee img {
+  border: none !important;
+}
 .project-page .project__content {
   position: relative;
   padding-bottom: 32px;
@@ -1379,6 +1382,7 @@ ul {
   margin: 0 auto 8px;
   max-width: 100%;
   width: auto;
+  border: 0.5px solid #EDE6E3;
 }
 @media only screen and (min-width: 65rem) {
   .project-page .project__content img[alt=mobile] {

@@ -17,7 +17,7 @@
     {% include header.html %}
 
     <div class="main-content row">
-        <div class="project col-md-6 col-md-offset-3 col-sm-12">
+        <div class="project {{ page.title | handleize }} col-md-6 col-md-offset-3 col-sm-12">
             <div class="project__header">
                 <div class="project__details">
                     <h1>{{ page.title }}</h1>
