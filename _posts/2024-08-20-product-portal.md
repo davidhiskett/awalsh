@@ -17,14 +17,14 @@ My role in this was predominantly as UI Designer, with responsibility shifting i
 There was a disjointed feel across how users sign into and navigate between products, which didn't lend itself to a smooth overall product feel.
 - Separate sign in pages for 4 products.
 - No easy way to switch between products.
-- Old branding on sign in pages
+- Old branding on sign in pages.
 
 ## GOALS
 To create unity when signing in and navigating across different products, whilst also taking advantage of a shared space to promote other ARKK products.
-- Create a shared sign-in with access to other products the user owns. 
-- Make use of this new space to advertise all ARKK products
+- Create a shared sign-in with access to other products users may own. 
+- Make use of this new space to advertise all ARKK products.
 - Allow customers to navigate between different products when signed into another.
-- Update branding
+- Update branding.
 
 <br>
 
@@ -81,7 +81,7 @@ If a customer clicked on a product they didn’t own on the right, this would pa
 <br>
 
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-4.png)
-User menus
+User menu.
 
 
 ### RESPONSIVE BEHAVIOUR

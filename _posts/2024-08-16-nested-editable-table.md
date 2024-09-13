@@ -7,21 +7,21 @@ image: "editable-table/main-image.png"
 ---
 
 ## OVERVIEW
-Through the emergence of new Pillar 2/requirements to establish a global minimum tax for multinational enterprises, it became apparent users would need a way to amend data after it had been uploaded to the platform. This triggered a project to design and build an editable table in two different formats.
+Through the emergence of new Pillar 2 requirements to establish a global minimum tax for multinational enterprises, it became apparent users would need a way to amend data after it had been uploaded to the platform. This triggered a project to design and build an editable table in two different formats.
 
 As the UI Designer I was responsible for designing the table in line with these requirements, which mostly centred around working with the development team.  My tasks focused on fitting technical requirements into our existing table design and maintaining consistency.
 
 ## PROBLEM
-Users were limited in their ability to edit data within tables after it had been uploaded to the platform, only being able to do this if the system flagged inconsistencies.
+Users were limited in their ability to edit data within tables after it had been uploaded to the platform, only being able to do this if the system flagged inconsistencies using a specific activity. 
 - Incorrect or missing data could only be addressed by updating original files then re-uploading. 
 - This took time and we had feedback confirming it was caused frustration. 
 - These frustrations were amplified if the process had to be repeated.
 
 ## GOALS
-The way users were amending table data was a broken out and tedious process, which we needed to streamline. Our main aim was to reduce frustration by providing users with a solution that conveniently kept them on the platform.
+The way users were amending table data was a broken out and tedious process, which we needed to streamline. Our main aim was to reduce frustration by providing users with a solution that conveniently kept them on the platform when they were meeting this tax requirement.
 - Provide a direct way for users to amend incorrect or missing data in tables. 
 - Allow users to: add rows, delete rows and edit row properties. 
-- For this to be possible in both a flat table and hierarchy… 
+- For this to be possible in both a flat table and nested table. 
 - For uses to be able to keep track of these changes in an audit log.
 
 <br>
@@ -49,7 +49,7 @@ Selected state for cell during editing.
 <br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-4.png)
-Tracking changes in an audit log, with the selected state of a cell when a specific change entry is selected.
+Tracking changes in an audit log, then the selected state of a cell when a specific change entry is selected.
 <br>
 <br>
 
@@ -58,7 +58,7 @@ Tracking changes in an audit log, with the selected state of a cell when a speci
 
 ### NESTED EDIT TABLE
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png)
-Resizing main column.
+Resizing the main column for a nested table.
 <br>
 <br>
 
@@ -68,9 +68,9 @@ Minimised main column.
 <br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-3.png)
-End fo table scroll.
+End of table scroll.
 <br>
 <br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-4.png)
-Searching table.
+Searching the table.

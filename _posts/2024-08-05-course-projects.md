@@ -12,7 +12,7 @@ Case study for a tourism campaign completed as part of UI Design course.
 
 <div class="project__button">
     <a href="https://medium.com/@annabeljwalsh/no-children-allowed-an-island-escape-to-anglesey-c2054d420dae" title="View case study" target="_blank" class="button">
-        Case study
+        Anglesey
     </a>
 </div>
 
@@ -25,7 +25,7 @@ Case study for a web browser based mobile app, for startup course provider Bloom
 
 <div class="project__button">
     <a href="https://medium.com/@annabeljwalsh/a-new-beginning-for-bloomsbury-beginnings-32217e768f4e" title="View case study" target="_blank" class="button">
-        Case study
+        Bloomsbury Beginnings 
     </a>
 </div>
 
@@ -38,6 +38,6 @@ Case study for student recruitment specialists Groundworks.
 
 <div class="project__button">
     <a href="https://medium.com/@annabeljwalsh/a-responsive-website-for-student-recruitment-specialists-groundworks-8289b8cb6134" title="View case study" target="_blank" class="button">
-        Case study
+        Groundworks
     </a>
 </div>
