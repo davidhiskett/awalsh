@@ -1045,7 +1045,7 @@ body {
   padding: 0;
   left: 0;
   top: 0;
-  font-size: 12px;
+  font-size: 16px;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
 }
@@ -1138,7 +1138,7 @@ ul {
 .about__contact h3 {
   margin: 16px 0 0;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 16px;
 }
 .about__contact p {
   margin: 0;
@@ -1286,7 +1286,7 @@ ul {
 }
 .project-list .project__description {
   padding: 16px 0;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .project-page .project {
@@ -1344,7 +1344,7 @@ ul {
   font-weight: normal;
   text-transform: uppercase;
   margin: 48px 0 8px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
 }
 @media only screen and (min-width: 65rem) {
