@@ -202,6 +202,12 @@
           grid-template-columns: 1fr 1fr;
         }
 
+        &.one-mobile {
+          @media only screen and (max-width: 65rem) {
+            grid-template-columns: 1fr;
+          }
+        }
+
         img {
           border: 1px solid #EDE6E3;
         }

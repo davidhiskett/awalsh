@@ -1465,6 +1465,11 @@ ul {
     grid-template-columns: 1fr 1fr;
   }
 }
+@media only screen and (max-width: 65rem) {
+  .project-page .project__content .three-column.one-mobile {
+    grid-template-columns: 1fr;
+  }
+}
 .project-page .project__content .three-column img {
   border: 1px solid #EDE6E3;
 }

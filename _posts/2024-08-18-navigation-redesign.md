@@ -54,14 +54,16 @@ Within the company we have a ‘Services’ team who set up various workflows fo
         <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-filter-research-1.png">
     </div>
 </div>
-We worked collectively on the whole process for this project, dividing up responsibilities on certain tasks. One of the specific areas I took responsibility of was the filters. Off the back of various interviews and market  research, we tried out some different approaches for filtering.
+We worked collectively on the whole process for this project, dividing up responsibilities on certain tasks. One of the specific areas I took responsibility of was the filters. Off the back of various interviews and market research, we tried out some different approaches for filtering.
 
-We settled on an overlay menu, which would allow users to add filters in rows. We concluded that we didn’t have enough space to line filter results up as chips, agreeing that it was best to hide applied filters from the default view. The details of any applied filters were also accessible in one click, and could be edited easily.
+<div class="row three-column one-mobile">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-filter-research-2.png">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-filter-research-3.png">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-filter-research-4.png">
+</div>
+Through testing and feedback sessions of the above ideas, we settled on an overlay menu, which would allow users to add detailed filters in rows. We concluded that we didn’t have enough space to line filter results up as chips, agreeing that it was best to hide applied filters from the default view. The details of any applied filters were also accessible in one click, and could be edited or removed from there.
 
-### FILTER EXPLORATION
-From this research we tried out a handful of approaches for the new filters.
-
-### LAYOUT EXPLORATION
+### PAGE LAYOUT EXPLORATION
 <div class="row two-column">
     <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-1.png">
     <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-wireframes-2.png">
