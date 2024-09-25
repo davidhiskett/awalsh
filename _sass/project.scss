@@ -125,6 +125,10 @@
         }
       }
 
+      .no-border img {
+        border: none !important;
+      }
+
       .two-image {
         text-align: center;
         display: grid;

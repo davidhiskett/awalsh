@@ -27,9 +27,11 @@ We wanted to improve the layout of what is one of the most important pages on th
 ---
 
 ### KICKOFF
-![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-kickoff-1.png)
+<div class="no-border">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-kickoff-1.png">
+</div>
 <div class="row mb8">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-8 col-md-offset-2 no-border">
         <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-kickoff-2.png">
     </div>
 </div>
@@ -37,11 +39,13 @@ We wanted to improve the layout of what is one of the most important pages on th
 As this was a big project with many different parts, we created a couple of kickoff boards in different meetings. Above is a board from the early stages of the process for the main redesign, along with some requirements.
 
 ### OLD VIEW
-![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-old-1.png)
+<div class="no-border">
+    <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-old-1.png">
+</div>
 We then carried out a detailed assessment of the current page, mainly focusing on UX and UI issues, but also what worked. We added to this list as we spoke to people in different teams to build a more accurate picture of how we could improve the process page.
 
 ### INTERVIEWS
-<div class="row mb8">
+<div class="row mb8 no-border">
     <div class="col-md-8 col-md-offset-2">
         <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-interviews-1.png">
     </div>
@@ -56,7 +60,7 @@ Within the company we have a ‘Services’ team who set up various workflows fo
 </div>
 We worked collectively on the whole process for this project, dividing up responsibilities on certain tasks. One of the specific areas I took responsibility of was the filters. Off the back of various interviews and market research, we tried out some different approaches for filtering.
 
-<div class="row three-column one-mobile">
+<div class="row three-column one-mobile no-border">
     <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-filter-research-2.png">
     <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-filter-research-3.png">
     <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-filter-research-4.png">
