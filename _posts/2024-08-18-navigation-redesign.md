@@ -10,7 +10,7 @@ image: "navigation-redesign/main-image.png"
 Within the ARKK automation platform users build out financial processes which house different types of activities they need to complete those processes. Alongside the Head of Design and one other Product Designer, I was responsible for the UI Design in our redesign of the central process page where users review the progress of their activities and complete important tasks.
 
 ## PROBLEM
-The existing design for a process page was old/outdated, but also presented various limitations:
+The existing design for a process page presented various limitations:
 - Users lacked any sort of navigation within a process, which consisted of a list of activities on expandable cards.
 - Multiple activities could be expanded simultaneously, which often meant important details were pushed out of view and could not be viewed in context. 
 - Users had to engage in significant amounts of scrolling, whilst also open then close activities to bring relevant information into view.
