@@ -1512,7 +1512,7 @@ ul {
 }
 .plain-project-page .project__button {
   text-align: right;
-  margin-top: -44px;
+  margin-top: -16px;
   margin-bottom: 32px;
 }
 @media only screen and (max-width: 65rem) {
