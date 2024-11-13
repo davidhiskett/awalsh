@@ -1271,6 +1271,7 @@ ul {
   display: flex;
   padding: 16px;
   align-items: center;
+  justify-content: space-between;
   min-height: 77px;
 }
 .project-list .project__header .title {
