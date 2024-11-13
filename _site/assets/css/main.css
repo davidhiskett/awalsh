@@ -1269,8 +1269,9 @@ ul {
 }
 .project-list .project__header {
   display: flex;
-  padding: 16px 0;
+  padding: 16px;
   align-items: center;
+  min-height: 77px;
 }
 .project-list .project__header .title {
   text-transform: uppercase;
@@ -1285,8 +1286,9 @@ ul {
   width: 100%;
 }
 .project-list .project__description {
-  padding: 16px 0;
+  padding: 16px;
   font-size: 16px;
+  min-height: 83px;
 }
 
 .project-page .project {
