@@ -123,6 +123,10 @@
             display: none;
           }
         }
+
+        &[alt="no-border"] {
+         border: 0;
+        }
       }
 
       .no-border img {

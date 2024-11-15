@@ -1397,6 +1397,9 @@ ul {
     display: none;
   }
 }
+.project-page .project__content img[alt=no-border] {
+  border: 0;
+}
 .project-page .project__content .no-border img {
   border: none !important;
 }
