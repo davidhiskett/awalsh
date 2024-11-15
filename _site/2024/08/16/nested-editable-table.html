@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Nested Editable Table - Annabel Walsh</title>
+    <title>Edit Table - Annabel Walsh</title>
     <link rel="stylesheet" href="/assets/css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,10 +30,10 @@
 </header>
 
     <div class="main-content row">
-        <div class="project Nested Editable Table col-md-6 col-md-offset-3 col-sm-12">
+        <div class="project Edit Table col-md-6 col-md-offset-3 col-sm-12">
             <div class="project__header">
                 <div class="project__details">
-                    <h1>Nested Editable Table</h1>
+                    <h1>Edit Table</h1>
                     <div class="detail-lists">
                         <div class="focus-list list">
                             
@@ -57,76 +57,67 @@
             </div>
             <div class="project__content">
                 <h2 id="overview">OVERVIEW</h2>
-<p>Through the emergence of new Pillar 2 requirements to establish a global minimum tax for multinational enterprises, it became apparent users would need a way to amend data after it had been uploaded to the platform. This triggered a project to design and build an editable table in two different formats.</p>
-
-<p>As the UI Designer I was responsible for designing the table in line with these requirements, which mostly centred around working with the development team.  My tasks focused on fitting technical requirements into our existing table design and maintaining consistency.</p>
+<p>Through the emergence of the Pillar 2 framework, multinational enterprises are expected to adhere to a global minimum tax on profits. Customers subject to these new rules would be required to submit large amounts of data, and we wanted to offer them a convenient way of doing this in an interactive table. It was also strongly felt that the benefits of an editable table would stretch beyond this use case. I was the only designer on this project, working mainly with the CTO and a small development team to fit new requirements into our existing table design, and create a new audit log for users to track any changes in.</p>
 
 <h2 id="problem">PROBLEM</h2>
-<p>Users were limited in their ability to edit data within tables after it had been uploaded to the platform, only being able to do this if the system flagged inconsistencies using a specific activity.</p>
 <ul>
+  <li>Users are limited in their ability to edit data within tables.</li>
   <li>Incorrect or missing data could only be addressed by updating original files then re-uploading.</li>
-  <li>This took time and we had feedback confirming it was caused frustration.</li>
-  <li>These frustrations were amplified if the process had to be repeated.</li>
+  <li>A change report which listed any changes made was difficult to read and interact with.</li>
 </ul>
 
 <h2 id="goals">GOALS</h2>
-<p>The way users were amending table data was a broken out and tedious process, which we needed to streamline. Our main aim was to reduce frustration by providing users with a solution that conveniently kept them on the platform when they were meeting this tax requirement.</p>
 <ul>
-  <li>Provide a direct way for users to amend incorrect or missing data in tables.</li>
-  <li>Allow users to: add rows, delete rows and edit row properties.</li>
-  <li>For this to be possible in both a flat table and nested table.</li>
-  <li>For uses to be able to keep track of these changes in an audit log.</li>
+  <li>Streamline the process by which users are amending table data to help with Pillar 2 submissions and beyond.</li>
+  <li>For this process to occur on the platform.</li>
+  <li>Users are able to keep track of these changes in an easy to use audit log.</li>
 </ul>
 
 <p><br /></p>
 
 <hr />
 
-<h3 id="flat-edit-table">FLAT EDIT TABLE</h3>
-<p>Our existing table design did not feature horizontal lines, however in these new scenarios we were dealing with more details and with the specific need to edit cells, we determined that a more visible cell design was appropriate.</p>
-
-<p>Here showing the default, hover (for either an editable nor non-editable cell) and then the edit states.</p>
-
-<p><img src="/assets/img/editable-table/table-flat-table-1.png" alt="" />
-Default table.
+<h3 id="kickoff">KICKOFF</h3>
+<p><img src="/assets/img/editable-table/kickoff-1.png" alt="" />
+We conducted an initial kick-off meeting to understand the problems we faced for both sides of this project. As Pillar 2 was a new set of rules, there was no existing process for us to examine how such data gets submitted. We instead focused on understanding how users might access and amend data in complex tables, and what they expected to see with regards to an audit trail.
 <br />
 <br /></p>
 
+<p><img src="/assets/img/editable-table/kickoff-2.png" alt="" />
+I listed out some user scenarios following interviews with customers to help shape the solutions we came up with.</p>
+
+<h3 id="audit-log-research">AUDIT LOG RESEARCH</h3>
+<p>The existing approach to documenting changes on the platform was through a ‘change report’, which could only be viewed on export and consisted of a list that was difficult to read due to a lack of any helpful styling. This project brought welcomed motivation to update this feature.</p>
+
+<p><img src="/assets/img/editable-table/audit-log-1.png" alt="" />
+I conducted research exploring the structure an audit log could take, and the standard features users would expect. The majority of these examples presented audit logs as a separate page, whereas we wanted to consider an audit panel that users could view alongside their data. For this I did general research into panels that were not necessarily for audit purposes.
+<br />
+<br /></p>
+
+<p><img src="/assets/img/editable-table/audit-log-2.png" alt="" />
+After collecting all this information and with the requirements in mind I sketched out initial concepts for an audit log panel. Initially a big focus for us was to have a very narrow audit log panel to save on space, which you could expand out to fill the activity frame in this view.
+<br />
+<br /></p>
+
+<p><img src="/assets/img/editable-table/audit-log-3.png" alt="" />
+I then developed some wireframes to consider different solutions. The differences I considered related to icons, panel width and expansion behaviour.
+<br />
+<br /></p>
+
+<p><img src="/assets/img/editable-table/audit-log-4.png" alt="" />
+This was a panel we developed and used to test our requirements.</p>
+
+<h3 id="final-designs">FINAL DESIGNS</h3>
 <p><img src="/assets/img/editable-table/table-flat-table-2.png" alt="" />
-Hover state for editable and non editable values.
+We already had a design for tables across the platform, the task here was more about introducing the new states we needed in an appropriate style. I experimented with different options here, but we preserved our existing pale blue row hover and introduced the selected state for a cell to be edited at a white fill with a thicker blue border. This was consistent with behaviour elsewhere for input fields. Further modifications we applied included horizontal and vertical lines across the table values, something we had previously achieved with space, but could not afford to do in this data heavy scenario.
 <br />
 <br /></p>
 
-<p><img src="/assets/img/editable-table/table-flat-table-3.png" alt="" />
-Selected state for cell during editing.
-<br />
-<br /></p>
+<p><img src="/assets/img/editable-table/table-flat-table-3.png" alt="" /></p>
 
-<p><img src="/assets/img/editable-table/table-flat-table-4.png" alt="" />
-Tracking changes in an audit log, then the selected state of a cell when a specific change entry is selected.
-<br />
-<br /></p>
+<p><img src="/assets/img/editable-table/final-designs-1.png" alt="" /></p>
 
-<p><img src="/assets/img/editable-table/table-flat-table-5.png" alt="" /></p>
-
-<h3 id="nested-edit-table">NESTED EDIT TABLE</h3>
-<p><img src="/assets/img/editable-table/table-nested-table-1.png" alt="" />
-Resizing the main column for a nested table.
-<br />
-<br /></p>
-
-<p><img src="/assets/img/editable-table/table-nested-table-2.png" alt="" />
-Minimised main column.
-<br />
-<br /></p>
-
-<p><img src="/assets/img/editable-table/table-nested-table-3.png" alt="" />
-End of table scroll.
-<br />
-<br /></p>
-
-<p><img src="/assets/img/editable-table/table-nested-table-4.png" alt="" />
-Searching the table.</p>
+<p><img src="/assets/img/editable-table/final-designs-2.png" alt="" /></p>
 
 
                 
