@@ -2,7 +2,7 @@
 layout: project
 title:  "Navigation redesign"
 type: "UI Design | UX Design"
-description: "A redesign project for one a central part of the ARKK Solutions financial automation platform."
+description: "A redesign project for a central part of the ARKK Solutions financial automation platform."
 image: "navigation-redesign/main-image.png"
 ---
 
@@ -18,7 +18,7 @@ Within the ARKK automation platform, users build out financial processes which h
 ## GOALS
 - Improve the layout of one of the most important pages on the platform, including a refreshed design to reflect updates done elsewhere.
 - Help users access what they need more quickly through ordered navigation.
-- Give users access to high level information about activities, without needling to open them. 
+- Give users access to high level information about activities, without needing to open them. 
 - Improve the filtering and sorting of activities.
 
 <br>

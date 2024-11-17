@@ -95,5 +95,6 @@ I made sure to lay the expected responsive behaviour for these screens out clear
 
 ### PROTOTYPE
 <div style="padding:63.08% 0 0 0;position:relative;border: 1px solid #dadada;border-top: 0;"><iframe src="https://player.vimeo.com/video/1008412221?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Product portal"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-<br>
+
+### REFLECTION
 It was a challenge picking this project up from another Product Designer after a considerable amount of work had already been conducted without my participation. I did however feel a big sense of achievement in taking on these updates. I worked particularly hard to keep all the different teams involved in this project updated and part of our decision making. This also was not easy, but I got a huge sense of achievement from knowing I had maintained those connections, from the design to the final product. 
