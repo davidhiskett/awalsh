@@ -49,7 +49,7 @@ One of the initial tasks I carried out was a detailed assessment of our current 
         <img src="{{ site.baseurl }}/assets/img/navigation-redesign/navigation-interviews-1.png">
     </div>
 </div>
-We interviewed members of our internal Services team, who set customers up on the platform and then maintain an ongoing relationship with them. In this sense they represent a valuable type of user to us, who use the platform daily, but also gather insight on how customers experience the platform. I was responsible for speaking to a few of these individuals, above are snapshots from an interview with a member of the Services team, and another with the Product team.
+We interviewed members of our internal services team, who set customers up on the platform and then maintain an ongoing relationship with them. In this sense they represent a valuable type of user to us, who use the platform daily, but also gather insight on how customers experience the platform. I was responsible for speaking to a few of these individuals, above are snapshots from an interview with a member of the services team, and another with the Product team.
 
 ### FILTER RESEARCH
 <div class="row mb8">
@@ -106,4 +106,4 @@ Full screen view.
 Minimum screen layout.
 
 ### REFLECTION
-This project took up more of our time than we had originally expected, but I personally enjoyed how that meant I was required to get involved in more of the UX research and planning to uncover the solutions we needed. The area that all of us wanted to develop further was giving users access to which activities fed into or out of others, which could be more than one and was not possible to see yet in this view. We did however massively improve the process page and all of us on the design team took a huge amount of satisfaction in hearing how much easier customers were reviewing their processes. 
+This project took up more of our time than we had originally expected, but I personally enjoyed how that meant I was required to get involved in more of the UX research and planning to uncover the solutions we needed. The area that all of us wanted to develop further was giving users access to which activities fed into or out of others, which could be more than one and was not possible to see yet in this view. We did however massively improve the process page and all of us on the design team took a huge amount of satisfaction in hearing how customers were reviewing their processes more efficiently.
