@@ -12,10 +12,10 @@ Through the emergence of the Pillar 2 framework, multinational enterprises are e
 ## PROBLEM
 - Users are limited in their ability to edit data within tables.
 - Incorrect or missing data could only be addressed by updating original files then re-uploading.
-- A change report which listed any changes made was difficult to read and interact with.
+- A change report which listed any changes made on the platform was difficult to read and interact with.
 
 ## GOALS
-- Streamline the process by which users are amending table data to help with Pillar 2 submissions and beyond.
+- Streamline the process by which users are amending table data to help with Pillar 2 submissions and other activities.
 - For this process to occur on the platform.
 - Users are able to keep track of these changes in an easy to use audit log.
 
@@ -36,7 +36,7 @@ I listed out some user scenarios following interviews with customers to help sha
 The existing approach to documenting changes on the platform was through a ‘change report’, which could only be viewed on export and consisted of a list that was difficult to read due to a lack of any helpful styling. This project brought welcomed motivation to update this feature.
 
 ![]({{ site.baseurl }}/assets/img/editable-table/audit-log-1.png)
-I conducted research exploring the structure an audit log could take, and the standard features users would expect. The majority of these examples presented audit logs as a separate page, whereas we wanted to consider an audit panel that users could view alongside their data. For this I did general research into panels that were not necessarily for audit purposes.
+I conducted research to explore the structure an audit log could take, and the standard features users would expect to see here. The majority of these examples presented audit logs on separate pages, whereas we wanted to consider an audit panel that users could view alongside their data. I then conducted additional research into panels that were not necessarily for audit purposes, but could help inspire different approaches for us to take.
 <br>
 <br>
 
@@ -51,7 +51,7 @@ I then developed some wireframes to consider different solutions. The difference
 <br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/audit-log-4.png)
-was to save space. For this reason we placed the sort and filter inside a menu next to the search bar, which we saw as more important. We also included the ability to expand the panel to the left over the activity. The stretched out design of the cards was also intended to save space. We found however, that hiding features meant users didn’t know such things were there to help them navigate the panel. Expanding the panel over the activity also proved counterproductive in that it covered the data they were reviewing.
+This was a panel we developed and used to test our requirements.
 
 ### FINAL DESIGNS
 ![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-2.png)
@@ -69,7 +69,7 @@ I made developments to the audit log panel based on feedback we received, bringi
 ![]({{ site.baseurl }}/assets/img/editable-table/final-designs-2.png)
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png)
-As part of this project we also designed a nested edit table that could accommodate multiple levels inside a single column. This was related to how data that needs to be submitted as part of Pillar 2 is grouped.
+In this version of the panel I developed to be tested, one of our main priorities was to make good use of space. For this reason we placed the sort and filter inside a menu next to the search bar, which we saw as more important. We also included the ability to expand the panel to the left over the activity. The stretched to the edge design of the cards was also intended to save space. We found however, that hiding features meant users didn’t know such things were there to help them navigate the panel. Expanding the panel over the activity also proved counterproductive in that it covered the data they were reviewing.
 <br>
 <br>
 
