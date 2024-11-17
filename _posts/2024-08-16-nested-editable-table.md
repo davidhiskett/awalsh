@@ -51,7 +51,7 @@ I then developed some wireframes to consider different solutions. The difference
 <br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/audit-log-4.png)
-This was a panel we developed and used to test our requirements.
+In this version of the panel I developed to be tested, one of our main priorities was to make good use of space. For this reason we placed the sort and filter inside a menu next to the search bar, which we saw as more important. We also included the ability to expand the panel to the left over the activity. The stretched to the edge design of the cards was also intended to save space. We found however, that hiding features meant users didn’t know such things were there to help them navigate the panel. Expanding the panel over the activity also proved counterproductive in that it covered the data they were reviewing.
 
 ### FINAL DESIGNS
 ![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-2.png)
@@ -69,7 +69,7 @@ I made developments to the audit log panel based on feedback we received, bringi
 ![]({{ site.baseurl }}/assets/img/editable-table/final-designs-2.png)
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png)
-In this version of the panel I developed to be tested, one of our main priorities was to make good use of space. For this reason we placed the sort and filter inside a menu next to the search bar, which we saw as more important. We also included the ability to expand the panel to the left over the activity. The stretched to the edge design of the cards was also intended to save space. We found however, that hiding features meant users didn’t know such things were there to help them navigate the panel. Expanding the panel over the activity also proved counterproductive in that it covered the data they were reviewing.
+As part of this project we also designed a nested edit table that could accommodate multiple levels inside a single column. This was related to how data that needs to be submitted as part of Pillar 2 is grouped.
 <br>
 <br>
 
