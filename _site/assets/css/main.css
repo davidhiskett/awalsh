@@ -1421,7 +1421,7 @@ ul {
   text-align: left;
 }
 .project-page .project__content .two-image img {
-  margin: 0 auto;
+  margin: 0 auto 8px;
 }
 .project-page .project__content .three-image {
   text-align: center;
@@ -1438,7 +1438,7 @@ ul {
   text-align: left;
 }
 .project-page .project__content .three-image img {
-  margin: 0 auto;
+  margin: 0 auto 8px;
 }
 .project-page .project__content .four-image {
   text-align: center;
@@ -1453,7 +1453,7 @@ ul {
   }
 }
 .project-page .project__content .four-image img {
-  margin: 0 auto;
+  margin: 0 auto 8px;
 }
 .project-page .project__content .two-column {
   text-align: center;
