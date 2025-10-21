@@ -55,15 +55,34 @@ ul {
 }
 
 .button {
+  position: relative;
   text-decoration: none;
   color: $textColor;
   border: 1px solid $primaryColor;
   padding: 4px 8px;
   border-radius: 4px;
 
+  span {
+    position: relative;
+    z-index: 1;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    background-color: $backgroundColor;
+    width: 90%;
+    height: 110%;
+    top: -5%;
+    left: 5%;
+    transition: all 0.3s ease;
+  }
+
   &:hover {
-    background-color: $primaryColor;
-    font-weight: 500;
+    &:before {
+      width: 0%;
+      left: 50%;
+    }
   }
 }
 

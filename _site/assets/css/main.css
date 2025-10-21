@@ -1078,15 +1078,30 @@ ul {
 }
 
 .button {
+  position: relative;
   text-decoration: none;
   color: #342722;
   border: 1px solid #0AD68D;
   padding: 4px 8px;
   border-radius: 4px;
 }
-.button:hover {
-  background-color: #0AD68D;
-  font-weight: 500;
+.button span {
+  position: relative;
+  z-index: 1;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  background-color: #F6F2F0;
+  width: 90%;
+  height: 110%;
+  top: -5%;
+  left: 5%;
+  transition: all 0.3s ease;
+}
+.button:hover:before {
+  width: 0%;
+  left: 50%;
 }
 
 .mb8 {
