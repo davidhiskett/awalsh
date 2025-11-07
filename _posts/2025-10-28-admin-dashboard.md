@@ -13,6 +13,13 @@ With a growing list of complaints, and new features being planned, there was a n
 
 I was brought on board to tackle this redesign. I was the only designer on the project, working alongside a product manager, business analyst, data scientist, three front end developers and two testers. With further input from several other stakeholders.
 
+<div class="row two-column">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/layout-exploration-1.png">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/layout-exploration-2.png">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/layout-exploration-3.png">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/layout-exploration-4.png">
+</div>
+
 
 ## PROBLEM
 - Multiple redundant and faulty features were presenting a poor user experience.
@@ -49,11 +56,19 @@ We progressed with a collection of confirmed problems and an idea of how we want
 
 ## LAYOUT EXPLORATION
 Different options for general structure and navigation were considered, but from our research a main left navigation side bar was common and felt the most appropriate for future growth of the dashboard. This would free up the page header to be used for extra content, and provide space for future pages to be added underneath.
-
+*
 
 ## WIREFRAMES
 We created and reviewed wireframes for each section of the dashboard, below is a snapshot of this process. Regular feedback sessions were conducted within the product team, then larger ones with the front end developers, testers and CTO. The high fidelity designs were then shown to internal teams and we collectively processed and dealt with often conflicting requests.
 
+<div class="row two-column">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-1.png">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-2.png">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-3.png">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-4.png">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-5.png">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-6.png">
+</div>
 
 ## FINAL DESIGNS
 After collecting relevant feedback from all teams, I laid out the final designs in order of priority as set out by the development team. This involved a handoff with the front event developers and testers, to intercept any last minute uncertainties and tickets written in conjunction with the product manager. This was a fluid and collaborative process with the front end developers, reviewing designs with me before they were handed to the testing team. 
@@ -64,8 +79,8 @@ During this project, the marketing team also carried out a brand refresh. I work
 
 
 ## TESTING
-As this was a redesign project, we carried over most of the functionality from the existing dashboard. Our aim with testing was therefore to ensure this functionality had been preserved. One challenge we came up against was a lack of documentation for existing functionality. Our initial task was therefore to work closely with our business analyst to set a list of user scenarios which we needed to check. This massively improved our process for the future. 
+As this was a redesign project, we carried over most of the functionality from the existing dashboard. Our aim with testing was therefore to ensure this functionality had been preserved. One challenge we came up against was a lack of documentation for existing functionality. Our initial task was therefore to work closely with our business analyst to set a list of user scenarios which we needed to check. This massively improved our process for the future. Due to time constraints and a lack of willing customers to test the design with, we are also still in the process of collecting feedback on the dashboard, which will be encouraged through a feedback button and survey form on the main side bar.
 
 
 ## REFLECTION
-It was great to work on this project at a new company, and contribute to improving process at a busy startup. This is an ongoing project, and after we release the dashboard, our attention is shifting to small fixes that still need doing and new sections that are being developed. With lots to focus on, we need to build on what we have a,ready achieved and a I would personally like to see more visual design making its way into the dashboard. 
+It was great to work on this project at a new company, and contribute to improving process at a busy startup. This is an ongoing project, and after we release the dashboard, our attention is shifting to small fixes that still need doing and new sections that are being developed. I do see many areas for improvement and have kept a list of ideas which I consistently add to, for example I would personally like to see more of the brand update making its way into the dashboard in certain areas and would enjoy working with the marketing team to make this happen. I also would like to engage with customers to collect more meaningful feedback.
