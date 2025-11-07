@@ -64,7 +64,7 @@ We created and reviewed wireframes for each section of the dashboard, below is a
 <div class="row two-column">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-1.png">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-2.png">
-    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-3.png">
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-3.png">1
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-4.png">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-5.png">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-6.png">
@@ -73,7 +73,14 @@ We created and reviewed wireframes for each section of the dashboard, below is a
 ### FINAL DESIGNS
 After collecting relevant feedback from all teams, I laid out the final designs in order of priority as set out by the development team. This involved a handoff with the front event developers and testers, to intercept any last minute uncertainties and tickets written in conjunction with the product manager. This was a fluid and collaborative process with the front end developers, reviewing designs with me before they were handed to the testing team. 
 
-
+![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-1.png)
+![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-2.png)
+![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-3.png)
+![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-4.png)
+![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-5.png)
+![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-6.png)
+![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-7.png)
+![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-8.png)
 
 During this project, the marketing team also carried out a brand refresh. I worked with marketing to ensure we incorporated the updated colours, logo and design into the dashboard. We then worked collaboratively on an updated sign in screen for the dashboard, to complement the new website.
 
