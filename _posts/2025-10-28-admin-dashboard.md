@@ -64,7 +64,7 @@ We created and reviewed wireframes for each section of the dashboard, below is a
 <div class="row two-column">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-1.png">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-2.png">
-    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-3.png">1
+    <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-3.png">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-4.png">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-5.png">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-6.png">
