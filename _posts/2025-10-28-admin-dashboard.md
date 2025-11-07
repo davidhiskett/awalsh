@@ -2,7 +2,7 @@
 layout: project
 title:  "Admin dashboard redesign"
 type: "UI Design | UX Design"
-description: "TODO."
+description: "Admin dashboard redesign for Yaspa's open banking dashboard."
 image: "admin-dashboard/main-image.png"
 ---
 
