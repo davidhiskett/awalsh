@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Admin dashboard redesign"
+title: "Admin dashboard redesign"
 type: "UI Design | UX Design"
 description: "Admin dashboard redesign for Yaspa's open banking dashboard."
 image: "admin-dashboard/main-image.png"
@@ -9,7 +9,7 @@ image: "admin-dashboard/main-image.png"
 ## OVERVIEW
 The admin dashboard at Yaspa is a crucial B2B communication tool, documenting data on open banking transactions.
 
-With a growing list of complaints, and new features being planned, there was a need to improve the dashboard with scalability in mind. Originally designed by the development team, the dashboard was built with only a few UX patterns in mind, which were based on assumption and never tested. As features have been added, so has the number of issues requiring short term fixes. Being a crucial stage in securing new contracts, improving the dashboard would also bring a welcomed update to sales collateral.
+With a growing list of complaints, and upcoming new features, there was a need to improve the dashboard with scalability in mind. The dashboard was originally built with only a few UX patterns in mind, which were based on assumption and never tested. As features have been added, so has the number of issues requiring short term fixes. Being a crucial stage in securing new contracts, improving the dashboard would also bring a welcomed update to sales collateral.
 
 I was brought on board to tackle this redesign. I was the only designer on the project, working alongside a product manager, business analyst, data scientist, three front end developers and two testers. With further input from several other stakeholders.
 
@@ -30,7 +30,7 @@ I was brought on board to tackle this redesign. I was the only designer on the p
 ---
 
 ### EXISTING DASHBOARD
-Before reviewing any existing research that had been conducted, my initial focus was to review the dashboard in its current state, to ensure I was approaching this task objectively. I took screenshots of every section, observing what in my view worked, didn't work, or appeared to be missing.
+My initial focus was to review the dashboard in its current state myself, to ensure I was approaching this task objectively. I took screenshots of every section, observing what in my view worked, didn’t work, or appeared to be missing.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/existing-dashboard-1.png)
 
@@ -39,17 +39,17 @@ Prior to joining the company, a design colleague had conducted interviews with t
 
 As a product team we then spoke internally to the compliance, customer support and sales teams to get an assessment of how our colleagues, and the customers they spoke to daily, experienced the dashboard. Below is a summary of the points we discovered.
 
-![]({{ site.baseurl }}/assets/img/admin-dashboard/interviews-1.png)
+![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/interviews-1.png)
 
 ### MARKET RESEARCH
-We conducted some market research to evaluate current visual and UX standards, with a particular focus on payments dashboards. We kept a communal board of screenshots, which I sorted by product and then further divided into specific areas to help with pages we were designing. From this analysis, we found Stripe, GoCardless and Checkout.com useful in relevance and interesting design. This board was added to and used frequently by the whole team throughout the whole project.
+We conducted market research to evaluate current visual and UX standards, with a particular focus on payments dashboards. We kept a communal board of screenshots, which I sorted by product and then further divided into specific areas for features relevant to us. From this, we found Stripe, GoCardless and Checkout.com useful in relevance and interesting design. This board was added to and used frequently by the whole team throughout the whole project.
 
 
 We progressed with a collection of confirmed problems and an idea of how we wanted to reshape the dashboard, and we defined requirements for each section on confluence. For areas we were less certain about, including a new customers page, we held design workshops to outline what we knew, what was possible, and what had been requested. We also met with the front end team regularly to confirm expectations and functional requirements.
 
 
 ### LAYOUT EXPLORATION
-Different options for general structure and navigation were considered, but from our research a main left navigation side bar was common and felt the most appropriate for future growth of the dashboard. This would free up the page header to be used for extra content, and provide space for future pages to be added underneath.
+Different options for general structure and navigation wdere considered, but from our research a main left navigation side bar was common and felt the most appropriate for future growth of the dashboard. This would free up the page header to be used for extra content, and provide space for future pages to be added underneath.
 
 <div class="row two-column">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/layout-exploration-1.png">
@@ -70,24 +70,36 @@ We created and reviewed wireframes for each section of the dashboard, below is a
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-6.png">
 </div>
 
+During this process it was agreed the visuals for an overview page would be created and displayed using the data visualisation tool Tableau, and that this would be in the second round of development. 
+
 ### FINAL DESIGNS
-After collecting relevant feedback from all teams, I laid out the final designs in order of priority as set out by the development team. This involved a handoff with the front event developers and testers, to intercept any last minute uncertainties and tickets written in conjunction with the product manager. This was a fluid and collaborative process with the front end developers, reviewing designs with me before they were handed to the testing team. 
+After collecting relevant feedback from internal teams, we submitted the final designs for development. This involved multiple handoff sessions with the front event developers and testers, to intercept last minute uncertainties and allow for these to be detailed on tickets. This was a fluid and collaborative process with the front end developers, who constantly reviewed their work with me before it was handed to the testing team.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-1.png)
+Login screen updated in line with our website and brand refresh.
+
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-2.png)
+The main payments screen, with improved filters and page layout. 
+
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-3.png)
+Transaction details were moved to an overlay in the same view, as customers had noted it was a nuisance to be taken away from the transactions table and constantly navigate back.
+
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-4.png)
+A new customer area was created, which will be used to highlight potential fraudulent activity in future developments.
+
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-5.png)
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-6.png)
+We applied a new layout for the settings area.
+
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-7.png)
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-8.png)
 
-During this project, the marketing team also carried out a brand refresh. I worked with marketing to ensure we incorporated the updated colours, logo and design into the dashboard. We then worked collaboratively on an updated sign in screen for the dashboard, to complement the new website.
-
 
 ### TESTING
-As this was a redesign project, we carried over most of the functionality from the existing dashboard. Our aim with testing was therefore to ensure this functionality had been preserved. One challenge we came up against was a lack of documentation for existing functionality. Our initial task was therefore to work closely with our business analyst to set a list of user scenarios which we needed to check. This massively improved our process for the future. Due to time constraints and a lack of willing customers to test the design with, we are also still in the process of collecting feedback on the dashboard, which will be encouraged through a feedback button and survey form on the main side bar.
+As we were redesigning an existing dashboard, we were carrying over most of the existing functionality. Our aim with testing was therefore primarily internal, to ensure this functionality had been preserved. A challenge we came up against here though was a lack of documentation for the existing functionality. We worked closely with our business analyst to identify a list of user scenarios which we could then check, which we did as a team. This massively improved our process for the future.
+
+Due to time constraints and a lack of willing customers to test the designs externally, we are still in the process of collecting feedback on the dashboard, which will be encouraged through a feedback button on the main side bar which links to a survey. In our announcement of the new dashboard, customers have also been encouraged to reach out to their account managers should they have any comments.
 
 
 ### REFLECTION
-It was great to work on this project at a new company, and contribute to improving process at a busy startup. This is an ongoing project, and after we release the dashboard, our attention is shifting to small fixes that still need doing and new sections that are being developed. I do see many areas for improvement and have kept a list of ideas which I consistently add to, for example I would personally like to see more of the brand update making its way into the dashboard in certain areas and would enjoy working with the marketing team to make this happen. I also would like to engage with customers to collect more meaningful feedback.
+It was great to work on this project at a new company, and contribute to improving process at a busy startup. This is an ongoing project, and after we release the dashboard, our attention is shifting to fixes that still need doing, and new sections that will be added. I do see many areas for improvement and have kept a list of ideas which I consistently add to, for example I would personally like to see more of the brand update making its way into the dashboard in certain areas and would enjoy working with the marketing team to make this happen. I also would like to engage with customers to collect more meaningful feedback.
