@@ -79,20 +79,24 @@ After collecting relevant feedback from internal teams, we submitted the final d
 Login screen updated in line with our website and brand refresh.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-2.png)
-The main payments screen, with improved filters and page layout. 
+The payment pages were previously divided into two separate menu sections, but as these products are so closely related, we rearranged them into tabs to connect them and save on space. We then improved the search and filter functionality above the payments table, which was the most requested change in this project.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-3.png)
-Transaction details were moved to an overlay in the same view, as customers had noted it was a nuisance to be taken away from the transactions table and constantly navigate back.
+Each row on the payments table contains information about a single transaction. Further details then show on an overlay when a row is clicked. We changed the layout of this detailed information from a whole page view, which took you away form the table, to an overlay, which keeps the user in the same space and allows them to return to the table more easily. We focused on improving readability of this section with an underline connecting labels with the content.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-4.png)
-A new customer area was created, which will be used to highlight potential fraudulent activity in future developments.
+The old customers section was reported to not be very meaningful, with basic details failing to pull through. Working closely with the product manager, we planned out more meaningful information about customers, including bank account information and overview statistics. We then checked this was possible with the backend team before finalising the designs. This section will be developed further in the future to display in-depth insights on customer’s gambling behaviour.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-5.png)
+
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-6.png)
-We applied a new layout for the settings area.
+The settings area was improved with a vertical menu, replacing a horizontal tab approach that was filling most of the screen. During research we learnt that users often need to contact our support team, particularly in the beginning stages of setting up their dashboard, so we made this feature more prominent in the toolbar. Other less used features, including developer documentation and knowledge base, were kept within the user menu.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-7.png)
+One simple but impactful improvement we brought in this redesign was feedback. When assessing the state of the previous dashboard we realised that many actions were process with little or no feedback, resulting in confusion or multiple clicks waiting for a change. Any actions that resulted in a change would now include visible feedback on the screen, including errors to meaningfully guide users.
+
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-8.png)
+We included the option to have a collapsed side panel in the redesign, to give users more space to see their information. This has been reported as particularly useful on data heavy pages, including those with a table and the webhooks display.
 
 
 ### TESTING
