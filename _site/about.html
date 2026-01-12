@@ -23,10 +23,6 @@
                 <p class="logo-green">A<span>N</span><span>N</span><span>A</span><span>B</span><span>E</span><span>L</span> W<span>ALSH</span></p>
             </a>
         </div>
-        <div class="links-container col-xs-8 col-sm-6">
-            <a href="/about" class="link button hidden" title="About"><span>About</span></a>
-            <a href="/assets/AnnabelWalsh_CV.pdf" class="link button" title="View CV" target="_blank"><span>View CV</span></a>
-        </div>
     </div>
 </header>
 
@@ -68,11 +64,14 @@
 <script>
     function handleScroll() {
         const logoContainer = document.querySelector('.logo-container');
+        const headerContent = document.querySelector('.header');
 
         if (window.scrollY > 0) {
             logoContainer.classList.add('scrolled');
+            headerContent.classList.add('scrolled');
         } else {
             logoContainer.classList.remove('scrolled');
+            headerContent.classList.remove('scrolled');
         }
     }
 

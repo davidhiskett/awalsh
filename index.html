@@ -3,7 +3,7 @@ layout: default
 title: "Annabel Walsh"
 ---
 <div class="index-container row">
-  <div class="about-section col-xs-12 col-sm-3">
+  <div class="about-section col-xs-12 col-md-3">
     <div class="about-section__inner">
       <p>UI/UX Designer based in London.</p>
       <p>With a varied background in customer service, and 4 years design experience in Fintech, I am now on the lookout for a more varied role and change of industry. I am open to what that industry may look like, but keen to explore more impactful opportunities.</p>
@@ -11,10 +11,12 @@ title: "Annabel Walsh"
 
       <p>annabeljwalsh@gmail.com<br>
       07972 205 367</p>
+
+      <a href="{{ site.baseurl }}/assets/AnnabelWalsh_CV.pdf" class="link button" title="View CV" target="_blank"><span>View CV</span></a>
     </div>
   </div>
 
-  <div class="project-list row col-xs-12 col-sm-9">
+  <div class="project-list row col-xs-12 col-md-9">
       {% for project in site.posts %}
           <a href="{{ site.baseurl }}{{ project.url }}" class="project col-xs-12 row">
             <div class="project__header col-xs-12 col-sm-4">
@@ -27,6 +29,8 @@ title: "Annabel Walsh"
             <div class="project__image-container col-xs-12 col-sm-8">
               <img src="assets/img/{{ project.image }}">
             </div>
+
+            <div class="project__description mobile">{{ project.description }}</div>
           </a>
       {% endfor %}
   </div>

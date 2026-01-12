@@ -1,15 +1,26 @@
 .header {
-  padding: 1rem 1rem 0;
   background-color: $backgroundColor;
   position: fixed;
-  width: 100%;
   top: 0;
-  max-width: 1700px;
+  left: 0;
+  width: 100%;
   z-index: 1;
+  height: 100px;
+
+  @media only screen and (max-width: 41rem) {
+    height: 60px;
+  }
+
+  &.scrolled {
+    border-bottom: 2px solid $primaryColor;
+  }
 
   &__content {
+    display: flex;
+    height: 100%;
+    max-width: 1700px;
     align-items: center;
-    border-bottom: 2px solid $secondaryColorDark;
+    padding-left: 24px;
   }
 
   .logo-container {
@@ -23,7 +34,7 @@
         color: $textColor;
         font-weight: 500;
         margin: 0;
-        font-size: 38px;
+        font-size: 28px;
       }
 
       span {
@@ -48,7 +59,7 @@
 
         span {
           transition: all 2s ease;
-          width: 23px;
+          width: 17px;
           display: inline-block;
 
           @media only screen and (max-width: 600px) {
