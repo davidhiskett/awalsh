@@ -24,6 +24,7 @@
 
   @media only screen and (max-width: 41rem) { 
     padding: 16px;
+    padding-bottom: 72px;
   }
 }
 
@@ -31,9 +32,9 @@
   padding: 24px;
 
   .project {
-    margin-bottom: 48px;
     text-decoration: none;
     color: $textColor;
+    margin-bottom: 48px;
 
     &__content {
       margin: 1rem;
@@ -72,7 +73,7 @@
     padding: 16px;
 
     .project {
-      margin-bottom: 32px;
+      margin-bottom: 72px;
 
       .title {
         margin: 0;

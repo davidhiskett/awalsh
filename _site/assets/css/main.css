@@ -1317,6 +1317,7 @@ ul {
 @media only screen and (max-width: 41rem) {
   .about-section {
     padding: 16px;
+    padding-bottom: 72px;
   }
 }
 
@@ -1324,9 +1325,9 @@ ul {
   padding: 24px;
 }
 .project-list .project {
-  margin-bottom: 48px;
   text-decoration: none;
   color: #342722;
+  margin-bottom: 48px;
 }
 .project-list .project__content {
   margin: 1rem;
@@ -1358,7 +1359,7 @@ ul {
     padding: 16px;
   }
   .project-list .project {
-    margin-bottom: 32px;
+    margin-bottom: 72px;
   }
   .project-list .project .title {
     margin: 0;
