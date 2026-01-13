@@ -1059,12 +1059,17 @@ body {
   background: #FFFCFA;
   color: #342722;
   font-family: "Hind", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  max-width: 1700px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding-top: 75px;
+  padding-top: 100px;
+}
+@media only screen and (max-width: 41rem) {
+  body {
+    padding-top: 60px;
+  }
 }
 
 .hidden {
@@ -1072,6 +1077,8 @@ body {
 }
 
 .main-content {
+  max-width: 1700px;
+  margin: 0 auto;
   flex: 1;
 }
 
@@ -1206,17 +1213,28 @@ ul {
 }
 
 .header {
-  padding: 1rem 1rem 0;
   background-color: #FFFCFA;
   position: fixed;
-  width: 100%;
   top: 0;
-  max-width: 1700px;
+  left: 0;
+  width: 100%;
   z-index: 1;
+  height: 100px;
+}
+@media only screen and (max-width: 41rem) {
+  .header {
+    height: 60px;
+  }
+}
+.header.scrolled {
+  border-bottom: 2px solid #0AD68D;
 }
 .header__content {
+  display: flex;
+  height: 100%;
+  max-width: 1700px;
   align-items: center;
-  border-bottom: 2px solid #7F726D;
+  padding-left: 24px;
 }
 .header .logo-container {
   align-items: center;
@@ -1229,7 +1247,7 @@ ul {
   color: #342722;
   font-weight: 500;
   margin: 0;
-  font-size: 38px;
+  font-size: 28px;
 }
 .header .logo-container .logo span {
   color: transparent;
@@ -1252,7 +1270,7 @@ ul {
 }
 .header .logo-container .logo .logo-green span {
   transition: all 2s ease;
-  width: 23px;
+  width: 17px;
   display: inline-block;
 }
 @media only screen and (max-width: 600px) {
@@ -1275,40 +1293,88 @@ ul {
   justify-content: flex-end;
 }
 
+.about-section {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 24px;
+}
+.about-section__inner {
+  position: sticky;
+  top: 124px;
+}
+.about-section p {
+  margin-top: 0;
+}
+.about-section a {
+  display: inline-block;
+  margin-top: 4px;
+}
+@media only screen and (max-width: 65rem) {
+  .about-section {
+    padding-bottom: 48px;
+  }
+}
+@media only screen and (max-width: 41rem) {
+  .about-section {
+    padding: 16px;
+    padding-bottom: 72px;
+  }
+}
+
 .project-list {
-  padding-top: 48px;
+  padding: 24px;
 }
 .project-list .project {
   text-decoration: none;
   color: #342722;
+  margin-bottom: 48px;
 }
 .project-list .project__content {
   margin: 1rem;
   background-color: #EDE6E3;
 }
 .project-list .project__header {
-  display: flex;
-  padding: 16px;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 77px;
+  font-weight: 500;
+  font-size: 16px;
 }
 .project-list .project__header .title {
   text-transform: uppercase;
-  font-size: 24px;
-  font-weight: 500;
+  margin-bottom: 16px;
 }
-.project-list .project__header .type {
-  text-align: right;
-  font-size: 14px;
+.project-list .project__image-container {
+  padding-left: 24px;
 }
 .project-list .project__image-container img {
   width: 100%;
+  display: block;
 }
 .project-list .project__description {
-  padding: 16px;
-  font-size: 16px;
-  min-height: 83px;
+  margin-top: 32px;
+}
+.project-list .project__description.mobile {
+  display: none;
+}
+@media only screen and (max-width: 41rem) {
+  .project-list {
+    padding: 16px;
+  }
+  .project-list .project {
+    margin-bottom: 72px;
+  }
+  .project-list .project .title {
+    margin: 0;
+  }
+  .project-list .project__image-container {
+    padding: 0;
+    margin-top: 16px;
+  }
+  .project-list .project__description {
+    margin-top: 16px;
+    display: none;
+  }
+  .project-list .project__description.mobile {
+    display: block;
+  }
 }
 
 .project-page .project {

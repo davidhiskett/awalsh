@@ -3,6 +3,7 @@ layout: project
 title: "Edit Table"
 type: "UI Design | UX Design"
 description: "Creation of the ‘Edit Activity’ making up an editable data table, for ARKK Solutions financial automation platform."
+company: "ARKK Solutions"
 image: "editable-table/main-image.png"
 ---
 

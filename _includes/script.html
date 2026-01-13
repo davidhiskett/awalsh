@@ -1,11 +1,14 @@
 <script>
     function handleScroll() {
         const logoContainer = document.querySelector('.logo-container');
+        const headerContent = document.querySelector('.header');
 
         if (window.scrollY > 0) {
             logoContainer.classList.add('scrolled');
+            headerContent.classList.add('scrolled');
         } else {
             logoContainer.classList.remove('scrolled');
+            headerContent.classList.remove('scrolled');
         }
     }
 

@@ -3,6 +3,7 @@ layout: project-plain
 title:  "Course projects"
 type: "UI Design | UX Design | Visual Design"
 description: "Case studies for two client-based course projects, and one personal course project."
+company: "RED Academy"
 image: "course-projects/main-image.png"
 ---
 # ANGLESEY

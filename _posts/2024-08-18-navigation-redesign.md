@@ -3,6 +3,7 @@ layout: project
 title:  "Navigation redesign"
 type: "UI Design | UX Design"
 description: "A redesign project for a central part of the ARKK Solutions financial automation platform."
+company: "ARKK Solutions"
 image: "navigation-redesign/main-image.png"
 ---
 
