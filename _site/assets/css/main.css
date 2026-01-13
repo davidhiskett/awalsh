@@ -1295,7 +1295,7 @@ ul {
 
 .about-section {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   padding: 24px;
 }
 .about-section__inner {
@@ -1334,10 +1334,11 @@ ul {
   background-color: #EDE6E3;
 }
 .project-list .project__header {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
 }
 .project-list .project__header .title {
+  font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
