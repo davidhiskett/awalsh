@@ -7,50 +7,50 @@ company: "ARKK Solutions"
 image: "product-portal/main-image.png"
 ---
 
-## OVERVIEW
-With several different products on offer, each of which had a separate sign in experience, ARKK wanted to align these to create a more unified product. Our secondary aim was to create a new area where users could learn about the other products on offer.
+## A fragmented sign-in experience for customers & poor product visibility for ARKK
+ARKK’s product offering consisted of four platforms, each with its own sign in interface. If customers worked across multiple products, they did this via product specific URLs with no ability to jump across within a shared platform. 
 
-My role in this was predominantly as UI Designer, with responsibility shifting into UX following changes within the design team. Due to the forward facing nature of this project, multiple teams across the company were involved including Marketing, Development and senior management.
+## Connected products, detached logins, frustrated users
 
-## PROBLEM
-- Separate sign in pages for 4 products.
-- No easy way to switch between products.
-- Old branding on sign in pages.
+We needed to provide a shared sign in experience that would reduce the friction of a back and forth workflow, whilst also taking the commercial opportunity to increase visibility of ARKK’s wider product offering without interrupting primary user tasks. 
 
-## GOALS
-- Create a shared sign-in with access to other products users may own. 
-- Make use of this new space to advertise all ARKK products.
-- Allow customers to navigate between different products when signed into another.
-- Update branding.
+I joined the project as a UI Designer, but transitioned into leading UX delivery following internal team changes. This included defining cross-product navigation patterns, portal information architecture, and interaction behaviour for a new shared login and access experience. 
+
+Key achievements:
+- Sign in entry points reduced from four to one 
+- Users with multiple licences could move between platforms without re-authenticating, removing repeated login friction
+- Product discoverability increased through portal exposure, supporting internal cross-sell initiatives 
+- A scalable framework was setup to facilitate future product additions 
 
 <br>
 
 ---
 
-### WIREFRAMES
-<div class="row two-image">
-    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-wireframes-1.png">
-    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-wireframes-2.png">
-</div>
-The Product Designer who was working on this project prior to my involvement developed some simple wireframes. These covered the new universal menu that would allow users to switch between their products, and the previous page where all ARKK products could get listed together, which was a new page we were introducing.
+### Creating a new step when signing in
+![]({{ site.baseurl }}/assets/img/product-portal/portal-wireframes-2.png)
+A new single sign in page would act as a central access point. Customers would then be faced with a new page where they would be required to select the product they wished to use. The creation of this page was key to enabling product education without disrupting task completion. 
 
-### MENU & ICON EXPLORATION
+### Adding cross product navigation 
+![]({{ site.baseurl }}/assets/img/product-portal/portal-wireframes-1.png)
+A further addition within each platform was a universal product menu to enable movement between owned tools within a single authenticated session.
+
+### Testing different menu & icon options
 <div class="row three-image">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-1.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-2.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-3.png">
 </div>
-I experimented with some ideas for the open universal menu and button in the page header, testing out different selected states and division of information. 
+We needed this new menu to be clear yet not interfere with existing components and prioritise immediate access to owned products, whilst surfacing the existence of others. 
 
-### FINAL MENU & ICON
+### Our menu & icon choices
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-menu-1.png)
-For the button which opens the universal menu in the page header, we settled on an icon that resembled a grid of apps, with a border around it. From research I did of other well known products, this aligned with a common understanding of a multi product menu. The circle also fell in line with the rest of the page header including the organisation and user menus. We could then make use of a filled design for the open state. We did not feel the need to have this new icon as a filled circle in the default state as we knew most customers uploaded their own images for the other two menus.
+We adopted a grid based icon, which was consistent with established multi-product platforms, reducing any learning curves for existing customers.
 <br>
 <br>
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-menu-2.png)
-For the open state of the menu we wanted a very simple design, and one that mirrored the layout we chose for the portal page. Existing customer products got listed at the top, then others in the lower section, with an indication that if they clicked them information would open in a new tab to explain these products that they did not own.
+For the open state of the menu we needed to list existing products alongside others.
 
-### LAYOUT EXPLORATION
+### Plotting the structure of a new page
 <div class="row three-column mb32">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-1.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-2.png">
@@ -65,19 +65,28 @@ For the open state of the menu we wanted a very simple design, and one that mirr
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-11.png">
     <img src="{{ site.baseurl }}/assets/img/product-portal/portal-exploration-12.png">
 </div>
-When exploring layouts for the new portal page, I was committed to considering the different options we had. I also wanted the final layout to be a group decision. We were initially drawn to using imagery, and applied photos taken around the office. When the designs went beyond the experimentation stage however, it was agreed that this created a corporate and far more clinical feel than we wanted. It was for this reason we made use of graphics instead.
+As this was a new page, we had many opportunities to consider. When in this stage I sought to balance usability with commercial visibility. In order to achieve this I facilitated layout and prioritisation workshops, even at this early stage.
 
-Focusing on getting group buy-in for layout was one of the most valuable stages I carried out, as different people involved had different priorities and I was keen to get them all together to reach a collaborative decision. After one particularly successful meeting I had several messages thanking me for including them in this process, one which they do not normally see or participate in.
+We needed to align on:
+- Product exposure requirements
+- Navigation hierarchy
+- Implementation constraints 
 
+### Encouraging stakeholder input
+Early alignment across Product, Marketing, Engineering and senior leadership reduced iteration during development and enabled the portal to support both usability and commercial objectives. I received a lot of gratitude for including wider teams in a process they do not normally witness, yet appreciated collaborating in. 
 
-### FINAL PRODUCT PAGES
-![]({{ site.baseurl }}/assets/img/product-portal/portal-final-1.png)
-Products that customers owned appeared in the ‘open’ section, whilst those they didn’t sat in the ‘discover’ section. Information for the discover products rotated in a carousel on the left.
+### Presenting a new architecture
+Products would be grouped into the following sections: 
+- Open - products within the user’s licence
+- Discover - products available, but not currently owned
+
+Hover and selection states allowed users to preview product information before navigating away from the portal, enabling product education without massively interrupting the task they logged on to carry out.
+
+![]({{ site.baseurl }}/assets/img/product-portal/portal-final-1.png) 
 <br>
 <br>
 
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-2.png)
-On hover of any product on the right, the image and description for that one in question would show on the left.
 <br>
 <br>
 
@@ -87,15 +96,15 @@ If a customer clicked on a product they didn’t own on the right, this would pa
 <br>
 
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-4.png)
-User menu.
 
 
-### RESPONSIVE BEHAVIOUR
+### Responsive considerations
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-responsive.png)
-I made sure to lay the expected responsive behaviour for these screens out clearly for the development team. Stating when the contents of the page were to fix at minimum and maximum widths, whilst also changing the layout for screens below 1000px.
+I made sure to lay the expected responsive behaviour out for these screens for the development team. Stating when the contents of the page were to fix at minimum and maximum widths, whilst also changing the layout for screens below 1000px.
 
-### PROTOTYPE
 <div style="padding:63.08% 0 0 0;position:relative;border: 1px solid #dadada;border-top: 0;"><iframe src="https://player.vimeo.com/video/1008412221?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Product portal"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-### REFLECTION
-It was a challenge picking this project up from another Product Designer after a considerable amount of work had already been conducted without my participation. I did however feel a big sense of achievement in taking on these updates. I worked particularly hard to keep all the different teams involved in this project updated and part of our decision making. This also was not easy, but I got a huge sense of achievement from knowing I had maintained those connections, from the design to the final product. 
+### Taking ownership & managing cross-team expectations
+Assuming ownership of an already in-progress project required rapid evaluation of existing research and decisions, while maintaining delivery timelines across multiple teams. This was difficult initially, but satisfying once that understanding sunk in and I moved forward with decisions that were left to make.  
+
+A key focus and personal accomplishment was aligning commercial and usability priorities early in the process. An area for improvement would be improving the visual design of the product tiles to feel less busy.  
