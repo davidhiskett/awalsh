@@ -103,7 +103,7 @@ During this project we carried over a huge amount of functionality, and our focu
 
 Due to a disappointing number of responses from merchants for us to test the new dashboard with, we also added a ‘provide feedback’ button in the main navigation to encourage our customers to give any details as they went about their tasks. This did prove useful, and helped guide a series of updates featured below.
 
-#### Recognising customer feedback, adding functionality & applying a rebrand
+### Recognising customer feedback, adding functionality & applying a rebrand
 The UI for the MVP was initially kept intentionally minimal in acknowledgment of a company wide brand refresh that was in progress. The following designs feature the updates we applied in collaboration with the marketing team, along with a much anticipated overview page and extra functionality.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-1.png)
