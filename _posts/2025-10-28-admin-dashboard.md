@@ -1,56 +1,53 @@
 ---
 layout: project
-title: "Admin dashboard redesign"
+title: "Merchant dashboard"
 type: "UI Design | UX Design"
 description: "Admin dashboard redesign for Yaspa’s open banking platform."
 company: "Yaspa"
 image: "admin-dashboard/main-image.png"
 ---
 
-## OVERVIEW
-The admin dashboard at Yaspa is a crucial B2B communication tool, documenting data on open banking transactions.
+## An outdated B2B dashboard with a confusing layout was an under-used asset
+The admin dashboard at Yaspa is a crucial B2B communication tool, documenting data on open banking transactions. Originally developer-built area, with only a few UX patterns in mind, it was in much need of a refresh. 
 
-With a growing list of complaints, and upcoming new features, there was a need to improve the dashboard with scalability in mind. The dashboard was originally built with only a few UX patterns in mind, which were based on assumption and never tested. As features have been added, so has the number of issues requiring short term fixes. Being a crucial stage in securing new contracts, improving the dashboard would also bring a welcomed update to sales collateral.
-
-I was brought on board to tackle this redesign. I was the only designer on the project, working alongside a product manager, business analyst, data scientist, three front end developers and two testers. With further input from several other stakeholders.
-
-## PROBLEM
-- Multiple redundant and faulty features were presenting a poor user experience.
-- Little consideration for UX led to inefficient layout and problematic navigation.
-- Outdated and inconsistent visual design was impacting general experience and brand image.
-
-## GOALS
-- Update Ul to match current standards and incorporate updated brand assets - aiming for clarity, consistency and brand trustworthiness.
-- Provide clear insights with better visualisation and reporting of transaction data.
-- Improve usability through simplified layouts and navigation which supports expansion.
-- Recognise accessibility standards in our design and development process.
-- Create a design system that can facilitate future development.
+Team:
+Myself leading design, one product manager, one business analyst, one data scientist, three front end developers and two testers.
 
 <br>
 
 ---
 
-### EXISTING DASHBOARD
-My initial focus was to review the dashboard in its current state myself, to ensure I was approaching this task objectively. I took screenshots of every section, observing what in my view worked, didn’t work, or appeared to be missing.
+### A fragmented system with buried features and harsh UI
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/existing-dashboard-1.png)
 
-### INTERVIEWS
-Prior to joining the company, a design colleague had conducted interviews with three merchants who had recently integrated with Yaspa. These customers were asked open ended questions regarding their recent experience with the dashboard. A standout finding from this was checking the status of a transaction was a crucial task. It was also reported that some filters do not work reliably, and more analytics on both customers and transactions would be helpful.
+Our initial assessment of the dashboard concluded that it had fallen victim to several quick fixes and add-ons, which consequently hid a lot of features. For instance there was a heavy reliance on multiple levels of tabs within one view. 
 
-As a product team we then spoke internally to the compliance, customer support and sales teams to get an assessment of how our colleagues, and the customers they spoke to daily, experienced the dashboard. Below is a summary of the points we discovered.
+For the visual design we noted heavy shadows and text that was far too pale to pass accessibility.
+
+### Customers ignored most pages
+Reviewing customer activity on Mixpanel for the dashboard informed us that most areas of the dashboard were underused, many of which lay completely dormant.
+
+Customers told us they accessed the dashboard simply to check the payments table, they got confused when clicking around so lost motivation to explore. Unfortunately it transpired that they did not have a huge need to use our dashboard. There was an opportunity to improve and educate on the benefit we were able to provide customers.
 
 ![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/interviews-1.png)
 
-### MARKET RESEARCH
-We conducted market research to evaluate current visual and UX standards, with a particular focus on payments dashboards. We kept a communal board of screenshots, which I sorted by product and then further divided into specific areas for features relevant to us. From this, we found Stripe, GoCardless and Checkout.com useful in relevance and interesting design. This board was added to and used frequently by the whole team throughout the whole project.
+Conversations with internal team members revealed more about what was missing and broken, something the compliance team were incredibly eager to rectify due to regulation in the gambling industry around basic customer identifiers.
+
+### An aim for the clarity that other dashboards achieved
+
+![]({{ site.baseurl }}/assets/img/admin-dashboard/market-research-1.png)
+
+A critique of relevant payment dashboards including Stripe, GoCardless and Truelayer, taught us the need for a calm visual hierarchy. The data-heavy reality of payment information requires key metrics to be scanned, with further details easily accessible when required. Common patterns included drilling down from high level grouped transactions, to individual details close by on overlays or modals.
 
 
-We progressed with a collection of confirmed problems and an idea of how we wanted to reshape the dashboard, and we defined requirements for each section on confluence. For areas we were less certain about, including a new customers page, we held design workshops to outline what we knew, what was possible, and what had been requested. We also met with the front end team regularly to confirm expectations and functional requirements.
+### Mapping areas & setting priorities
 
+![]({{ site.baseurl }}/assets/img/admin-dashboard/mapping-areas-1.png)
 
-### LAYOUT EXPLORATION
-Different options for general structure and navigation wdere considered, but from our research a main left navigation side bar was common and felt the most appropriate for future growth of the dashboard. This would free up the page header to be used for extra content, and provide space for future pages to be added underneath.
+A page-by-page assessment was conducted to determine what to keep, improve or remove. This was an extensive exercise completed with the product manager to refine requirements, and the front end team to manage expectations and technical details before we started designs. A design plan was constructed that aligned with the development plan, allowing us to design and develop in parallel.
+
+### Exploring different page structures that support scalability
 
 <div class="row two-column">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/layout-exploration-1.png">
@@ -59,8 +56,9 @@ Different options for general structure and navigation wdere considered, but fro
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/layout-exploration-4.png">
 </div>
 
-### WIREFRAMES
-We created and reviewed wireframes for each section of the dashboard, below is a snapshot of this process. Regular feedback sessions were conducted within the product team, then larger ones with the front end developers, testers and CTO. The high fidelity designs were then shown to internal teams and we collectively processed and dealt with often conflicting requests.
+Our research inspired some initial exploration on the fundamental structure of the page and navigation. A left navigation appeared to be the most common and would provide us with more space to add whole pages or sub-sections in the future. It would also allow for an informative page header.
+
+### Improving content & structure
 
 <div class="row two-column">
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-1.png">
@@ -71,40 +69,60 @@ We created and reviewed wireframes for each section of the dashboard, below is a
     <img src="{{ site.baseurl }}/assets/img/admin-dashboard/wireframes-6.png">
 </div>
 
-During this process it was agreed the visuals for an overview page would be created and displayed using the data visualisation tool Tableau, and that this would be in the second round of development. 
+After the main structural plan was agreed, we focused on features and functionality. Wireframes were created and reviewed regularly to ensure we were addressing the issues raised by internal and external users. We had wide involvement from the team here, including frequent check-ins with the CTO to ensure transparency and alignment on the project.
 
-### FINAL DESIGNS
-After collecting relevant feedback from internal teams, we submitted the final designs for development. This involved multiple handoff sessions with the front event developers and testers, to intercept last minute uncertainties and allow for these to be detailed on tickets. This was a fluid and collaborative process with the front end developers, who constantly reviewed their work with me before it was handed to the testing team.
+### Delivering improved layout with transaction transparency
+After multiple feedback and refinement sessions with the development and testing teams, we delivered the MVP. Screens were built in stages, giving priority to sign in screens and the payments area.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-1.png)
-Login screen updated in line with our website and brand refresh.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-2.png)
-The payment pages were previously divided into two separate menu sections, but as these products are so closely related, we rearranged them into tabs to connect them and save on space. We then improved the search and filter functionality above the payments table, which was the most requested change in this project.
+We brought the previously separated payment sections into one page, organised with tabs to save on space and connect two so closely related products.
 
+<br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-3.png)
-Each row on the payments table contains information about a single transaction. Further details then show on an overlay when a row is clicked. We changed the layout of this detailed information from a whole page view, which took you away form the table, to an overlay, which keeps the user in the same space and allows them to return to the table more easily. We focused on improving readability of this section with an underline connecting labels with the content.
+Extra information for each transaction was moved to an overlay, visible on click of a row. We aimed to keep users in closer contact to the payments table, previously being taken out to a whole separate page. This area was designed with scalability in mind using clear collapsable sections, as future functionality would need to be displayed here. 
 
-![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-4.png)
-The old customers section was reported to not be very meaningful, with basic details failing to pull through. Working closely with the product manager, we planned out more meaningful information about customers, including bank account information and overview statistics. We then checked this was possible with the backend team before finalising the designs. This section will be developed further in the future to display in-depth insights on customer’s gambling behaviour.
-
+<br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-5.png)
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-6.png)
-The settings area was improved with a vertical menu, replacing a horizontal tab approach that was filling most of the screen. During research we learnt that users often need to contact our support team, particularly in the beginning stages of setting up their dashboard, so we made this feature more prominent in the toolbar. Other less used features, including developer documentation and knowledge base, were kept within the user menu.
+The settings area also received a vertical menu layout, replacing the overflowing horizontal tab design that was filling most of the screen. During research we learnt users often need to contact our support team, particularly in the beginning stages of setting up their dashboard, so we made this feature more prominent in the toolbar. Other less used features, including developer documentation and knowledge base, were kept within the user menu.
 
+<br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-7.png)
-One simple but impactful improvement we brought in this redesign was feedback. When assessing the state of the previous dashboard we realised that many actions were process with little or no feedback, resulting in confusion or multiple clicks waiting for a change. Any actions that resulted in a change would now include visible feedback on the screen, including errors to meaningfully guide users.
+One simple but impactful improvement we brought to the dashboard was feedback. To validate actions and reduce confusion many areas were given validation or error messages to reduce clicks and therefore the multiple expensive calls which were occurring in the absence of these.
 
+<br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-8.png)
-We included the option to have a collapsed side panel in the redesign, to give users more space to see their information. This has been reported as particularly useful on data heavy pages, including those with a table and the webhooks display.
+We included the option to have a collapsed side panel to give users more space to see their information. This has been reported as particularly useful on data heavy pages, including payment tables and the webhook display.
 
 
-### TESTING
-As we were redesigning an existing dashboard, we were carrying over most of the existing functionality. Our aim with testing was therefore primarily internal, to ensure this functionality had been preserved. A challenge we came up against here though was a lack of documentation for the existing functionality. We worked closely with our business analyst to identify a list of user scenarios which we could then check, which we did as a team. This massively improved our process for the future.
+### Testing challenges
+During this project we carried over a huge amount of functionality, and our focus in testing was therefore primarily to ensure this functionality had been preserved. We did however discover a lack of documentation at this stage that would allow testing to be carried out smoothly. We worked closely with our business analyst to first identify key user scenarios, which we could then check through as a team. This massively improved our process for the future.
 
-Due to time constraints and a lack of willing customers to test the designs externally, we are still in the process of collecting feedback on the dashboard, which will be encouraged through a feedback button on the main side bar which links to a survey. In our announcement of the new dashboard, customers have also been encouraged to reach out to their account managers should they have any comments.
+Due to a disappointing number of responses from merchants for us to test the new dashboard with, we also added a ‘provide feedback’ button in the main navigation to encourage our customers to give any details as they went about their tasks. This did prove useful, and helped guide a series of updates featured below.
+
+#### Recognising customer feedback, adding functionality & applying a rebrand
+The UI for the MVP was initially kept intentionally minimal in acknowledgment of a company wide brand refresh that was in progress. The following designs feature the updates we applied in collaboration with the marketing team, along with a much anticipated overview page and extra functionality.
+
+![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-1.png)
+Along with a design upgrade for the navigation panel with our signature gradient, quick access to out knowledge hub was added following customer feedback with new documentation we had available for them.
+
+<br>
+![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-2.png)
+The filters on the payments page were improved with a single search field following customer comments that they only search one column at once, most commonly this being the transaction ID. The need for a apply button was also removed, with filters being applied as they were clicked from customers preferring the instant change.
+
+<br>
+![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-3.png)
+The biggest update to the dashboard was delivered through name matching technology, a huge technical undertaking in open banking, which we added to our product offering. This helps block fraudulent transactions using a score system to review names saved on merchant accounts against the one on the payment method. This was especially welcomed by merchants due to it being such a massive compliance issue and causing them to lose money through benefit cheats.
+
+<br>
+![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-5.png)
+We improved on the basic customers page in the MVP with a detailed customer view. We wanted this to benefit merchants more in line with the new name matching feature we’d deployed. Being able to compare the name on the account against any payment methods was key here, as were customer-specific stats and transactions, which were previously missing. 
 
 
-### REFLECTION
-It was great to work on this project at a new company, and contribute to improving process at a busy startup. This is an ongoing project, and after we release the dashboard, our attention is shifting to fixes that still need doing, and new sections that will be added. I do see many areas for improvement and have kept a list of ideas which I consistently add to, for example I would personally like to see more of the brand update making its way into the dashboard in certain areas and would enjoy working with the marketing team to make this happen. I also would like to engage with customers to collect more meaningful feedback.
+### An evolving dashboard that can be built upon
+It was great to work on a different project at a new company, and contribute to improving process in a busy startup. With Yaspa’s product offering growing, even whilst we were designing the dashboard, I was proud of how we rearranged content with a reliable foundation to update areas to accommodate these new features. The acceptance of the dashboard as an evolving platform by the wider team was satisfying motivator to working on it. 
+
+Reflecting on the work there are many areas for improvement and fixes to address, including speaking to customers more frequently which would help address this. Our research was heavily reliant on internal colleagues due to customer reluctance to engage. 

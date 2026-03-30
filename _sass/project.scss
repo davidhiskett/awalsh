@@ -64,9 +64,8 @@
 
       h1, h2, h3, h4, h5, h6 {
         font-weight: normal;
-        text-transform: uppercase;
         margin: 48px 0 8px;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
       }
 
@@ -243,6 +242,10 @@
         display: inline-block;
       }
     }
+  }
+
+  .header__content .button-container {
+    display: flex;
   }
 }
 
