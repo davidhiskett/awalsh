@@ -252,17 +252,19 @@ ul { margin: 0; padding-left: 20px; list-style: none; }
 
 .project-list .project__content { margin: 1rem; background-color: #EDE6E3; }
 
-.project-list .project__header { font-weight: 400; font-size: 16px; }
+.project-list .project__header { font-weight: 400; font-size: 16px; padding-right: 24px; }
 
 .project-list .project__header .title { font-weight: 500; text-transform: uppercase; margin-bottom: 16px; }
 
-.project-list .project__image-container { padding-left: 24px; }
+.project-list .project__image-container { overflow: hidden; }
 
-.project-list .project__image-container img { width: 100%; display: block; }
+.project-list .project__image-container img { width: 100%; display: block; transition: transform 0.4s ease-in-out; }
 
 .project-list .project__description { margin-top: 32px; }
 
 .project-list .project__description.mobile { display: none; }
+
+.project-list .project:hover .project__image-container img { transform: scale(1.15); }
 
 @media only screen and (max-width: 41rem) { .project-list { padding: 16px; } .project-list .project { margin-bottom: 72px; } .project-list .project .title { margin: 0; } .project-list .project__image-container { padding: 0; margin-top: 16px; } .project-list .project__description { margin-top: 16px; display: none; } .project-list .project__description.mobile { display: block; } }
 
