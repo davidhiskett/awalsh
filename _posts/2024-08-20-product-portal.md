@@ -10,8 +10,7 @@ image: "product-portal/main-image.png"
 ## A fragmented sign-in experience for customers & poor product visibility for ARKK
 ARKK’s product offering consisted of four platforms, each with its own sign in interface. If customers worked across multiple products, they did this via product specific URLs with no ability to jump across within a shared platform. 
 
-## Connected products, detached logins, frustrated users
-
+### Connected products, detached logins, frustrated users
 We needed to provide a shared sign in experience that would reduce the friction of a back and forth workflow, whilst also taking the commercial opportunity to increase visibility of ARKK’s wider product offering without interrupting primary user tasks. 
 
 I joined the project as a UI Designer, but transitioned into leading UX delivery following internal team changes. This included defining cross-product navigation patterns, portal information architecture, and interaction behaviour for a new shared login and access experience. 
@@ -101,6 +100,8 @@ If a customer clicked on a product they didn’t own on the right, this would pa
 ### Responsive considerations
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-responsive.png)
 I made sure to lay the expected responsive behaviour out for these screens for the development team. Stating when the contents of the page were to fix at minimum and maximum widths, whilst also changing the layout for screens below 1000px.
+<br>
+<br>
 
 <div style="padding:63.08% 0 0 0;position:relative;border: 1px solid #dadada;border-top: 0;"><iframe src="https://player.vimeo.com/video/1008412221?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Product portal"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
