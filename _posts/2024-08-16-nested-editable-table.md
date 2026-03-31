@@ -7,70 +7,87 @@ company: "ARKK Solutions"
 image: "editable-table/main-image.png"
 ---
 
-## OVERVIEW
-Through the emergence of the Pillar 2 framework, multinational enterprises are expected to adhere to a global minimum tax on profits. Customers subject to these new rules would be required to submit large amounts of data, and we wanted to offer them a convenient way of doing this in an interactive table. It was also strongly felt that the benefits of an editable table would stretch beyond this use case. I was the only designer on this project, working mainly with the CTO and a small development team to fit new requirements into our existing table design, and create a new audit log for users to track any changes in.
+## Adding functionality to facilitate a new tax requirement
+With the introduction of the OECD Pillar Two Framework, multinational enterprises are required to submit large volumes of jurisdiction-level financial data in order to comply with global minimum tax regulations. 
 
-## PROBLEM
-- Users are limited in their ability to edit data within tables.
-- Incorrect or missing data could only be addressed by updating original files then re-uploading.
-- A change report which listed any changes made on the platform was difficult to read and interact with.
+Within ARKK, this created a need for customers to amend and validate submitted datasets quickly without repeatedly reprocessing source files. 
 
-## GOALS
-- Streamline the process by which users are amending table data to help with Pillar 2 submissions and other activities.
-- For this process to occur on the platform.
-- Users are able to keep track of these changes in an easy to use audit log.
+This project introduced:
+- Direct, in-platform editing of tabular financial data
+- A persistent audit log for tracking amendments
+- Support for nested table structures that aligned with Pillar Two reporting requirements 
+
+I was the sole designer on this project, working closely with the CTO and a small engineering team to extend the platform’s existing table frameworks while introducing editability and traceable change history. 
 
 <br>
 
 ---
 
-### KICKOFF
+### An inability to edit table data caused frustration from slow updates
+Prior to this project, ARKK customers could not edit table data in-platform, which resulted in any incorrect values needing to be amended in the source file, and re-uploaded. A change history feature was also export-only and difficult to interpret. 
+
+### Establishing our goals around keeping customers in the platform
 ![]({{ site.baseurl }}/assets/img/editable-table/kickoff-1.png)
-We conducted an initial kick-off meeting to understand the problems we faced for both sides of this project. As Pillar 2 was a new set of rules, there was no existing process for us to examine how such data gets submitted. We instead focused on understanding how users might access and amend data in complex tables, and what they expected to see with regards to an audit trail.
-<br>
-<br>
+As this was a new requirement, we had no established internal workflow to address benchmark against. We focused on understanding how users might access and amend data in complex tables, and what they expected to see with regards to an audit trail.
 
+Customer interview were conducted to understand: 
+- How they currently validate submitted datasets
+- When corrections typically occur in the reporting process
+- What level of change traceability is favourable
+
+### User scenarios to emphasise a need for more flexibility
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/kickoff-2.png)
-I listed out some user scenarios following interviews with customers to help shape the solutions we came up with.
+From this, I developed user scenarios to identify where in-platform editing could replace file-based correction cycles. Current workflows were forcing users to take multiple steps to amend any data, or spot changes. These were key areas to focus on. 
 
-### AUDIT LOG RESEARCH
-The existing approach to documenting changes on the platform was through a ‘change report’, which could only be viewed on export and consisted of a list that was difficult to read due to a lack of any helpful styling. This project brought welcomed motivation to update this feature.
+### A change report only visible on export kept helpful information hidden
+The existing approach to documenting changes was limited, making it difficult to:
+- Identify individual changes
+- Understand edit context 
+- Trace any responsibility for changes
 
+### Researching options to display changes in view 
 ![]({{ site.baseurl }}/assets/img/editable-table/audit-log-1.png)
-I conducted research to explore the structure an audit log could take, and the standard features users would expect to see here. The majority of these examples presented audit logs on separate pages, whereas we wanted to consider an audit panel that users could view alongside their data. I then conducted additional research into panels that were not necessarily for audit purposes, but could help inspire different approaches for us to take.
+Researching audit log patterns across enterprise platforms revealed that most logs were isolated from the worksheet, but easily accessible. I also reviewed panels outside of audit log needs, to get a broader understanding of displaying supporting information next to a detailed main frame. 
 <br>
 <br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/audit-log-2.png)
-After collecting all this information and with the requirements in mind I sketched out initial concepts for an audit log panel. Initially a big focus for us was to have a very narrow audit log panel to save on space, which you could expand out to fill the activity frame in this view.
+We moved towards an overlay which would allow users to:
+- Search and filter amendments
+- Review change metadata
+- Maintain visibility of edits during data validation 
 <br>
 <br>
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/audit-log-3.png)
-I then developed some wireframes to consider different solutions. The differences I considered related to icons, panel width and expansion behaviour.
-<br>
-<br>
 
+### Choosing an overlay that didn’t interrupt workflow
 ![]({{ site.baseurl }}/assets/img/editable-table/audit-log-4.png)
-In this version of the panel I developed to be tested, one of our main priorities was to make good use of space. For this reason we placed the sort and filter inside a menu next to the search bar, which we saw as more important. We also included the ability to expand the panel to the left over the activity. The stretched to the edge design of the cards was also intended to save space. We found however, that hiding features meant users didn’t know such things were there to help them navigate the panel. Expanding the panel over the activity also proved counterproductive in that it covered the data they were reviewing.
+Early iterations explored space-saving approaches by hiding sort and filter controllers, however usability testing showed that this reduced feature discoveryability. These were added back on the final design. We also learnt that it was important for customers to review table data alongside any changes, so we abandoned the full width expand functionality, instead giving them the ability to resize the panel themselves.
 
-### FINAL DESIGNS
+### Adding in the editability that customers needed 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-2.png)
-As we already had a design for tables across the platform, the task here was more about introducing the new states we needed in an appropriate style. I experimented with different options here, but we preserved our existing pale blue row hover and introduced the selected state for a cell to be edited as a white fill with a thicker blue border. This was consistent with behaviour elsewhere for input fields. Further modifications we applied included horizontal and vertical lines across the table values, something we had previously achieved with space, but could not afford to do in this data heavy scenario.
+Editable states were introduced into the existing table system to support data amendments. 
+
+Interaction design considerations:
+- Clear visual differentiation on hover for which cells were editable 
+- Cell-level edit selection 
+- Consistent focus and input behaviour 
+- Gridline introduction to support dense financial datasets  
 <br>
 <br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-3.png)
 
 ![]({{ site.baseurl }}/assets/img/editable-table/final-designs-1.png)
-I made developments to the audit log panel based on feedback we received, bringing features back into view, including icons with labels for better usability. We were satisfied that we could save adequate space by having the minimised state for the cards as default, and that the rounded grey cards provided a cleaner visual. But with this, it then became apparent that the ability to expand or collapse all cards would be helpful. We found a full screen view of the panel was not overly helpful to users, but they could resize it here to see more details in their view.
+Improvements to the audit panel included minimised cards for change entries by default to save space, but the ability to expand or collapse all to review more details.
 <br>
 <br>
 
 ![]({{ site.baseurl }}/assets/img/editable-table/final-designs-2.png)
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png)
-As part of this project we also designed a nested edit table that could accommodate multiple levels inside a single column. This was related to how data that needs to be submitted as part of Pillar 2 is grouped.
+Nested table functionality was introduced to support jurisdiction-level grouping within Pillar Two submissions. 
 <br>
 <br>
 
@@ -80,6 +97,13 @@ As part of this project we also designed a nested edit table that could accommod
 
 ![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-4.png)
 
+### Customers could now review, amend and check all in one view
+File re-upload cycles were dramatically reduced when customers were able to make changes to table data on the platform. Furthermore, customer feedback confirmed that having an amendment history viewable in-session was reported to be one of the most useful updates they had received. 
 
-### REFLECTION
-This was a unique project in that we worked in a very small team, but that meant we could make progress fast with constant check-ins and updates. I valued owning the design part of the project, but also having that direct line of communication with the development team to work through our solutions. If we had more time, we all wanted to focus on developing the table highlights which show when a specific change entry is selected on the audit log. This carries certain complexity with the different effects that would be needed, for example to show the difference between a row which has been removed, and effectively not even on the table anymore, compared to a cell which has been amended.
+The impact of these small changes was huge in improving workflow and customer satisfaction.
+
+
+### Big changes from a small team
+Working within a small product team on these changes allowed for rapid iteration and direct collaboration with the engineering team. 
+
+Future developments that were highlighted throughout our initial work included adding a visual link between audit entries and table changes, particularly for distinguishing between removed rows or amended cells, to strengthen traceability within complex reporting scenarios.
