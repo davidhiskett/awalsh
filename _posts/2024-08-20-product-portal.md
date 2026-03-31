@@ -34,11 +34,9 @@ A new single sign in page would act as a central access point. Customers would t
 A further addition within each platform was a universal product menu to enable movement between owned tools within a single authenticated session.
 
 ### Testing different menu & icon options
-<div class="row three-image">
-    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-1.png">
-    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-2.png">
-    <img src="{{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-3.png">
-</div>
+![]({{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-1.png)
+![]({{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-2.png)
+![]({{ site.baseurl }}/assets/img/product-portal/portal-menu-icon-3.png)
 We needed this new menu to be clear yet not interfere with existing components and prioritise immediate access to owned products, whilst surfacing the existence of others. 
 
 ### Our menu & icon choices
