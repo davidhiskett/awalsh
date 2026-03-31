@@ -138,7 +138,7 @@ Internally the redesign established:
 - When customers did need help, an ability to help them much faster with the improved layout and design  
 
 
-### Learnings and an underestimated time line
+### Learnings and an underestimated timeline
 As project scope expanded, I became increasingly involved in research and planning activities to support design decisions across navigation and filtering. This was a great learning opportunity for me to step outside of purely the visual updates we had planned, and I really enjoyed the different approaches each of these tasks demanded. 
 
 While the release improved process reviewing, future iterations around complex connections would further help customers complete their tasks, specifically around visually clarifying which activities needed to be completed before the others could commence. This is not a linear process, and currently not visible in our designs above.  
