@@ -115,6 +115,7 @@ The filters on the payments page were improved with a single search field follow
 
 <br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-3.png)
+![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-4.png)
 The biggest update to the dashboard was delivered through name matching technology, a huge technical undertaking in open banking, which we added to our product offering. This helps block fraudulent transactions using a score system to review names saved on merchant accounts against the one on the payment method. This was especially welcomed by merchants due to it being such a massive compliance issue and causing them to lose money through benefit cheats.
 
 <br>
