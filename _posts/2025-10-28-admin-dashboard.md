@@ -5,6 +5,8 @@ type: "UI Design | UX Design"
 description: "Admin dashboard redesign for Yaspa’s open banking platform."
 company: "Yaspa"
 image: "admin-dashboard/main-image.png"
+external_link: "https://www.figma.com/proto/HmoZtrzSJ548OWMPdmXATE/Merchant-dashboard?node-id=2001-248161&viewport=651%2C176%2C0.09&t=XPUtVueJmrAOsssF-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2001%3A248161&show-proto-sidebar=1&page-id=2001%3A247196"
+external_link_text: "View prototype"
 ---
 
 ## An outdated B2B dashboard with a confusing layout was an under-used asset
