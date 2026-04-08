@@ -52,8 +52,8 @@
 
                 {% if page.external_link %}
                     <div class="project__button">
-                        <a href="{{ page.external_link }}" title="View {{ page.title }}" target="_blank" class="button">
-                            <span>V{% if page.external_link_text %}{{ page.external_link_text }}{% else %}iew {{ page.title }}{% endif %}</span>
+                        <a href="{{ page.external_link }}" title="{% if page.external_link_text %}{{ page.external_link_text }}{% else %}View {{ page.title }}{% endif %}" target="_blank" class="button">
+                            <span>{% if page.external_link_text %}{{ page.external_link_text }}{% else %}View {{ page.title }}{% endif %}</span>
                         </a>
                     </div>
                 {% endif %}

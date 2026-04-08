@@ -129,12 +129,12 @@ An oversight from both myself and the team was a failure to prioritise mobile de
 
 Prompt: “Make me a series of mobile layouts for the desktop screens attached. This is for a payments dashboard where data heavy information needs to be presented clearly but brand presence is still felt, including the purple features and logo. Make use of the purple to orange gradient featured here on the main navigation panel. For where there are tables present prioritise: amount, status, bank, date and key references. Any other information can be viewed on overlays or other expansion features.”
 
-![]({{ site.baseurl }}/assets/img/admin-dashboard/ai_inspiration.png)
+![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/ai_inspiration.png)
 After exploring AI layout and design ideas, I finalised content myself on wireframes, before producing designs for key screens.
 
 <br>
-![]({{ site.baseurl }}/assets/img/admin-dashboard/wireframes_and_designs.png)
-![]({{ site.baseurl }}/assets/img/admin-dashboard/mobile_mockup.png)
+![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/wireframes_and_designs.png)
+![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/mobile_mockup.png)
 These designs were not tested with customers, and I would be interested to hear whether the content prioritised here in the initial views met their needs and expectations for using the dashboard. 
 
 ### An evolving dashboard that can be built upon
