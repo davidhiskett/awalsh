@@ -122,6 +122,18 @@ The biggest update to the dashboard was delivered through name matching technolo
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-5.png)
 We improved on the basic customers page in the MVP with a detailed customer view. We wanted this to benefit merchants more in line with the new name matching feature we’d deployed. Being able to compare the name on the account against any payment methods was key here, as were customer-specific stats and transactions, which were previously missing. 
 
+### Making use of AI to develop overlooked mobile layouts
+An oversight from both myself and the team was a failure to prioritise mobile designs. This became a bigger issue after the dashboard was released, when the commercial team informed us of the demand for it. I worked on the following additions in my own time, using AI for assistance and inspiration. 
+
+Prompt: “Make me a series of mobile layouts for the desktop screens attached. This is for a payments dashboard where data heavy information needs to be presented clearly but brand presence is still felt, including the purple features and logo. Make use of the purple to orange gradient featured here on the main navigation panel. For where there are tables present prioritise: amount, status, bank, date and key references. Any other information can be viewed on overlays or other expansion features.”
+
+![]({{ site.baseurl }}/assets/img/admin-dashboard/ai_inspiration.png)
+After exploring AI layout and design ideas, I finalised content myself on wireframes, before producing designs for key screens.
+
+<br>
+![]({{ site.baseurl }}/assets/img/admin-dashboard/wireframes_and_designs.png)
+![]({{ site.baseurl }}/assets/img/admin-dashboard/mobile_mockup.png)
+These designs were not tested with customers, and I would be interested to hear whether the content prioritised here in the initial views met their needs and expectations for using the dashboard. 
 
 ### An evolving dashboard that can be built upon
 It was great to work on a different project at a new company, and contribute to improving process in a busy startup. With Yaspa’s product offering growing, even whilst we were designing the dashboard, I was proud of how we rearranged content with a reliable foundation to update areas to accommodate these new features. The acceptance of the dashboard as an evolving platform by the wider team was satisfying motivator to working on it. 
