@@ -21,7 +21,7 @@ Myself leading design, one product manager, one business analyst, one data scien
 
 ### A fragmented system with buried features and harsh UI
 
-![]({{ site.baseurl }}/assets/img/admin-dashboard/existing-dashboard-1.png)
+![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/existing-dashboard-1.png)
 
 Our initial assessment of the dashboard concluded that it had fallen victim to several quick fixes and add-ons, which consequently hid a lot of features. For instance there was a heavy reliance on multiple levels of tabs within one view. 
 
@@ -38,14 +38,14 @@ Conversations with internal team members revealed more about what was missing an
 
 ### An aim for the clarity that other dashboards achieved
 
-![]({{ site.baseurl }}/assets/img/admin-dashboard/market-research-1.png)
+![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/market-research-1.png)
 
 A critique of relevant payment dashboards including Stripe, GoCardless and Truelayer, taught us the need for a calm visual hierarchy. The data-heavy reality of payment information requires key metrics to be scanned, with further details easily accessible when required. Common patterns included drilling down from high level grouped transactions, to individual details close by on overlays or modals.
 
 
 ### Mapping areas & setting priorities
 
-![]({{ site.baseurl }}/assets/img/admin-dashboard/mapping-areas-1.png)
+![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/mapping-areas-1.png)
 
 A page-by-page assessment was conducted to determine what to keep, improve or remove. This was an extensive exercise completed with the product manager to refine requirements, and the front end team to manage expectations and technical details before we started designs. A design plan was constructed that aligned with the development plan, allowing us to design and develop in parallel.
 
