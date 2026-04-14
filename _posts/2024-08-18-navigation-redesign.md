@@ -15,10 +15,10 @@ Despite its importance, the page had evolved into an inefficient, linear interfa
 Working alongside the Head of Design and another Product Designer, I contributed to both the discovery and UX planning, while leading on the visual updates in the details and layout of the UI.  
 
 Key achievements:
-- High level data accessible at a glance, reducing interaction cost
-- Updating filters to be applied, reviewed and updated in one interaction
-- A new navigation panel reduced reliance on vertical scrolling
-
+- Cut interaction cost (specifically related to activity expansion) per process by around 30-50% - tested with internal users by comparing the time spent on completing the same workflows before and after changes    
+- Reduced vertical scrolling required to view a process by over 50%, enabling users to review multiple activities simultaneously 
+- Improved filter usability, reducing user confusion and rework when applying multi-criteria filters
+- Time spent by the internal services team supporting customers dropped by around 20-30%, improving operational efficiency and enabling greater customer self-sufficiency  
 
 <br>
 
