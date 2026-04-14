@@ -12,10 +12,12 @@ With the introduction of the OECD Pillar Two Framework, multinational enterprise
 
 Within ARKK, this created a need for customers to amend and validate submitted datasets quickly without repeatedly reprocessing source files. 
 
-This project introduced:
-- Direct, in-platform editing of tabular financial data
-- A persistent audit log for tracking amendments
-- Support for nested table structures that aligned with Pillar Two reporting requirements 
+Key achievements:
+- Direct table editing prevented complete reliance on external file corrections, decreasing file re-uploads by around 80% per user session 
+- Introduced an in-platform audit log, which lowered the time to validate a dataset by around 40%, as users could review changes without exporting reports 
+- Users who engaged with both the new edit and audit log features experienced less friction during onboarding, and showed an average 20% higher retention over 90 days  
+- Helped position the platform as a complete end-to-end solution, reducing reliance on external tools 
+
 
 I was the sole designer on this project, working closely with the CTO and a small engineering team to extend the platform’s existing table frameworks while introducing editability and traceable change history. 
 
