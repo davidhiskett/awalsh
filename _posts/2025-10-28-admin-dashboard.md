@@ -15,6 +15,13 @@ The admin dashboard at Yaspa is a crucial B2B communication tool, documenting da
 Team:
 Myself leading design, one product manager, one business analyst, one data scientist, three front end developers and two testers.
 
+## Following the release and promotion of the newly designed dashboard, we recorded multiple key achievements from Mixpanel:
+- Increased weekly active users of the dashboard by around 40%
+- Improved feature discoverability and reduced single-page sessions (users viewing payments table only), with previously unused pages seeing a 2 to 3 times increase in interaction rate 
+- Users spending longer on the dashboard, with a deduced dro-poff after login by 15-20%
+- Launched a name matching scoring system, allowing merchants to identify mismatches between customer and payment account names, reducing potentially fraudulent transactions by an estimated 35%
+- Turned the dashboard from a passive reporting tool into an active risk management product
+
 <br>
 
 ---
