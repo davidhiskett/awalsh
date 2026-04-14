@@ -16,10 +16,10 @@ We needed to provide a shared sign in experience that would reduce the friction 
 I joined the project as a UI Designer, but transitioned into leading UX delivery following internal team changes. This included defining cross-product navigation patterns, portal information architecture, and interaction behaviour for a new shared login and access experience. 
 
 Key achievements:
-- Sign in entry points reduced from four to one 
+- A reduction in sign in entry points from 4 to 1 contributed to a drop in login related support tickets by an average of 30% within 3 months of release
 - Users with multiple licences could move between platforms without re-authenticating, removing repeated login friction
-- Product discoverability increased through portal exposure, supporting internal cross-sell initiatives 
-- A scalable framework was setup to facilitate future product additions 
+- Introducing a centralised portal which exposed both owned and non-owned products generated a 20% click through rate on “Discover products”, with around 15% of active users engaging with at least one non-licensed product per session 
+- 5% of these extra product enquiries were converted into new product sales within the first 90 days 
 
 <br>
 
