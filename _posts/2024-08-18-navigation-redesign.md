@@ -100,7 +100,7 @@ This allowed users to:
 - Reduce the interruption of scrolling when reviewing 
 
 ### Introducing navigation and a clear viewport 
-![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-1.png)
+![no-border]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-1.png)
 Through the improved layout, users were able to review an overall process structure, alongside the details of individual activities. There was no more need to expand and collapse on a case by case basis. 
 <br>
 <br>
