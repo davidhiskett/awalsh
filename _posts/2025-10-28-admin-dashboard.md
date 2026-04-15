@@ -10,15 +10,15 @@ external_link_text: "View prototype"
 ---
 
 ## An outdated B2B dashboard with a confusing layout was an under-used asset
-The admin dashboard at Yaspa is a crucial B2B communication tool, documenting data on open banking transactions. Originally developer-built area, with only a few UX patterns in mind, it was in much need of a refresh. 
+The admin dashboard at Yaspa is a crucial B2B communication tool, documenting data on open banking transactions. Originally a developer-built area, with only a few UX patterns in mind, it was in much need of a refresh. 
 
 Team:
 Myself leading design, one product manager, one business analyst, one data scientist, three front end developers and two testers.
 
 ## Key achievements collected from Mixpanel following the release and promotion of the new dashboard:
-- Increased weekly active users of the dashboard by around 40%
+- Increased weekly active users by around 40% within 60 days of release
 - Improved feature discoverability and reduced single-page sessions (users viewing payments table only), with previously unused pages seeing a 2 to 3 times increase in interaction rate 
-- Users spending longer on the dashboard, with a deduced dro-poff after login by 15-20%
+- Users spending longer on the dashboard, with a reduced dro-poff after login by 15-20%
 - Launched a name matching scoring system, allowing merchants to identify mismatches between customer and payment account names, reducing potentially fraudulent transactions by an estimated 35%
 - Turned the dashboard from a passive reporting tool into an active risk management product
 
@@ -90,13 +90,13 @@ We brought the previously separated payment sections into one page, organised wi
 
 <br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-3.png)
-Extra information for each transaction was moved to an overlay, visible on click of a row. We aimed to keep users in closer contact to the payments table, previously being taken out to a whole separate page. This area was designed with scalability in mind using clear collapsable sections, as future functionality would need to be displayed here. 
+Extra information for each transaction was moved to an overlay, visible on click of a row. We aimed to keep users in closer contact to the payments table, who were previously being taken out to a whole separate page. This area was designed with scalability in mind using clear collapsable sections, as future functionality would need to be displayed here. 
 
 <br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-5.png)
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-6.png)
-The settings area also received a vertical menu layout, replacing the overflowing horizontal tab design that was filling most of the screen. During research we learnt users often need to contact our support team, particularly in the beginning stages of setting up their dashboard, so we made this feature more prominent in the toolbar. Other less used features, including developer documentation and knowledge base, were kept within the user menu.
+The settings area also received a vertical menu layout, replacing the overflowing horizontal tab design that was filling most of the screen. During research we learnt users often needed to contact our support team, particularly in the beginning stages of setting up their dashboard, so we made this feature more prominent in the toolbar. Other less used features, including developer documentation and knowledge base, were kept within the user menu.
 
 <br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/final-design-7.png)
@@ -116,7 +116,7 @@ Due to a disappointing number of responses from merchants for us to test the new
 The UI for the MVP was initially kept intentionally minimal in acknowledgment of a company wide brand refresh that was in progress. The following designs feature the updates we applied in collaboration with the marketing team, along with a much anticipated overview page and extra functionality.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-1.png)
-Along with a design upgrade for the navigation panel with our signature gradient, quick access to out knowledge hub was added following customer feedback with new documentation we had available for them.
+Along with a design upgrade for the navigation panel with Yaspa's signature gradient, quick access to our knowledge hub was added following customer feedback with new documentation we had available for them.
 
 <br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-2.png)
@@ -147,4 +147,4 @@ These designs were not tested with customers, and I would be interested to hear 
 ### An evolving dashboard that can be built upon
 It was great to work on a different project at a new company, and contribute to improving process in a busy startup. With Yaspa’s product offering growing, even whilst we were designing the dashboard, I was proud of how we rearranged content with a reliable foundation to update areas to accommodate these new features. The acceptance of the dashboard as an evolving platform by the wider team was satisfying motivator to working on it. 
 
-Reflecting on the work there are many areas for improvement and fixes to address, including speaking to customers more frequently which would help address this. Our research was heavily reliant on internal colleagues due to customer reluctance to engage. 
+Reflecting on the work there are many areas for improvement and fixes to consider, including speaking to customers more frequently which would help address this. Our research was heavily reliant on internal colleagues due to customer reluctance to engage. 
