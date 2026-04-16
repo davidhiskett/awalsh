@@ -80,12 +80,8 @@ Products would be grouped into the following sections:
 Hover and selection states allowed users to preview product information before navigating away from the portal, enabling product education without massively interrupting the task they logged on to carry out.
 
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-1.png) 
-<br>
-<br>
 
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-2.png)
-<br>
-<br>
 
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-final-3.png)
 If a customer clicked on a product they didn’t own on the right, this would pause the carousel on that product and expose a button to receive more info.
