@@ -10,7 +10,7 @@ image: "navigation-redesign/main-image.png"
 ## Central hub for automation platform lacked logical navigation
 Within ARKK’s tax automation platform, users configure and manage financial processes made up of multiple task-based activities. This process view is one of the most business critical areas of the product, representing the primary workspace for customers to review and execute key tasks.
 
-Despite its importance, the page had evolved into an inefficient, linear interface that limited users’ ability to simultaneously review details and manage tasks.
+Despite its importance, the page had evolved into an inefficient, linear interface that limited user's ability to simultaneously review details and manage tasks.
 
 Working alongside the Head of Design and another Product Designer, I contributed to both the discovery and UX planning, while leading on the visual updates in the details and layout of the UI.  
 
@@ -111,10 +111,8 @@ Information of lesser importance was hidden on an overlay. This activity info wa
 <br>
 
 ![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-3.png)
-<br>
 
 ![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-4.png)
-<br>
 
 ![]({{ site.baseurl }}/assets/img/navigation-redesign/navigation-final-5.png)
 Users now had a clear indication of any filters that had been applied, and could then view the specific details of each filter easily.
