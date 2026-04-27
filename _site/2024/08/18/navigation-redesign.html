@@ -56,30 +56,26 @@
                 </div>
             </div>
             <div class="project__content">
-                <h2 id="overview">OVERVIEW</h2>
-<p>Within the ARKK automation platform, users build out financial processes which hold different types of activities they need to complete those processes. This is a key area of the software, which was in need of a redesign. Alongside the Head of Design and one other Product Designer, I was responsible for the UI Design work here. In addition I supported my two other colleagues in the discovery and planning stages at various points in the process.</p>
+                <h2 id="central-hub-for-automation-platform-lacked-logical-navigation">Central hub for automation platform lacked logical navigation</h2>
+<p>Within ARKK’s tax automation platform, users configure and manage financial processes made up of multiple task-based activities. This process view is one of the most business critical areas of the product, representing the primary workspace for customers to review and execute key tasks.</p>
 
-<h2 id="problem">PROBLEM</h2>
-<ul>
-  <li>Users lacked any sort of navigation within a process.</li>
-  <li>Multiple activities could be expanded simultaneously, removing context.</li>
-  <li>Users engaged in significant amounts of scrolling to access basic information.</li>
-  <li>It was a challenge to sift through or refine lots of complex information that was on show.</li>
-</ul>
+<p>Despite its importance, the page had evolved into an inefficient, linear interface that limited user’s ability to simultaneously review details and manage tasks.</p>
 
-<h2 id="goals">GOALS</h2>
+<p>Working alongside the Head of Design and another Product Designer, I contributed to both the discovery and UX planning, while leading on the visual updates in the details and layout of the UI.</p>
+
+<p>Key achievements:</p>
 <ul>
-  <li>Improve the layout of one of the most important pages on the platform, including a refreshed design to reflect updates done elsewhere.</li>
-  <li>Help users access what they need more quickly through ordered navigation.</li>
-  <li>Give users access to high level information about activities, without needing to open them.</li>
-  <li>Improve the filtering and sorting of activities.</li>
+  <li>Cut interaction cost (specifically related to activity expansion) per process by around 30-50% - tested with internal users by comparing the time spent on completing the same workflows before and after changes</li>
+  <li>Reduced vertical scrolling required to view a process by over 50%, enabling users to review multiple activities simultaneously</li>
+  <li>Improved filter usability, reducing user confusion and rework when applying multi-criteria filters</li>
+  <li>Time spent by the internal services team supporting customers dropped by around 20-30%, improving operational efficiency and enabling greater customer self-sufficiency</li>
 </ul>
 
 <p><br /></p>
 
 <hr />
 
-<h3 id="kickoff">KICKOFF</h3>
+<h3 id="a-reliance-on-workarounds-was-costing-money">A reliance on workarounds was costing money</h3>
 <div class="no-border">
     <img src="/assets/img/navigation-redesign/navigation-kickoff-1.png" />
 </div>
@@ -89,49 +85,82 @@
     </div>
 </div>
 
-<p>As this was a large project with many different problems, we held several kickoff meetings to categorise the tasks we had. Above is a board from the early stages of the process for the main redesign, along with some requirements we drew from the session. In terms of the redesign, introducing navigation was a paramount concern.</p>
+<p>Kick-off sessions were used to understand the extent of the usability issues we wanted to address, including navigation, layout and filtering behaviour. We knew our internal Services team were accustomed to working around issues with manual naming conventions, which ate into their time and therefore the business’s.</p>
 
-<h3 id="old-view">OLD VIEW</h3>
+<h3 id="interrupted-workflows--endless-scrolling">Interrupted workflows &amp; endless scrolling</h3>
 <div class="no-border">
     <img src="/assets/img/navigation-redesign/navigation-old-1.png" />
 </div>
-<p>One of the initial tasks I carried out was a detailed assessment of our current process view, examining positive and negative aspects of usability and visual design. We already had an idea of what wasn’t working from customer feedback, but wanted to pair this with our own analysis of the current situation as we saw it early on. One of the main conclusions we drew was that we felt we were looking at a huge list, but that it was hard to figure out the details of the items on that list in this current view.</p>
+<p>Analysis of the existing process view Identified friction points in:</p>
+<ul>
+  <li>Information hierarchy</li>
+  <li>Activity discovery</li>
+  <li>Expansion behaviour</li>
+  <li>Filter application</li>
+</ul>
 
-<h3 id="interviews">INTERVIEWS</h3>
+<h3 id="platform-users-confirmed-navigation--filtering-challenges">Platform users confirmed navigation &amp; filtering challenges</h3>
 <div class="row mb8 no-border">
     <div class="col-md-8 col-md-offset-2">
         <img src="/assets/img/navigation-redesign/navigation-interviews-1.png" />
     </div>
 </div>
-<p>We interviewed members of our internal services team, who set customers up on the platform and then maintain an ongoing relationship with them. In this sense they represent a valuable type of user to us, who use the platform daily, but also gather insight on how customers experience the platform. I was responsible for speaking to a few of these individuals, above are snapshots from an interview with a member of the services team, and another with the Product team.</p>
+<p>To understand usage patterns we spoke to internal and external daily users of the platform.</p>
 
-<h3 id="filter-research">FILTER RESEARCH</h3>
+<p>These conversations highlighted:</p>
+<ul>
+  <li>Frequent confusion around which filters were active</li>
+  <li>Activity metadata was often needed for reference rather than action</li>
+  <li>Reviewing processes successfully involved scanning several activities simultaneously</li>
+</ul>
+
+<h3 id="setting-out-to-improve-filtering-behaviour">Setting out to improve filtering behaviour</h3>
 <div class="row mb8">
     <div class="col-md-8 col-md-offset-2">
         <img src="/assets/img/navigation-redesign/navigation-filter-research-1.png" />
     </div>
 </div>
-<p>From the conversations we had with various internal teams and customers, we discovered that the existing filters were causing more issues than we originally assumed, which allowed us to dedicate more time to improving them. In dividing up responsibilities of the whole project, I took on this investigation regarding filters. Part of this was to research how existing filters could work on complex products through market and competitor analysis.</p>
+<p>I led the investigation into improving activity filtering within complex process views.</p>
 
+<p>Research across existing approaches to filtering revealed that:</p>
+<ul>
+  <li>Filter chips were not scannable within limited workspaces</li>
+  <li>Any applied filters needed to be easily reviewable after application</li>
+  <li>Advanced filtering required order and clarity in application and review</li>
+</ul>
+
+<h3 id="exploring-our-filter-options">Exploring our filter options</h3>
 <div class="row three-column one-mobile no-border">
     <img src="/assets/img/navigation-redesign/navigation-filter-research-2.png" />
     <img src="/assets/img/navigation-redesign/navigation-filter-research-3.png" />
     <img src="/assets/img/navigation-redesign/navigation-filter-research-4.png" />
 </div>
-<p>I experimented with a handful of different approaches to filtering driven by comments gathered at earlier research stages that it was difficult to know what filters had been applied with the current approach. Through testing we settled on the third option of an overlay menu, which allowed users to add detailed filters in rows. We concluded that we didn’t have enough space to line filter results up as chips, agreeing it was best to hide applied filters from the default view. The details of any applied filters were also accessible in one click, and could be edited or removed from there.</p>
+<p>After experimenting with different fundamental approaches to the filtering, we implemented an overlay based system which allowed:</p>
+<ul>
+  <li>Multi criteria filters to be added in rows</li>
+  <li>Applied filters to be accessed and edited within one interaction</li>
+  <li>The main workspace to remain uncluttered</li>
+</ul>
 
-<h3 id="page-layout-exploration">PAGE LAYOUT EXPLORATION</h3>
+<h3 id="considering-alternative-page-structures">Considering alternative page structures</h3>
 <div class="row two-column">
     <img src="/assets/img/navigation-redesign/navigation-wireframes-1.png" />
     <img src="/assets/img/navigation-redesign/navigation-wireframes-2.png" />
     <img src="/assets/img/navigation-redesign/navigation-wireframes-3.png" />
     <img src="/assets/img/navigation-redesign/navigation-wireframes-4.png" />
 </div>
-<p>Alongside this filter work, I conducted my main task of reworking the visual design of the page. These are some layouts I experimented with based on some very early wireframes the designer leading this task shared with me. We made sure to work together throughout this process to uncover what our options were as early as possible and iterate throughout the process. One of the main features we were bringing to this page was navigation between activities, therefore a lot of our energy centred around making it clear what was selected, or not, at any given time.</p>
+<p>We introduced a navigation panel to bring a much needed overview of all the activities within the process, and provide that high-level metadata without any need to expand anything.</p>
 
-<h3 id="final-designs">FINAL DESIGNS</h3>
-<p><img src="/assets/img/navigation-redesign/navigation-final-1.png" alt="" />
-We brought in a navigation panel to give an overview of the activities users had, showing important high level information whilst not taking up the whole width of the page. This allowed users to view the contents of an activity, whilst simultaneously having eyes on all of their other activities. I explored many options for the selected state of activities in the panel, which were physically connected to the frame on the right, but we collectively settled on the subtle grey fill shown here.
+<p>This allowed users to:</p>
+<ul>
+  <li>View activity content alongside neighboring tasks</li>
+  <li>Retain positional context when navigating</li>
+  <li>Reduce the interruption of scrolling when reviewing</li>
+</ul>
+
+<h3 id="introducing-navigation-and-a-clear-viewport">Introducing navigation and a clear viewport</h3>
+<p><img src="/assets/img/navigation-redesign/navigation-final-1.png" alt="no-border" />
+Through the improved layout, users were able to review an overall process structure, alongside the details of individual activities. There was no more need to expand and collapse on a case by case basis. 
 <br />
 <br /></p>
 
@@ -140,11 +169,9 @@ Information of lesser importance was hidden on an overlay. This activity info wa
 <br />
 <br /></p>
 
-<p><img src="/assets/img/navigation-redesign/navigation-final-3.png" alt="" />
-<br /></p>
+<p><img src="/assets/img/navigation-redesign/navigation-final-3.png" alt="" /></p>
 
-<p><img src="/assets/img/navigation-redesign/navigation-final-4.png" alt="" />
-<br /></p>
+<p><img src="/assets/img/navigation-redesign/navigation-final-4.png" alt="" /></p>
 
 <p><img src="/assets/img/navigation-redesign/navigation-final-5.png" alt="" />
 Users now had a clear indication of any filters that had been applied, and could then view the specific details of each filter easily.
@@ -159,8 +186,20 @@ Full screen view.
 <p><img src="/assets/img/navigation-redesign/navigation-final-7.png" alt="" />
 Minimum screen layout.</p>
 
-<h3 id="reflection">REFLECTION</h3>
-<p>This project took up more of our time than we had originally expected, but I personally enjoyed how that meant I was required to get involved in more of the UX research and planning to uncover the solutions we needed. The area that all of us wanted to develop further was giving users access to which activities fed into or out of others, which could be more than one and was not possible to see yet in this view. We did however massively improve the process page and all of us on the design team took a huge amount of satisfaction in hearing how customers were reviewing their processes more efficiently.</p>
+<h3 id="customers-were-no-longer-exhausted-by-scrolling">Customers were no longer exhausted by scrolling</h3>
+<p>Customer feedback following the release of the restructured page indicated a massive improvement in reviewing and managing processes. We experienced a reduction in customer service tickets over basic tasks around activity and process management.</p>
+
+<p>Internally the redesign established:</p>
+<ul>
+  <li>A scalable layout for future workflow complexity</li>
+  <li>A consistent filtering framework across activity types</li>
+  <li>When customers did need help, an ability to help them much faster with the improved layout and design</li>
+</ul>
+
+<h3 id="learnings-and-an-underestimated-timeline">Learnings and an underestimated timeline</h3>
+<p>As project scope expanded, I became increasingly involved in research and planning activities to support design decisions across navigation and filtering. This was a great learning opportunity for me to step outside of purely the visual updates we had planned, and I really enjoyed the different approaches each of these tasks demanded.</p>
+
+<p>While the release improved process reviewing, future iterations around complex connections would further help customers complete their tasks, specifically around visually clarifying which activities needed to be completed before the others could commence. This is not a linear process, and currently not visible in our designs above.</p>
 
 
                 
