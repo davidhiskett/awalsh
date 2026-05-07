@@ -42,7 +42,7 @@ We got to this point after presenting our research to the client. We developed m
 
 ![no-border]({{ site.baseurl }}/assets/img/service-design/storyboard-1.png)  
 ![no-border]({{ site.baseurl }}/assets/img/service-design/storyboard-2.png) 
-A snapshopt of our storyboards and quick prototypes where we considered how to facilitate meaningful connections amogst founders. 
+A snapshopt of our storyboards and quick prototypes where we considered how to facilitate meaningful connections amongst founders. 
 
 <br>
 ![no-border]({{ site.baseurl }}/assets/img/service-design/physical-prototype-1.png)  
@@ -52,19 +52,19 @@ A snapshopt of our storyboards and quick prototypes where we considered how to f
 ![no-border]({{ site.baseurl }}/assets/img/service-design/wireframe.png)
 ![no-border]({{ site.baseurl }}/assets/img/service-design/blueprint.png)  
 ![no-border]({{ site.baseurl }}/assets/img/service-design/user-testing.png)  
-Feedback from user testing was mixed. Most founders were very positive about the idea of having reliable access to helpful people who had been through similar experiences, referencing specific issues it could help them with at that moment. It became clear however at this point that more investigation would be needed into why individuals would want to deliver the help. There is a question of how experienced founders who have a lot of knowledge and experience to share, would realistically be incentivised to offer help with their commonly busy schedules. 
+Feedback from user testing was mixed. Most founders were very positive about the idea of having reliable access to helpful people who had been through similar experiences, referencing specific issues it could help them with. It became clear however at this point that more investigation would be needed into why individuals would want to deliver the help. There is a question of how experienced founders, who have a lot of knowledge and experience to share, would realistically be incentivised to offer help with their commonly busy schedules. 
 
 
 ## INSIGHT INTO OUR PROCESS
 
 ## Setting a research problem & questions to start
-As this was a broad subject matter, we first individually built a general understanding of the world that founders operate in, covering existing support systems and uncovering any flaws in them.
+As this was a broad subject matter, we first individually built a general understanding of the world that founders operate in, covering existing support systems and any flaws in them.
 
 As we shared our understanding, the questions began.
 
 ![no-border]({{ site.baseurl }}/assets/img/service-design/Qs-goals.png)  
 
-Questions were grouped to spot similarities, which helped shape our initial assumptions. After refining these, we collectively set our research problem. We established 3 main research goals, and multiple corresponding questions to start to answer our problem. We worked on each goal in pairs to, my goal being “To understand support that has helped early stage founders”.
+Questions were grouped to spot similarities, which helped shape our initial assumptions. After refining these, we collectively set our research problem. We established four main research goals, and multiple corresponding questions to start to answer our problem. We worked on each goal in pairs, my goal being “To understand support that has helped early stage founders”.
 
 ## Speaking to founders about support
 We relied on convenience sampling to reach out to founders in our networks, using a combination of methods to understand their journeys and support experiences.  
@@ -91,7 +91,7 @@ We connected with our client Foundervine to show everything we had found so far 
 ![no-border]({{ site.baseurl }}/assets/img/service-design/research-presentation.png) 
 ![no-border]({{ site.baseurl }}/assets/img/service-design/problem-statement.png) 
 ![no-border]({{ site.baseurl }}/assets/img/service-design/crazy8s.png)
-At the end of our presentation we conducted a rapid crazy 8’s ideation session with the client. This gave us insight into their valuable business perspective, which we could combine with our newly formed one. This inspired some equally creative storyboards
+At the end of our presentation we conducted a rapid crazy 8’s ideation session with the client. This gave us insight into their valuable business perspective, which we could combine with our newly formed one. This inspired some equally creative storyboards.
 
 ## Our proposal: A reciprocal support system
 ![no-border]({{ site.baseurl }}/assets/img/service-design/final-presentation.png) 
