@@ -47,7 +47,6 @@ A snapshopt of our storyboards and quick prototypes where we considered how to f
 <br>
 ![no-border]({{ site.baseurl }}/assets/img/service-design/physical-prototype-1.png)  
 ![no-border]({{ site.baseurl }}/assets/img/service-design/physical-prototype-2.png)  
-![no-border]({{ site.baseurl }}/assets/img/service-design/user-testing.png) 
 
 ## Assembling & testing our service
 ![no-border]({{ site.baseurl }}/assets/img/service-design/wireframe.png)
