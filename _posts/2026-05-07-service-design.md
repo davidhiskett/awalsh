@@ -25,7 +25,8 @@ Our journey to achieving this was demanding, but one I am so glad I took.
 <br>
 
 ---
-THE DESIGN
+
+## THE DESIGN
 
 ## A digital token exchange platform to support early stage founders
 During our research and development, we identified multiple concepts of how to support early stage founders through the complex demands of starting a business. These included mentor and investor matchmaking events, becoming ‘investor ready’ with an AI investor platform, and a chatshow setup to post and answer questions. 
@@ -54,7 +55,8 @@ A snapshopt of our storyboards and quick prototypes where we considered how to f
 ![no-border]({{ site.baseurl }}/assets/img/service-design/user-testing.png)  
 Feedback from user testing was mixed. Most founders were very positive about the idea of having reliable access to helpful people who had been through similar experiences, referencing specific issues it could help them with at that moment. It became clear however at this point that more investigation would be needed into why individuals would want to deliver the help. There is a question of how experienced founders who have a lot of knowledge and experience to share, would realistically be incentivised to offer help with their commonly busy schedules. 
 
-INSIGHT INTO OUR PROCESS
+
+## INSIGHT INTO OUR PROCESS
 
 ## Setting a research problem & questions to start
 As this was a broad subject matter, we first individually built a general understanding of the world that founders operate in, covering existing support systems and uncovering any flaws in them.
