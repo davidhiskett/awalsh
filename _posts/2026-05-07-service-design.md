@@ -4,7 +4,7 @@ title: "Digital support platform"
 type: "Service Design"
 description: "Client-based course project to understand and improve support for early stage founders."
 company: "Experience Haus"
-image: “service-design/main-image.png”
+image: "service-design/main-image.png"
 ---
 
 ## Taking the opportunity to learn about Service Design
