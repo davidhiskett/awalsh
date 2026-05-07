@@ -26,7 +26,7 @@ Our journey to achieving this was demanding, but one I am so glad I took.
 
 ---
 
-## THE DESIGN
+### THE DESIGN
 
 ## A digital token exchange platform to support early stage founders
 During our research and development, we identified multiple concepts of how to support early stage founders through the complex demands of starting a business. These included mentor and investor matchmaking events, becoming ‘investor ready’ with an AI investor platform, and a chatshow setup to post and answer questions. 
