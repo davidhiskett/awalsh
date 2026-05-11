@@ -42,7 +42,7 @@ We got to this point after presenting our research to the client. We developed m
 
 ![no-border]({{ site.baseurl }}/assets/img/service-design/storyboard-1.png)  
 ![no-border]({{ site.baseurl }}/assets/img/service-design/storyboard-2.png) 
-A snapshopt of our storyboards and quick prototypes where we considered how to facilitate meaningful connections amongst founders. 
+A snapshot of our storyboards and quick prototypes, where we considered how to facilitate meaningful connections amongst founders. 
 
 <br>
 ![no-border]({{ site.baseurl }}/assets/img/service-design/physical-prototype-1.png)  
