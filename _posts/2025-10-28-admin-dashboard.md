@@ -16,7 +16,7 @@ Myself leading design, one product manager, one business analyst, one data scien
 ## Key achievements collected from Mixpanel following the release and promotion of the new dashboard:
 - Increased weekly active users by around 40% within 60 days of release
 - Improved feature discoverability and reduced single-page sessions (users viewing payments table only), with previously unused pages seeing a 2 to 3 times increase in interaction rate 
-- Users spending longer on the dashboard, with a reduced dro-poff after login by 15-20%
+- Users spending longer on the dashboard, with a reduced drop-off after login by 15-20%
 - Launched a name matching scoring system, allowing merchants to identify mismatches between customer and payment account names, reducing potentially fraudulent transactions by an estimated 35%
 - Turned the dashboard from a passive reporting tool into an active risk management product
 
