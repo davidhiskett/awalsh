@@ -36,7 +36,7 @@ For the visual design we noted heavy shadows and text that was far too pale to p
 Reviewing customer insights on Mixpanel informed us that most areas of the dashboard were underused, many of which lay completely dormant. Only around 10% of Yaspa's customers were using the dashboard, and those who did were not doing so often or meaningfully.
 
 There was a business need to improve and promote the dashboard to:
-- Increase customers use through improved presentation and usability to reduce cogntive load
+- Increase customer use through improved presentation and usability to reduce cogntive load
 - Be scalable in preparation to showcase future products
 - Increase familiarty with the B2B dashboard to facilitate upselling existing customers these future product extensions
 
