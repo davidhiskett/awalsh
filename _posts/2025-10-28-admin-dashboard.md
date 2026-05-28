@@ -150,6 +150,6 @@ After exploring AI layout and design ideas, I finalised content myself on wirefr
 These designs were not tested with customers, and I would be interested to hear whether the content prioritised here in the initial views met their needs and expectations for using the dashboard. 
 
 ### An evolving dashboard that can be built upon
-It was great to work on a different project at a new company, and contribute to improving process in a busy startup. With Yaspa’s product offering growing, even whilst we were designing the dashboard, I was proud of how we rearranged content with a reliable foundation to update areas to accommodate these new features. The acceptance of the dashboard as an evolving platform by the wider team was satisfying motivator to working on it. 
+It was great to work on a different project at a new company, and contribute to improving process in a busy startup. With Yaspa’s product offering growing, even whilst we were designing the dashboard, I was proud of how we rearranged content with a reliable foundation to accommodate these new features. The acceptance of the dashboard as an evolving platform by the wider team was a satisfying motivator to working on it. 
 
 Reflecting on the work there are many areas for improvement and fixes to consider, including speaking to customers more frequently which would help address this. Our research was heavily reliant on internal colleagues due to customer reluctance to engage. 
