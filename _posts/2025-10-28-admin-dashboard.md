@@ -39,7 +39,7 @@ There was a business need to improve and promote the dashboard to:
 - Increase customers use through improved presentation and usability to reduce cogntive load
 - Be scalable in preparation to showcase future products
 - Increase familiarty with the B2B dashboard to facilitate upselling existing customers these future product extensions
-
+<br>
 Customers told us they accessed the dashboard simply to check the payments table, they got confused when clicking around so lost motivation to explore. Unfortunately it transpired that they did not have a huge need to use our dashboard. There was an opportunity to improve and educate on the benefit we were able to provide customers.
 
 ![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/interviews-1.png)
