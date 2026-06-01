@@ -78,7 +78,7 @@ Workshops were also held to encourage in-depth answers in a creative format. I d
  
 ## Impactful support stems from meaningful connections 
 Through lots of sharing and discussion we translated our observations into insights. In our research focus on support, we uncovered that: 
-- There was a huge amount of general support, but it lacked relevance
+- There was a huge amount of general support, but it often lacked relevance
 - Genuine and impactful support stemmed from pre-existing relationships
 - Founders delivered and received support across a network similar to a series of lily pads 
 - External validation was necessary and pivotal to personal motivation and success 
