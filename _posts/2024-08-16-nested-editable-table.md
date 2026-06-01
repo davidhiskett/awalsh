@@ -18,6 +18,7 @@ Key achievements:
 - Users who engaged with both the new edit and audit log features experienced less friction during onboarding, and showed an average 20% higher retention over 90 days  
 - Helped position the platform as a complete end-to-end solution, reducing reliance on external tools 
 
+<br>
 
 I was the sole designer on this project, working closely with the CTO and a small engineering team to extend the existing table functionality, while introducing editability and traceable change history. 
 
