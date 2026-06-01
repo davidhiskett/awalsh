@@ -8,7 +8,7 @@ image: "admin-dashboard/main-image.png"
 ---
 
 ## An outdated B2B dashboard with a confusing layout was an under-used asset
-The admin dashboard at Yaspa is a crucial B2B communication tool, documenting data on open banking transactions. Originally a developer-built area, with only a few UX patterns in mind, it was in much need of a refresh. 
+The merchant dashboard at Yaspa is a crucial B2B communication tool, documenting data on open banking transactions. Originally a developer-built area, with only a few UX patterns in mind, it was in much need of a refresh. 
 
 Team:
 Myself leading design, one product manager, one business analyst, one data scientist, three front end developers and two testers.
@@ -42,7 +42,7 @@ There was a business need to improve and promote the dashboard to:
 
 <br>
 
-Customers told us they accessed the dashboard simply to check the payments table, they got confused when clicking around so lost motivation to explore. Unfortunately it transpired that they did not have a huge need to use our dashboard. There was an opportunity to improve and educate on the benefit we were able to provide customers.
+Customers told us they accessed the dashboard simply to check the payments table, they got confused when clicking around therefore lost motivation to explore, often resulting in submitting a support ticket. Unfortunately it transpired that they did not have a huge need to use our dashboard. There was an opportunity to improve and educate on the benefit we were able to provide customers.
 
 ![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/interviews-1.png)
 
@@ -118,7 +118,7 @@ During this project we carried over a huge amount of functionality, and our focu
 Due to a disappointing number of responses from merchants for us to test the new dashboard with, we also added a ‘provide feedback’ button in the main navigation to encourage our customers to give any details as they went about their tasks. This did prove useful, and helped guide a series of updates featured below.
 
 ### Recognising customer feedback, adding functionality & applying a rebrand
-The UI for the MVP was initially kept intentionally minimal in acknowledgment of a company wide brand refresh that was in progress. The following designs feature the updates we applied in collaboration with the marketing team, along with a much anticipated overview page and extra functionality.
+The UI for the MVP was initially kept intentionally minimal in acknowledgment of a brand refresh that was in progress during out first release. The following designs feature the updates we applied in collaboration with the marketing team, along with a much anticipated overview page and extra functionality.
 
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-1.png)
 Along with a design upgrade for the navigation panel with Yaspa's signature gradient, quick access to our knowledge hub was added following customer feedback with new documentation we had available for them.
@@ -134,7 +134,7 @@ The biggest update to the dashboard was delivered through name matching technolo
 
 <br>
 ![]({{ site.baseurl }}/assets/img/admin-dashboard/project-updates-5.png)
-We improved on the basic customers page in the MVP with a detailed customer view. We wanted this to benefit merchants more in line with the new name matching feature we’d deployed. Being able to compare the name on the account against any payment methods was key here, as were customer-specific stats and transactions, which were previously missing. 
+We improved on the basic customers with a detailed customer view. We wanted this to benefit merchants more inline with the new name matching feature we’d deployed. Being able to compare the name on the account against any payment methods was key here, as were customer-specific stats and transactions, which were previously missing. 
 
 ### Making use of AI to develop overlooked mobile layouts
 An oversight from both myself and the team was a failure to prioritise mobile designs. This became a bigger issue after the dashboard was released, when the commercial team informed us of the demand for it. I worked on the following additions in my own time, using AI for assistance and inspiration. 
@@ -152,4 +152,4 @@ These designs were not tested with customers, and I would be interested to hear 
 ### An evolving dashboard that can be built upon
 It was great to work on a different project at a new company, and contribute to improving process in a busy startup. With Yaspa’s product offering growing, even whilst we were designing the dashboard, I was proud of how we rearranged content with a reliable foundation to accommodate these new features. The acceptance of the dashboard as an evolving platform by the wider team was a satisfying motivator to working on it. 
 
-Reflecting on the work there are many areas for improvement and fixes to consider, including speaking to customers more frequently which would help address this. Our research was heavily reliant on internal colleagues due to customer reluctance to engage. 
+Reflecting on the work, there are many areas for improvement and fixes to consider, including speaking to customers more frequently which would help address this. Our research was heavily reliant on internal colleagues due to customer reluctance to engage. 
