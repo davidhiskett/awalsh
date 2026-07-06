@@ -30,9 +30,9 @@ Key achievements:
 ## A restructure to reduce overwhelm & encourage sales
 
 ![no-border]({{ site.baseurl }}/assets/img/product-portal/original-vs-update.png) 
-
 ![no-border]({{ site.baseurl }}/assets/img/product-portal/changes-table.png) 
-
+<br>
+<br>
 Assessing what needed to change and potential benefits to both users and the business.
 
 ![no-border]({{ site.baseurl }}/assets/img/product-portal/updated-wireframes.png) 
