@@ -24,6 +24,32 @@ Key achievements:
 <br>
 
 ---
+### PROJECT UPDATE
+
+### A restructure to reduce overwhelm & encourage sales
+
+![no-border]({{ site.baseurl }}/assets/img/product-portal/original-vs-update.png) 
+![no-border]({{ site.baseurl }}/assets/img/product-portal/Changes_table.png) 
+
+Assessing what needed to change and potential benefits to both users and the business.
+
+![no-border]({{ site.baseurl }}/assets/img/product-portal/updated-wireframes.png) 
+
+Wireframes produced using Claude and Lovable proved useful in reimagining the layout of the portal page, with a stronger emphasis on a user’s owned products at the top of the page and the ability to instantly schedule a demo for new products.
+
+### Outlining product strategy to schedule a demo
+
+![no-border]({{ site.baseurl }}/assets/img/product-portal/product-strategy.png) 
+
+### Preserving key actions whilst improving layout
+
+![no-border]({{ site.baseurl }}/assets/img/product-portal/updated-default.png) 
+![no-border]({{ site.baseurl }}/assets/img/product-portal/updated-schedule.png) 
+![no-border]({{ site.baseurl }}/assets/img/product-portal/updated-confirmation.png) 
+
+<br>
+
+### ORIGINAL PROCESS
 
 ### Creating a new step when signing in
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-wireframes-2.png)
