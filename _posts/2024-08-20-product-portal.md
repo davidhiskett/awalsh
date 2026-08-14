@@ -54,7 +54,7 @@ Wireframes produced using Claude and Lovable proved useful in reimagining the la
 ### ORIGINAL PROCESS
 
 ## How to increase awareness of unknown products
-If we expose non-owned products within a new portal while prioritising immediate access to owned products, we can increase product discovery and upselling opportunities without significantly disrupting users' primary tasks.
+If we expose non-owned products within a new portal while prioritising immediate access to owned products, we can increase product discovery which would lead to new sales without significantly disrupting users' primary tasks.
 
 ## Creating a new step when signing in
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-wireframes-2.png)
