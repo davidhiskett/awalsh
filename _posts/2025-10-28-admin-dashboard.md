@@ -51,6 +51,8 @@ Insights:
 - Future product growth won’t be supported unless the underlying structure isn’t saleable
 - Compliance needs represent both a genuine customer problem and an internal business requirement
 
+<br>
+
 How do we increase engagement, prepare for future growth, reduce support demands and deliver more value to customers through a single platform?
 
 ### Hypothesis
