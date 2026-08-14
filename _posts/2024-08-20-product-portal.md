@@ -53,6 +53,9 @@ Wireframes produced using Claude and Lovable proved useful in reimagining the la
 
 ### ORIGINAL PROCESS
 
+## How to increase awareness of unknown products
+If we expose non-owned products within a new portal while prioritising immediate access to owned products, we can increase product discovery and upselling opportunities without significantly disrupting users' primary tasks.
+
 ## Creating a new step when signing in
 ![]({{ site.baseurl }}/assets/img/product-portal/portal-wireframes-2.png)
 A new single sign in page would act as a central access point. Customers would then be faced with a new page where they would be required to select the product they wished to use. The creation of this page was key to enabling product education without disrupting task completion. 
