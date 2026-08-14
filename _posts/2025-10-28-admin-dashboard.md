@@ -33,20 +33,35 @@ Our initial assessment of the dashboard concluded that it had fallen victim to s
 For the visual design we noted heavy shadows and text that was far too pale to pass accessibility.
 
 ### Customers ignored most pages
-Reviewing customer insights on Mixpanel informed us that most areas of the dashboard were underused, many of which lay completely dormant. Only around 10% of Yaspa's customers were using the dashboard, and those who did were not doing so often or meaningfully.
+Analytics from Mixpanel informed us that most areas of the dashboard were underused, with only around 10% of customers using it. This group was also not using it often or meaningfully.
 
-There was a business need to improve and promote the dashboard to:
-- Increase customer use through improved presentation and usability to reduce cognitive load
-- Be scalable in preparation to showcase future products
-- Increase familiarity with the B2B dashboard to facilitate upselling existing customers these future product extensions
+Customers told us they mainly accessed the dashboard simply to check the payments table, but usually got confused and lost motivation to explore, often resulting in submitting a support ticket.
 
 <br>
 
-Customers told us they accessed the dashboard simply to check the payments table, they got confused when clicking around therefore lost motivation to explore, often resulting in submitting a support ticket. Unfortunately it transpired that they did not have a huge need to use our dashboard. There was an opportunity to improve and educate on the benefit we were able to provide customers.
-
 ![no-border]({{ site.baseurl }}/assets/img/admin-dashboard/interviews-1.png)
 
-Conversations with internal team members revealed more about what was missing and broken, something the compliance team were incredibly eager to rectify due to regulation in the gambling industry around basic customer identifiers.
+Conversations with internal team members revealed more about what was missing, something the compliance team were eager to rectify due to regulation in the gambling industry around customer identifiers.
+
+### A focus on discoverability
+
+Insight
+Features don’t lack value, customers struggle to find them. 
+
+Insight
+Having become a passive reporting tool from this limited use, there is an opportunity to transform it into a product users rely on.
+
+Insight
+Future product growth won’t be supported unless the underlying structure isn’t saleable.
+
+Insight
+Compliance needs represent both a genuine customer problem and an internal business requirement.
+
+How do we increase engagement, prepare for future growth, reduce support demands and deliver more value to customers through a single platform?
+
+### Hypothesis
+If we improve navigation, hierarchy and feature discoverability, users will engage with more of the dashboard rather than treating it primarily as a payments reporting tool, and in turn will rely less on support.
+
 
 ### An aim for the clarity that other dashboards achieved
 
