@@ -45,17 +45,11 @@ Conversations with internal team members revealed more about what was missing, s
 
 ### A focus on discoverability
 
-Insight
-Features don’t lack value, customers struggle to find them. 
-
-Insight
-Having become a passive reporting tool from this limited use, there is an opportunity to transform it into a product users rely on.
-
-Insight
-Future product growth won’t be supported unless the underlying structure isn’t saleable.
-
-Insight
-Compliance needs represent both a genuine customer problem and an internal business requirement.
+Insights:
+- Features don’t lack value, customers struggle to find them
+- Having become a passive reporting tool from this limited use, there is an opportunity to transform it into a product users rely on
+- Future product growth won’t be supported unless the underlying structure isn’t saleable
+- Compliance needs represent both a genuine customer problem and an internal business requirement
 
 How do we increase engagement, prepare for future growth, reduce support demands and deliver more value to customers through a single platform?
 
