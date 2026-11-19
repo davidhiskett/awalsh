@@ -4,109 +4,92 @@ title: "Edit Table"
 type: "UI Design | UX Design"
 description: "Creation of the ‘Edit Activity’ making up an editable data table, for ARKK Solutions financial automation platform."
 company: "ARKK Solutions"
-image: "editable-table/main-image.png"
+image: "editable-table/edit_main_image.png"
 ---
 
-## Adding functionality to facilitate a new tax requirement
-With the introduction of the OECD Pillar Two Framework, multinational enterprises are required to submit large volumes of jurisdiction-level financial data in order to comply with global minimum tax regulations. 
+## Improving functionality to facilitate a new tax requirement
+The introduction of the OECD Pillar Two Framework requires multinational enterprises to pay a minimum level of tax on their global profits. This creates a significant data management challenge for businesses that need to collect, consolidate, then review large amounts of financial data from different entities. 
 
-Within ARKK, this created a need for customers to amend and validate submitted datasets quickly without repeatedly reprocessing source files. 
+This created a technical requirement for editable tables across the ARKK platform, to accommodate multi-report reviewing. In-turn, this surfaced the assumption that the current change report feature would be problematic to users submitting within this framework in its current state. 
+
+As the sole designer I worked directly with the CTO and a small engineering team to extend table functionality, and introduce a more user friendly change history.
 
 Key achievements:
-- Direct table editing prevented complete reliance on external file corrections, decreasing file re-uploads by around 80% per user session 
-- Introduced an in-platform audit log, which lowered the time to validate a dataset by around 40%, as users could review changes without exporting reports 
-- Users who engaged with both the new edit and audit log features experienced less friction during onboarding, and showed an average 20% higher retention over 90 days  
-- Helped position the platform as a complete end-to-end solution, reducing reliance on external tools 
-
-<br>
-
-I was the sole designer on this project, working closely with the CTO and a small engineering team to extend the existing table functionality, while introducing editability and traceable change history. 
+- Direct in-platform table editing removed reliance on external file corrections to make simple updates to datasets
+- The introduction of an in-context audit log replaced a previous export-only, densely displayed approach to viewing change history, lowering the time it takes to validate a dataset
+- Users who engaged with new edit and audit functionality experienced less friction overall, with reduced support messages related to amendment and upload cycles 
+- Helped position the platform as a complete end-to-end solution, reducing reliance on external tools
 
 <br>
 
 ---
 
-### An inability to edit table data caused frustration from slow updates
-Prior to this project, ARKK customers could not edit table data in-platform, which resulted in any incorrect values needing to be amended in the source file, and re-uploaded. A change history feature was also export-only and difficult to interpret. 
+### A need to keeping customers on-platform
+It was clear we needed to make tables editable to prevent customers having to leave the platform to make essential updates. Inefficiency here would also have been compounded with the complex reporting in the new framework. We outlined our initial assumptions and goals, focusing on the technicalities around editing and logging changes. 
 
-### Establishing our goals around keeping customers in the platform
 ![]({{ site.baseurl }}/assets/img/editable-table/kickoff-1.png)
-As this was a new requirement, we had no established internal workflow to work against. We focused on understanding how users might access and amend data in complex tables, and what they expected to see with regards to an audit trail.
 
-Customer interviews were conducted to understand: 
-- How they currently validate submitted datasets
-- When corrections typically occur in the reporting process
-- What level of change traceability is favourable
+### Users need to leave the platform to make simple changes
+Alongside this I collated information relating to this issue from existing feedback, customer conversations and existing data. 
+<br>
 
-### User scenarios to emphasise a need for more flexibility
-![no-border]({{ site.baseurl }}/assets/img/editable-table/kickoff-2.png)
-From this, I developed user scenarios to identify where in-platform editing could replace file based correction cycles. Current workflows were forcing users to take multiple steps to spot any errors, or amend data. These were key areas to focus on. 
+![]({{ site.baseurl }}/assets/img/editable-table/edit_key_findings.png)
 
-### A change report only visible on export kept helpful information hidden
-The existing approach to documenting changes was limited, making it difficult to:
-- Identify individual changes
-- Understand edit context 
-- Trace any responsibility for changes
+Having to amend data in original files, then reupload them was frustrating customers because it broke focus when jumping off then back on the platform, which took time. This was particularly stressful if errors were noticed close to a deadline, and it became difficult to track changes with the change report being download-only, and displayed as very dense text.
 
-### Researching options to display changes in view 
+### Failure to improve dataset amendments could lose customers
+![]({{ site.baseurl }}/assets/img/editable-table/edit_insights.png)
+
+With multiple actions becoming locked in a cycle of repetition, it increases the risk of new errors, along with irritating customers who are completing the same task multiple times, often in separate windows or tools. If we focus on validation as a key customer goal, we can streamline how files are uploaded and checked.
+<br>
+
+### A journey trapped in repetition
+![]({{ site.baseurl }}/assets/img/editable-table/edit_journey_map.png)
+
+I collected findings into a journey map, highlighting frustrations and identifying opportunities. Aside from knowing we needed to make tables editable, this helped with how the audit trail could further support an improved experience because it was so closely linked to changes. 
+
+### Highlighting the importance of dataset validation
+![]({{ site.baseurl }}/assets/img/editable-table/edit_design_implications.png)
+
+Organising insights into jobs that users are trying to accomplish helped create the design solutions I could work off before I started testing them out. This also highlighted the different levels of ‘reviewing’ that took place.
+<br>
+
+![]({{ site.baseurl }}/assets/img/editable-table/edit_JTBD.png)
+
+As the table editing functionality was largely a technical activity, I created the interaction and UI details it needed, keeping them as simple as possible. I then started experimenting with the information architecture of the audit log. 
+
+![]({{ site.baseurl }}/assets/img/editable-table/edit_product_strategy.png)
+
+### A more accessible and usable change history
 ![]({{ site.baseurl }}/assets/img/editable-table/audit-log-1.png)
-Researching audit log patterns across enterprise platforms revealed that most logs were isolated from the worksheet, but easily accessible. I also reviewed general panels on platyforms, to get a broader understanding of how supporting information could be displayed next to a detailed main frame. 
-<br>
-<br>
+
+Researching audit log patterns across enterprise platforms revealed that most logs were isolated from the worksheet, but easily accessible. I also reviewed different types of panels, to understand how supporting information is commonly displayed next to a detailed main frame.
 
 ![]({{ site.baseurl }}/assets/img/editable-table/audit-log-2.png)
-We moved towards an overlay which would allow users to:
-- Search and filter amendments
-- Review change metadata
-- Maintain visibility of edits during data validation 
+![]({{ site.baseurl }}/assets/img/editable-table/edit_AL_usability_testing.png.png)
+<br>
+
+During testing with early iterations of the audit log, a horizontal table-like display confused users, but the search and filter were appreciated. Users were more drawn to the details on the card view, yet confused by why the author of the change was the most highlighted, leading aspect. It was also noted here that they found it more difficult to know how to search or filter entries. 
+
+### The editability that customers needed 
+As part of adding edit functionality, interactive states were added to the table to allow users to amend their data easily. Tooltips guided which cells could be changed.
+
+![]({{ site.baseurl }}/assets/img/editable-table/edit_final_1.png)
+![]({{ site.baseurl }}/assets/img/editable-table/edit_final_2.png)
+
+An audit log panel was introduced as an overlay so that datasets and change history could be viewed simultaneously. Considering how many changes customers can have, the expandable card was chosen to give the ability to scan changes quickly, but also review details when necessary. 
+
+![]({{ site.baseurl }}/assets/img/editable-table/edit_final_3.png)
+![]({{ site.baseurl }}/assets/img/editable-table/edit_final_4.png)
+![]({{ site.baseurl }}/assets/img/editable-table/edit_final_5.png)
 <br>
 <br>
 
-![no-border]({{ site.baseurl }}/assets/img/editable-table/audit-log-3.png)
-
-### Choosing an overlay that didn’t interrupt workflow
-![]({{ site.baseurl }}/assets/img/editable-table/audit-log-4.png)
-Early iterations explored space-saving approaches by hiding sort and filter controls, however usability testing showed that this reduced feature discoveryability. These were added back on the final design. We also learnt that it was important for customers to review table data alongside any changes, so we abandoned the full width expand functionality, instead giving them the ability to resize the panel themselves.
-
-### Adding in the editability that customers needed 
-![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-2.png)
-Editable states were introduced into the existing table system to support data amendments. 
-
-Interaction design considerations:
-- Clear visual differentiation on hover for which cells were editable 
-- Cell-level edit selection 
-- Consistent focus and input behaviour 
-- Gridline introduction to support dense financial datasets  
+### Review, amend & check in one view
+After launch, the frequency of file re-uploads did drop amongst customers as they were able to make changes to datasets within the platform. Customer feedback also confirmed that having a new audit trail, viewable within the platform was one of the most useful updates they had received, as they were able to complete tasks much faster. 
 <br>
-<br>
-
-![]({{ site.baseurl }}/assets/img/editable-table/table-flat-table-3.png)
-
-![]({{ site.baseurl }}/assets/img/editable-table/final-designs-1.png)
-Improvements to the audit panel included minimised cards for change entries by default to save space, but the ability to expand or collapse all to review more details.
-<br>
-<br>
-
-![]({{ site.baseurl }}/assets/img/editable-table/final-designs-2.png)
-
-![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-1.png)
-Nested table functionality was introduced to support jurisdiction-level grouping within Pillar Two submissions. 
-<br>
-<br>
-
-![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-2.png)
-
-![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-3.png)
-
-![]({{ site.baseurl }}/assets/img/editable-table/table-nested-table-4.png)
-
-### Customers could now review, amend and check all in one view
-File re-upload cycles were dramatically reduced when customers were able to make changes to table data on the platform. Furthermore, customer feedback confirmed that having an amendment history viewable within the session was one of the most useful updates they had received. 
-
-The impact of these small changes was huge in improving workflow and customer satisfaction.
-
 
 ### Big changes from a small team
-Working within a small product team on these changes allowed for rapid iteration and direct collaboration with the engineering team. 
+Working within a small team on these changes allowed for rapid iteration and direct collaboration with the engineering team.
 
-Future developments that were highlighted throughout our initial work included adding a visual link between audit entries and table changes, particularly for distinguishing between removed rows or amended cells, to strengthen traceability within complex reporting scenarios.
+Potential future developments that were highlighted as we completed this work included upgrading edit functionality from cell to row level, and strengthening traceability across audit log entries and datasets when multiple changes are made to the same cell. 
