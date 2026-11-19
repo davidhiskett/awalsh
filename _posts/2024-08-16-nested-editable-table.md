@@ -66,6 +66,7 @@ Researching audit log patterns across enterprise platforms revealed that most lo
 <br>
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/audit-log-2.png)
+
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_AL_usability_testing.png)
 <br>
 
