@@ -52,9 +52,12 @@ I collected findings into a journey map, highlighting frustrations and identifyi
 
 Organising insights into jobs that users are trying to accomplish helped create the design solutions I could work off before I started testing them out. This also highlighted the different levels of ‘reviewing’ that took place.
 
+<br>
+
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_JTBD.png)
 
 As the table editing functionality was largely a technical activity, I created the interaction and UI details it needed, keeping them as simple as possible. I then started experimenting with the information architecture of the audit log. 
+
 <br> 
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_product_strategy.png)
@@ -66,6 +69,7 @@ Researching audit log patterns across enterprise platforms revealed that most lo
 <br>
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/audit-log-2.png)
+<br>
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_AL_usability_testing.png)
 <br>
