@@ -41,7 +41,6 @@ Having to amend data in original files, then reupload them was frustrating custo
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_insights.png)
 
 With multiple actions becoming locked in a cycle of repetition, it increases the risk of new errors, along with irritating customers who are completing the same task multiple times, often in separate windows or tools. If we focus on validation as a key customer goal, we can streamline how files are uploaded and checked.
-<br>
 
 ### A journey trapped in repetition
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_journey_map.png)
@@ -52,11 +51,11 @@ I collected findings into a journey map, highlighting frustrations and identifyi
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_design_implications.png)
 
 Organising insights into jobs that users are trying to accomplish helped create the design solutions I could work off before I started testing them out. This also highlighted the different levels of ‘reviewing’ that took place.
-<br>
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_JTBD.png)
 
 As the table editing functionality was largely a technical activity, I created the interaction and UI details it needed, keeping them as simple as possible. I then started experimenting with the information architecture of the audit log. 
+<br> 
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_product_strategy.png)
 
@@ -64,6 +63,7 @@ As the table editing functionality was largely a technical activity, I created t
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/audit-log-1.png)
 
 Researching audit log patterns across enterprise platforms revealed that most logs were isolated from the worksheet, but easily accessible. I also reviewed different types of panels, to understand how supporting information is commonly displayed next to a detailed main frame.
+<br>
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/audit-log-2.png)
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_AL_usability_testing.png)
@@ -75,19 +75,21 @@ During testing with early iterations of the audit log, a horizontal table-like d
 As part of adding edit functionality, interactive states were added to the table to allow users to amend their data easily. Tooltips guided which cells could be changed.
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_final_1.png)
+
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_final_2.png)
 
 An audit log panel was introduced as an overlay so that datasets and change history could be viewed simultaneously. Considering how many changes customers can have, the expandable card was chosen to give the ability to scan changes quickly, but also review details when necessary. 
+<br>
 
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_final_3.png)
+
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_final_4.png)
+
 ![no-border]({{ site.baseurl }}/assets/img/editable-table/edit_final_5.png)
-<br>
 <br>
 
 ### Review, amend & check in one view
 After launch, the frequency of file re-uploads did drop amongst customers as they were able to make changes to datasets within the platform. Customer feedback also confirmed that having a new audit trail, viewable within the platform was one of the most useful updates they had received, as they were able to complete tasks much faster. 
-<br>
 
 ### Big changes from a small team
 Working within a small team on these changes allowed for rapid iteration and direct collaboration with the engineering team.
